@@ -1,0 +1,167 @@
+{
+  "updated": "2026-07-04T22:33:50.877285",
+  "lines": [
+    {
+      "id": "bakerloo",
+      "name": "Bakerloo",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
+      "color": "#B36305",
+      "good_service": true
+    },
+    {
+      "id": "central",
+      "name": "Central",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
+      "color": "#E32017",
+      "good_service": true
+    },
+    {
+      "id": "circle",
+      "name": "Circle",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
+      "color": "#FFD300",
+      "good_service": true
+    },
+    {
+      "id": "district",
+      "name": "District",
+      "status": "Part Closure",
+      "severity": 5,
+      "reason": "DISTRICT LINE: Saturday 4 and Sunday 5 July, no service between Tower Hill and Upminster. There will also be no c2c services at Fenchurch Street and West Ham. A reduced c2c service operates to/from Liverpool Street via Stratford. Replacement buses operate.",
+      "color": "#00782A",
+      "good_service": false
+    },
+    {
+      "id": "hammersmith-city",
+      "name": "Hammersmith & City",
+      "status": "Planned Closure",
+      "severity": 4,
+      "reason": "HAMMERSMITH & CITY LINE: Saturday 4 and Sunday 5 July, no service on the entire line. There will also be no c2c services at Fenchurch Street and West Ham. A reduced c2c service operates to/from Liverpool Street via Stratford. Replacement buses operate.",
+      "color": "#F3A9BB",
+      "good_service": false
+    },
+    {
+      "id": "jubilee",
+      "name": "Jubilee",
+      "status": "Severe Delays",
+      "severity": 6,
+      "reason": "Jubilee Line: Severe delays due to an earlier police incident at West Ham. London Underground tickets will be accepted on London buses, Mildmay line, Elizabeth Line, Southeastern, Thameslink and C2C. ",
+      "color": "#A0A5A9",
+      "good_service": false
+    },
+    {
+      "id": "metropolitan",
+      "name": "Metropolitan",
+      "status": "Minor Delays",
+      "severity": 9,
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Baker Street due to a track fault at Wembley Park. MINOR DELAYS Harrow-on-the-Hill to Uxbridge / Chesham / Watford and Amersham due to train cancellations. GOOD SERVICE on the rest of the line. ",
+      "color": "#9B0056",
+      "good_service": false
+    },
+    {
+      "id": "northern",
+      "name": "Northern",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
+      "color": "#000000",
+      "good_service": true
+    },
+    {
+      "id": "piccadilly",
+      "name": "Piccadilly",
+      "status": "Minor Delays",
+      "severity": 9,
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Uxbridge / Heathrow Terminals due to an earlier customer incident at Hyde Park Corner. GOOD SERVICE on the rest of the line. ",
+      "color": "#003688",
+      "good_service": false
+    },
+    {
+      "id": "victoria",
+      "name": "Victoria",
+      "status": "Minor Delays",
+      "severity": 9,
+      "reason": "Victoria Line: Minor delays due to train cancellations. ",
+      "color": "#0098D4",
+      "good_service": false
+    },
+    {
+      "id": "waterloo-city",
+      "name": "Waterloo & City",
+      "status": "Planned Closure",
+      "severity": 4,
+      "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
+      "color": "#95CDBA",
+      "good_service": false
+    },
+    {
+      "id": "elizabeth",
+      "name": "Elizabeth line",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
+      "color": "#6950A1",
+      "good_service": true
+    },
+    {
+      "id": "liberty",
+      "name": "Liberty",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
+      "color": "#868F98",
+      "good_service": true
+    },
+    {
+      "id": "lioness",
+      "name": "Lioness",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
+      "color": "#868F98",
+      "good_service": true
+    },
+    {
+      "id": "mildmay",
+      "name": "Mildmay",
+      "status": "Part Closure",
+      "severity": 5,
+      "reason": "MILDMAY LINE: From 1930 Saturday 4 until 1200 Sunday 5 July, no service between Shepherds Bush and Willesden Junction. There will also be no SOUTHERN service between Shepherds Bush and Watford Junction at these times. Please use local London Buses and London Underground connections.",
+      "color": "#868F98",
+      "good_service": false
+    },
+    {
+      "id": "suffragette",
+      "name": "Suffragette",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
+      "color": "#868F98",
+      "good_service": true
+    },
+    {
+      "id": "weaver",
+      "name": "Weaver",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
+      "color": "#868F98",
+      "good_service": true
+    },
+    {
+      "id": "windrush",
+      "name": "Windrush",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
+      "color": "#868F98",
+      "good_service": true
+    }
+  ]
+}
