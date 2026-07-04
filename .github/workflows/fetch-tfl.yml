@@ -2,7 +2,7 @@ name: Fetch TfL Data
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # каждые 30 минут
+    - cron: '*/15 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -11,74 +11,98 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch TfL tube status
+      - name: Fetch TfL data
         run: |
-          # Статус всех линий метро
-          curl -s "https://api.tfl.gov.uk/Line/Mode/tube/Status" \
-            -o raw_tfl_status.json
+          # Статус линий
+          curl -s "https://api.tfl.gov.uk/Line/Mode/tube/Status" -o raw_tfl_status.json
+          curl -s "https://api.tfl.gov.uk/Line/Mode/elizabeth-line,overground/Status" -o raw_tfl_extra.json
 
-          # Статус Elizabeth Line и Overground
-          curl -s "https://api.tfl.gov.uk/Line/Mode/elizabeth-line,overground/Status" \
-            -o raw_tfl_extra.json
+          # Велопрокат — все станции Santander Cycles
+          curl -s "https://api.tfl.gov.uk/BikePoint/" -o raw_bikes.json
+
+          # Нарушения на дорогах
+          curl -s "https://api.tfl.gov.uk/Road/all/Disruption" -o raw_disruptions.json
 
           python3 << 'PYEOF'
-          import json, datetime
+          import json, datetime, math
 
-          lines_data = []
-
-          # Цвета линий метро
           colors = {
-              'bakerloo': '#B36305',
-              'central': '#E32017',
-              'circle': '#FFD300',
-              'district': '#00782A',
-              'hammersmith-city': '#F3A9BB',
-              'jubilee': '#A0A5A9',
-              'metropolitan': '#9B0056',
-              'northern': '#000000',
-              'piccadilly': '#003688',
-              'victoria': '#0098D4',
-              'waterloo-city': '#95CDBA',
-              'elizabeth': '#6950A1',
-              'overground': '#EE7C0E',
+              'bakerloo':'#B36305','central':'#E32017','circle':'#FFD300',
+              'district':'#00782A','hammersmith-city':'#F3A9BB','jubilee':'#A0A5A9',
+              'metropolitan':'#9B0056','northern':'#000000','piccadilly':'#003688',
+              'victoria':'#0098D4','waterloo-city':'#95CDBA','elizabeth':'#6950A1',
+              'overground':'#EE7C0E',
           }
 
-          for fname in ['raw_tfl_status.json', 'raw_tfl_extra.json']:
-              try:
-                  with open(fname) as f:
-                      data = json.load(f)
-                  for line in data:
-                      statuses = line.get('lineStatuses', [])
-                      status = statuses[0] if statuses else {}
-                      line_id = line.get('id', '')
-                      lines_data.append({
-                          'id': line_id,
-                          'name': line.get('name', ''),
-                          'status': status.get('statusSeverityDescription', 'Unknown'),
-                          'severity': status.get('statusSeverity', 10),
-                          'reason': status.get('reason', ''),
-                          'color': colors.get(line_id, '#868F98'),
-                          'good_service': status.get('statusSeverity', 0) == 10,
-                      })
-              except Exception as e:
-                  print(f"Error processing {fname}: {e}")
+          # === Статус линий ===
+          lines_data = []
+          for fname in ['raw_tfl_status.json','raw_tfl_extra.json']:
+              with open(fname) as f:
+                  data = json.load(f)
+              for line in data:
+                  statuses = line.get('lineStatuses',[])
+                  status = statuses[0] if statuses else {}
+                  line_id = line.get('id','')
+                  lines_data.append({
+                      'id': line_id,
+                      'name': line.get('name',''),
+                      'status': status.get('statusSeverityDescription','Unknown'),
+                      'severity': status.get('statusSeverity',10),
+                      'reason': status.get('reason',''),
+                      'color': colors.get(line_id,'#868F98'),
+                      'good_service': status.get('statusSeverity',0) == 10,
+                  })
+
+          # === Велопрокат ===
+          with open('raw_bikes.json') as f:
+              bikes_raw = json.load(f)
+
+          bikes = []
+          for b in bikes_raw:
+              props = {p['key']: p['value'] for p in b.get('additionalProperties',[])}
+              bikes.append({
+                  'id': b.get('id',''),
+                  'name': b.get('commonName','').replace('BikePoints_',''),
+                  'lat': b.get('lat',0),
+                  'lng': b.get('lon',0),
+                  'bikes': int(props.get('NbBikes',0)),
+                  'docks': int(props.get('NbEmptyDocks',0)),
+                  'total': int(props.get('NbDocks',0)),
+              })
+
+          # === Нарушения ===
+          disruptions = []
+          try:
+              with open('raw_disruptions.json') as f:
+                  dis_raw = json.load(f)
+              for d in dis_raw[:20]:
+                  disruptions.append({
+                      'id': d.get('id',''),
+                      'category': d.get('category',''),
+                      'description': d.get('comments','')[:200],
+                      'severity': d.get('severity',''),
+                      'street': d.get('street',''),
+                  })
+          except:
+              pass
 
           output = {
               'updated': datetime.datetime.utcnow().isoformat(),
-              'lines': lines_data
+              'lines': lines_data,
+              'bikes': bikes,
+              'disruptions': disruptions,
           }
 
-          with open('tfl_status.json', 'w', encoding='utf-8') as f:
+          with open('tfl_status.json','w',encoding='utf-8') as f:
               json.dump(output, f, ensure_ascii=False, indent=2)
 
-          good = sum(1 for l in lines_data if l['good_service'])
-          print(f"Lines: {len(lines_data)}, Good service: {good}")
+          print(f"Lines: {len(lines_data)}, Bikes stations: {len(bikes)}, Disruptions: {len(disruptions)}")
           PYEOF
 
       - name: Commit and push
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add tfl_status.json raw_tfl_status.json raw_tfl_extra.json
-          git diff --staged --quiet || git commit -m "Update TfL status $(date -u +%Y-%m-%dT%H:%M)"
+          git add tfl_status.json raw_tfl_status.json raw_tfl_extra.json raw_bikes.json raw_disruptions.json
+          git diff --staged --quiet || git commit -m "Update TfL $(date -u +%Y-%m-%dT%H:%M)"
           git push
