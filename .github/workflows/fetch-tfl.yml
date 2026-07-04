@@ -1,0 +1,84 @@
+name: Fetch TfL Data
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'  # каждые 30 минут
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch TfL tube status
+        run: |
+          # Статус всех линий метро
+          curl -s "https://api.tfl.gov.uk/Line/Mode/tube/Status" \
+            -o raw_tfl_status.json
+
+          # Статус Elizabeth Line и Overground
+          curl -s "https://api.tfl.gov.uk/Line/Mode/elizabeth-line,overground/Status" \
+            -o raw_tfl_extra.json
+
+          python3 << 'PYEOF'
+          import json, datetime
+
+          lines_data = []
+
+          # Цвета линий метро
+          colors = {
+              'bakerloo': '#B36305',
+              'central': '#E32017',
+              'circle': '#FFD300',
+              'district': '#00782A',
+              'hammersmith-city': '#F3A9BB',
+              'jubilee': '#A0A5A9',
+              'metropolitan': '#9B0056',
+              'northern': '#000000',
+              'piccadilly': '#003688',
+              'victoria': '#0098D4',
+              'waterloo-city': '#95CDBA',
+              'elizabeth': '#6950A1',
+              'overground': '#EE7C0E',
+          }
+
+          for fname in ['raw_tfl_status.json', 'raw_tfl_extra.json']:
+              try:
+                  with open(fname) as f:
+                      data = json.load(f)
+                  for line in data:
+                      statuses = line.get('lineStatuses', [])
+                      status = statuses[0] if statuses else {}
+                      line_id = line.get('id', '')
+                      lines_data.append({
+                          'id': line_id,
+                          'name': line.get('name', ''),
+                          'status': status.get('statusSeverityDescription', 'Unknown'),
+                          'severity': status.get('statusSeverity', 10),
+                          'reason': status.get('reason', ''),
+                          'color': colors.get(line_id, '#868F98'),
+                          'good_service': status.get('statusSeverity', 0) == 10,
+                      })
+              except Exception as e:
+                  print(f"Error processing {fname}: {e}")
+
+          output = {
+              'updated': datetime.datetime.utcnow().isoformat(),
+              'lines': lines_data
+          }
+
+          with open('tfl_status.json', 'w', encoding='utf-8') as f:
+              json.dump(output, f, ensure_ascii=False, indent=2)
+
+          good = sum(1 for l in lines_data if l['good_service'])
+          print(f"Lines: {len(lines_data)}, Good service: {good}")
+          PYEOF
+
+      - name: Commit and push
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add tfl_status.json raw_tfl_status.json raw_tfl_extra.json
+          git diff --staged --quiet || git commit -m "Update TfL status $(date -u +%Y-%m-%dT%H:%M)"
+          git push
