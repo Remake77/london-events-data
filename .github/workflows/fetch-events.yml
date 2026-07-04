@@ -1,0 +1,62 @@
+name: Fetch London Events
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch events from Eventbrite
+        env:
+          EVENTBRITE_TOKEN: ${{ secrets.EVENTBRITE_TOKEN }}
+        run: |
+          curl -s "https://www.eventbriteapi.com/v3/events/search/?location.address=London%2C%20UK&location.within=10km&expand=venue,category&sort_by=date&page_size=50" \
+            -H "Authorization: Bearer $EVENTBRITE_TOKEN" \
+            -o raw_events.json
+
+          python3 << 'PYEOF'
+          import json, datetime
+          with open('raw_events.json') as f:
+              data = json.load(f)
+          events = []
+          for e in data.get('events', []):
+              venue = e.get('venue') or {}
+              addr = venue.get('address') or {}
+              logo = e.get('logo') or {}
+              desc = e.get('description') or {}
+              events.append({
+                  'id': e.get('id'),
+                  'title': e.get('name', {}).get('text', ''),
+                  'description': desc.get('text', '')[:300],
+                  'start': e.get('start', {}).get('local', ''),
+                  'end': e.get('end', {}).get('local', ''),
+                  'url': e.get('url', ''),
+                  'is_free': e.get('is_free', False),
+                  'venue': venue.get('name', ''),
+                  'address': addr.get('localized_address_display', ''),
+                  'lat': venue.get('latitude', ''),
+                  'lng': venue.get('longitude', ''),
+                  'image': logo.get('url', ''),
+              })
+          output = {
+              'updated': datetime.datetime.utcnow().isoformat(),
+              'total': len(events),
+              'events': events
+          }
+          with open('events.json', 'w', encoding='utf-8') as f:
+              json.dump(output, f, ensure_ascii=False, indent=2)
+          print(f"Saved {len(events)} events")
+          PYEOF
+
+      - name: Commit and push
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add events.json raw_events.json
+          git diff --staged --quiet || git commit -m "Update events $(date -u +%Y-%m-%d)"
+          git push
