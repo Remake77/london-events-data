@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T22:33:50.877285",
+  "updated": "2026-07-04T22:40:23.309465",
   "lines": [
     {
       "id": "bakerloo",
@@ -157,11 +157,7265 @@
     {
       "id": "windrush",
       "name": "Windrush",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Part Suspended",
+      "severity": 3,
+      "reason": "Windrush Line: No service between Sydenham and West Croydon while we deal with a trespasser on the track at Thornton Heath. GOOD SERVICE on the rest of the line. ",
       "color": "#868F98",
-      "good_service": true
+      "good_service": false
+    }
+  ],
+  "bikes": [
+    {
+      "id": "BikePoints_1",
+      "name": "River Street , Clerkenwell",
+      "lat": 51.529163,
+      "lng": -0.10997,
+      "bikes": 6,
+      "docks": 11,
+      "total": 19
+    },
+    {
+      "id": "BikePoints_2",
+      "name": "Phillimore Gardens, Kensington",
+      "lat": 51.499606,
+      "lng": -0.197574,
+      "bikes": 22,
+      "docks": 11,
+      "total": 37
+    },
+    {
+      "id": "BikePoints_3",
+      "name": "Christopher Street, Liverpool Street",
+      "lat": 51.521283,
+      "lng": -0.084605,
+      "bikes": 8,
+      "docks": 23,
+      "total": 32
+    },
+    {
+      "id": "BikePoints_4",
+      "name": "St. Chad's Street, King's Cross",
+      "lat": 51.530059,
+      "lng": -0.120973,
+      "bikes": 13,
+      "docks": 9,
+      "total": 23
+    },
+    {
+      "id": "BikePoints_5",
+      "name": "Sedding Street, Sloane Square",
+      "lat": 51.49313,
+      "lng": -0.156876,
+      "bikes": 11,
+      "docks": 11,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_6",
+      "name": "Broadcasting House, Marylebone",
+      "lat": 51.518117,
+      "lng": -0.144228,
+      "bikes": 4,
+      "docks": 12,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_7",
+      "name": "Charlbert Street, St. John's Wood",
+      "lat": 51.5343,
+      "lng": -0.168074,
+      "bikes": 7,
+      "docks": 3,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_8",
+      "name": "Maida Vale, Maida Vale",
+      "lat": 51.529857,
+      "lng": -0.183486,
+      "bikes": 17,
+      "docks": 11,
+      "total": 39
+    },
+    {
+      "id": "BikePoints_9",
+      "name": "New Globe Walk, Bankside",
+      "lat": 51.507385,
+      "lng": -0.09644,
+      "bikes": 1,
+      "docks": 17,
+      "total": 19
+    },
+    {
+      "id": "BikePoints_10",
+      "name": "Park Street, Bankside",
+      "lat": 51.505974,
+      "lng": -0.092754,
+      "bikes": 16,
+      "docks": 1,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_11",
+      "name": "Brunswick Square, Bloomsbury",
+      "lat": 51.523951,
+      "lng": -0.122502,
+      "bikes": 2,
+      "docks": 22,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_12",
+      "name": "Malet Street, Bloomsbury",
+      "lat": 51.52168,
+      "lng": -0.130431,
+      "bikes": 1,
+      "docks": 43,
+      "total": 49
+    },
+    {
+      "id": "BikePoints_13",
+      "name": "Scala Street, Fitzrovia",
+      "lat": 51.519914,
+      "lng": -0.136039,
+      "bikes": 1,
+      "docks": 19,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_14",
+      "name": "Argyle Street, Kings Cross",
+      "lat": 51.529416,
+      "lng": -0.123944,
+      "bikes": 12,
+      "docks": 28,
+      "total": 45
+    },
+    {
+      "id": "BikePoints_15",
+      "name": "Great Russell Street, Bloomsbury",
+      "lat": 51.517727,
+      "lng": -0.127854,
+      "bikes": 0,
+      "docks": 23,
+      "total": 26
+    },
+    {
+      "id": "BikePoints_16",
+      "name": "Cartwright Gardens , Bloomsbury",
+      "lat": 51.526357,
+      "lng": -0.125979,
+      "bikes": 6,
+      "docks": 11,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_17",
+      "name": "Hatton Wall, Holborn",
+      "lat": 51.521661,
+      "lng": -0.109006,
+      "bikes": 0,
+      "docks": 26,
+      "total": 26
+    },
+    {
+      "id": "BikePoints_18",
+      "name": "Drury Lane, Covent Garden",
+      "lat": 51.51477,
+      "lng": -0.122219,
+      "bikes": 8,
+      "docks": 12,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_19",
+      "name": "Taviton Street, Bloomsbury",
+      "lat": 51.52505,
+      "lng": -0.131161,
+      "bikes": 0,
+      "docks": 27,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_20",
+      "name": "Drummond Street , Euston",
+      "lat": 51.527326,
+      "lng": -0.136052,
+      "bikes": 10,
+      "docks": 15,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_21",
+      "name": "Lansdowne Drive, Hackney Central",
+      "lat": 51.539834,
+      "lng": -0.062806,
+      "bikes": 23,
+      "docks": 2,
+      "total": 26
+    },
+    {
+      "id": "BikePoints_22",
+      "name": "Northington Street , Holborn",
+      "lat": 51.522264,
+      "lng": -0.114079,
+      "bikes": 2,
+      "docks": 17,
+      "total": 19
+    },
+    {
+      "id": "BikePoints_23",
+      "name": "Red Lion Square, Holborn",
+      "lat": 51.519435,
+      "lng": -0.119123,
+      "bikes": 3,
+      "docks": 12,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_24",
+      "name": "British Museum, Bloomsbury",
+      "lat": 51.51908,
+      "lng": -0.124678,
+      "bikes": 6,
+      "docks": 25,
+      "total": 35
+    },
+    {
+      "id": "BikePoints_25",
+      "name": "Doric Way , Somers Town",
+      "lat": 51.528833,
+      "lng": -0.13225,
+      "bikes": 7,
+      "docks": 42,
+      "total": 50
+    },
+    {
+      "id": "BikePoints_26",
+      "name": "Ampton Street , Clerkenwell",
+      "lat": 51.52728,
+      "lng": -0.118295,
+      "bikes": 6,
+      "docks": 15,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_28",
+      "name": "Bolsover Street, Fitzrovia",
+      "lat": 51.523518,
+      "lng": -0.143613,
+      "bikes": 3,
+      "docks": 14,
+      "total": 19
+    },
+    {
+      "id": "BikePoints_29",
+      "name": "Hereford Road, Bayswater",
+      "lat": 51.513735,
+      "lng": -0.193487,
+      "bikes": 9,
+      "docks": 9,
+      "total": 22
+    },
+    {
+      "id": "BikePoints_30",
+      "name": "Windsor Terrace, Hoxton",
+      "lat": 51.529154,
+      "lng": -0.093421,
+      "bikes": 5,
+      "docks": 19,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_31",
+      "name": "Fanshaw Street, Hoxton",
+      "lat": 51.529537,
+      "lng": -0.083353,
+      "bikes": 5,
+      "docks": 31,
+      "total": 36
+    },
+    {
+      "id": "BikePoints_33",
+      "name": "Central House, Aldgate",
+      "lat": 51.515231,
+      "lng": -0.07015,
+      "bikes": 7,
+      "docks": 15,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_34",
+      "name": "Pancras Road, King's Cross",
+      "lat": 51.534123,
+      "lng": -0.129386,
+      "bikes": 3,
+      "docks": 12,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_36",
+      "name": "De Vere Gardens, Kensington",
+      "lat": 51.501737,
+      "lng": -0.18498,
+      "bikes": 5,
+      "docks": 23,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_37",
+      "name": "Penywern Road, Earl's Court",
+      "lat": 51.491593,
+      "lng": -0.192369,
+      "bikes": 8,
+      "docks": 9,
+      "total": 17
+    },
+    {
+      "id": "BikePoints_38",
+      "name": "Abingdon Villas, Kensington",
+      "lat": 51.497387,
+      "lng": -0.197245,
+      "bikes": 10,
+      "docks": 5,
+      "total": 17
+    },
+    {
+      "id": "BikePoints_39",
+      "name": "Shoreditch High Street, Shoreditch",
+      "lat": 51.526377,
+      "lng": -0.07813,
+      "bikes": 16,
+      "docks": 24,
+      "total": 41
+    },
+    {
+      "id": "BikePoints_40",
+      "name": "Commercial Street, Shoreditch",
+      "lat": 51.52127,
+      "lng": -0.075578,
+      "bikes": 2,
+      "docks": 10,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_41",
+      "name": "Pindar Street, Liverpool Street",
+      "lat": 51.520955,
+      "lng": -0.083493,
+      "bikes": 4,
+      "docks": 20,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_42",
+      "name": "Wenlock Road , Hoxton",
+      "lat": 51.530991,
+      "lng": -0.093903,
+      "bikes": 20,
+      "docks": 6,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_43",
+      "name": "Crawford Street, Marylebone",
+      "lat": 51.52026,
+      "lng": -0.157183,
+      "bikes": 7,
+      "docks": 5,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_44",
+      "name": "Bruton Street, Mayfair",
+      "lat": 51.510736,
+      "lng": -0.144165,
+      "bikes": 3,
+      "docks": 14,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_45",
+      "name": "Boston Place, Marylebone",
+      "lat": 51.522511,
+      "lng": -0.162298,
+      "bikes": 6,
+      "docks": 18,
+      "total": 26
+    },
+    {
+      "id": "BikePoints_46",
+      "name": "Nesham Street, Wapping",
+      "lat": 51.507131,
+      "lng": -0.06691,
+      "bikes": 12,
+      "docks": 0,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_47",
+      "name": "Warwick Avenue Station, Maida Vale",
+      "lat": 51.523344,
+      "lng": -0.183846,
+      "bikes": 15,
+      "docks": 2,
+      "total": 19
+    },
+    {
+      "id": "BikePoints_48",
+      "name": "Godliman Street, St. Paul's",
+      "lat": 51.512484,
+      "lng": -0.099141,
+      "bikes": 3,
+      "docks": 22,
+      "total": 25
+    },
+    {
+      "id": "BikePoints_49",
+      "name": "Curzon Street, Mayfair",
+      "lat": 51.507069,
+      "lng": -0.145904,
+      "bikes": 1,
+      "docks": 14,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_50",
+      "name": "East Road, Hoxton",
+      "lat": 51.528673,
+      "lng": -0.087459,
+      "bikes": 0,
+      "docks": 27,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_51",
+      "name": "Finsbury Library , Finsbury",
+      "lat": 51.526717,
+      "lng": -0.104298,
+      "bikes": 11,
+      "docks": 18,
+      "total": 29
+    },
+    {
+      "id": "BikePoints_52",
+      "name": "Roscoe Street, St. Luke's",
+      "lat": 51.522954,
+      "lng": -0.094934,
+      "bikes": 0,
+      "docks": 18,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_53",
+      "name": "Grafton Street, Mayfair",
+      "lat": 51.509992,
+      "lng": -0.143495,
+      "bikes": 1,
+      "docks": 14,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_54",
+      "name": "Golden Lane, Barbican",
+      "lat": 51.521747,
+      "lng": -0.094475,
+      "bikes": 3,
+      "docks": 22,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_55",
+      "name": "Finsbury Circus, Liverpool Street",
+      "lat": 51.517075,
+      "lng": -0.086685,
+      "bikes": 4,
+      "docks": 28,
+      "total": 33
+    },
+    {
+      "id": "BikePoints_56",
+      "name": "Paddington Street, Marylebone",
+      "lat": 51.520583,
+      "lng": -0.154701,
+      "bikes": 0,
+      "docks": 14,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_57",
+      "name": "Guilford Street , Bloomsbury",
+      "lat": 51.523346,
+      "lng": -0.120202,
+      "bikes": 18,
+      "docks": 14,
+      "total": 32
+    },
+    {
+      "id": "BikePoints_58",
+      "name": "New Inn Yard, Shoreditch",
+      "lat": 51.524526,
+      "lng": -0.079248,
+      "bikes": 13,
+      "docks": 6,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_60",
+      "name": "Lisson Grove, St. John's Wood",
+      "lat": 51.526448,
+      "lng": -0.17219,
+      "bikes": 4,
+      "docks": 13,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_61",
+      "name": "Great Dover Street, The Borough",
+      "lat": 51.497382,
+      "lng": -0.089446,
+      "bikes": 7,
+      "docks": 25,
+      "total": 33
+    },
+    {
+      "id": "BikePoints_62",
+      "name": "Cotton Garden Estate, Kennington",
+      "lat": 51.490757,
+      "lng": -0.106323,
+      "bikes": 14,
+      "docks": 10,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_63",
+      "name": "Murray Grove , Hoxton",
+      "lat": 51.53089,
+      "lng": -0.089782,
+      "bikes": 19,
+      "docks": 3,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_64",
+      "name": "William IV Street, Strand",
+      "lat": 51.509462,
+      "lng": -0.124749,
+      "bikes": 3,
+      "docks": 21,
+      "total": 26
+    },
+    {
+      "id": "BikePoints_65",
+      "name": "Gower Place , Euston",
+      "lat": 51.525227,
+      "lng": -0.135188,
+      "bikes": 3,
+      "docks": 12,
+      "total": 17
+    },
+    {
+      "id": "BikePoints_66",
+      "name": "Holborn Circus, Holborn",
+      "lat": 51.51795,
+      "lng": -0.108657,
+      "bikes": 1,
+      "docks": 38,
+      "total": 40
+    },
+    {
+      "id": "BikePoints_67",
+      "name": "Hatton Garden, Holborn",
+      "lat": 51.518825,
+      "lng": -0.108028,
+      "bikes": 13,
+      "docks": 12,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_68",
+      "name": "Theobald's Road , Holborn",
+      "lat": 51.520596,
+      "lng": -0.116688,
+      "bikes": 0,
+      "docks": 25,
+      "total": 26
+    },
+    {
+      "id": "BikePoints_69",
+      "name": "Euston Road, Euston",
+      "lat": 51.526236,
+      "lng": -0.134407,
+      "bikes": 9,
+      "docks": 15,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_70",
+      "name": "Calshot Street , King's Cross",
+      "lat": 51.53136,
+      "lng": -0.117069,
+      "bikes": 10,
+      "docks": 12,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_71",
+      "name": "Newgate Street , St. Paul's",
+      "lat": 51.515768,
+      "lng": -0.099894,
+      "bikes": 1,
+      "docks": 33,
+      "total": 35
+    },
+    {
+      "id": "BikePoints_72",
+      "name": "Farringdon Lane, Clerkenwell",
+      "lat": 51.52352,
+      "lng": -0.10834,
+      "bikes": 3,
+      "docks": 11,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_73",
+      "name": "Old Street Station, St. Luke's",
+      "lat": 51.525615,
+      "lng": -0.088532,
+      "bikes": 1,
+      "docks": 30,
+      "total": 34
+    },
+    {
+      "id": "BikePoints_74",
+      "name": "Vauxhall Cross, Vauxhall",
+      "lat": 51.485917,
+      "lng": -0.124469,
+      "bikes": 14,
+      "docks": 1,
+      "total": 17
+    },
+    {
+      "id": "BikePoints_75",
+      "name": "Torrens Street, Angel",
+      "lat": 51.532199,
+      "lng": -0.10548,
+      "bikes": 17,
+      "docks": 2,
+      "total": 19
+    },
+    {
+      "id": "BikePoints_76",
+      "name": "Longford Street, The Regent's Park",
+      "lat": 51.525595,
+      "lng": -0.144083,
+      "bikes": 9,
+      "docks": 12,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_77",
+      "name": "Russell Square Station, Bloomsbury",
+      "lat": 51.523418,
+      "lng": -0.124121,
+      "bikes": 1,
+      "docks": 25,
+      "total": 26
+    },
+    {
+      "id": "BikePoints_78",
+      "name": "Sadlers Sports Centre, Finsbury",
+      "lat": 51.524868,
+      "lng": -0.099489,
+      "bikes": 3,
+      "docks": 12,
+      "total": 17
+    },
+    {
+      "id": "BikePoints_79",
+      "name": "Arundel Street, Temple",
+      "lat": 51.511726,
+      "lng": -0.113855,
+      "bikes": 3,
+      "docks": 15,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_80",
+      "name": "Webber Street , Southwark",
+      "lat": 51.500693,
+      "lng": -0.102091,
+      "bikes": 12,
+      "docks": 31,
+      "total": 45
+    },
+    {
+      "id": "BikePoints_81",
+      "name": "Great Titchfield Street, Fitzrovia",
+      "lat": 51.520253,
+      "lng": -0.141327,
+      "bikes": 3,
+      "docks": 13,
+      "total": 19
+    },
+    {
+      "id": "BikePoints_83",
+      "name": "Panton Street, West End",
+      "lat": 51.509639,
+      "lng": -0.13151,
+      "bikes": 0,
+      "docks": 15,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_84",
+      "name": "Breams Buildings, Holborn",
+      "lat": 51.515937,
+      "lng": -0.111778,
+      "bikes": 0,
+      "docks": 25,
+      "total": 25
+    },
+    {
+      "id": "BikePoints_85",
+      "name": "Tanner Street, Bermondsey",
+      "lat": 51.500647,
+      "lng": -0.0786,
+      "bikes": 10,
+      "docks": 28,
+      "total": 41
+    },
+    {
+      "id": "BikePoints_86",
+      "name": "Sancroft Street, Vauxhall",
+      "lat": 51.489479,
+      "lng": -0.115156,
+      "bikes": 8,
+      "docks": 15,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_88",
+      "name": "Percy Street, Bloomsbury",
+      "lat": 51.51863,
+      "lng": -0.132676,
+      "bikes": 5,
+      "docks": 20,
+      "total": 29
+    },
+    {
+      "id": "BikePoints_89",
+      "name": "Tavistock Place, Bloomsbury",
+      "lat": 51.52625,
+      "lng": -0.123509,
+      "bikes": 2,
+      "docks": 16,
+      "total": 19
+    },
+    {
+      "id": "BikePoints_90",
+      "name": "Harrington Square 1, Camden Town",
+      "lat": 51.533019,
+      "lng": -0.139174,
+      "bikes": 3,
+      "docks": 22,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_91",
+      "name": "Walnut Tree Walk, Vauxhall",
+      "lat": 51.493686,
+      "lng": -0.111014,
+      "bikes": 8,
+      "docks": 11,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_92",
+      "name": "Borough Road, Elephant & Castle",
+      "lat": 51.498898,
+      "lng": -0.10044,
+      "bikes": 16,
+      "docks": 20,
+      "total": 41
+    },
+    {
+      "id": "BikePoints_93",
+      "name": "Cloudesley Road, Angel",
+      "lat": 51.534408,
+      "lng": -0.109025,
+      "bikes": 21,
+      "docks": 11,
+      "total": 37
+    },
+    {
+      "id": "BikePoints_94",
+      "name": "Bricklayers Arms, Borough",
+      "lat": 51.495061,
+      "lng": -0.085814,
+      "bikes": 16,
+      "docks": 7,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_95",
+      "name": "Aldersgate Street, Barbican",
+      "lat": 51.520841,
+      "lng": -0.09734,
+      "bikes": 1,
+      "docks": 13,
+      "total": 15
+    },
+    {
+      "id": "BikePoints_96",
+      "name": "Falkirk Street, Hoxton",
+      "lat": 51.53095,
+      "lng": -0.078505,
+      "bikes": 8,
+      "docks": 18,
+      "total": 26
+    },
+    {
+      "id": "BikePoints_97",
+      "name": "Gloucester Road (North), Kensington",
+      "lat": 51.497924,
+      "lng": -0.183834,
+      "bikes": 11,
+      "docks": 7,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_98",
+      "name": "Hampstead Road, Euston",
+      "lat": 51.525542,
+      "lng": -0.138231,
+      "bikes": 5,
+      "docks": 45,
+      "total": 54
+    },
+    {
+      "id": "BikePoints_101",
+      "name": "Queen Street 1, Bank",
+      "lat": 51.511553,
+      "lng": -0.09294,
+      "bikes": 6,
+      "docks": 16,
+      "total": 22
+    },
+    {
+      "id": "BikePoints_102",
+      "name": "Jewry Street, Aldgate",
+      "lat": 51.513406,
+      "lng": -0.076793,
+      "bikes": 0,
+      "docks": 15,
+      "total": 17
+    },
+    {
+      "id": "BikePoints_103",
+      "name": "Vicarage Gate, Kensington",
+      "lat": 51.504723,
+      "lng": -0.192538,
+      "bikes": 5,
+      "docks": 12,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_104",
+      "name": "Crosswall, Tower",
+      "lat": 51.511594,
+      "lng": -0.077121,
+      "bikes": 15,
+      "docks": 15,
+      "total": 34
+    },
+    {
+      "id": "BikePoints_105",
+      "name": "Westbourne Grove, Bayswater",
+      "lat": 51.515529,
+      "lng": -0.19024,
+      "bikes": 10,
+      "docks": 15,
+      "total": 26
+    },
+    {
+      "id": "BikePoints_106",
+      "name": "Woodstock Street, Mayfair",
+      "lat": 51.514105,
+      "lng": -0.147301,
+      "bikes": 0,
+      "docks": 18,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_107",
+      "name": "Finsbury Leisure Centre, St. Luke's",
+      "lat": 51.526008,
+      "lng": -0.096317,
+      "bikes": 5,
+      "docks": 15,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_110",
+      "name": "Wellington Road, St. John's Wood",
+      "lat": 51.533043,
+      "lng": -0.172528,
+      "bikes": 2,
+      "docks": 12,
+      "total": 17
+    },
+    {
+      "id": "BikePoints_111",
+      "name": "Park Lane , Hyde Park",
+      "lat": 51.510017,
+      "lng": -0.157275,
+      "bikes": 1,
+      "docks": 19,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_112",
+      "name": "Stonecutter Street, Holborn",
+      "lat": 51.515809,
+      "lng": -0.10527,
+      "bikes": 1,
+      "docks": 19,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_113",
+      "name": "Gloucester Road (Central), South Kensington",
+      "lat": 51.496462,
+      "lng": -0.183289,
+      "bikes": 1,
+      "docks": 18,
+      "total": 19
+    },
+    {
+      "id": "BikePoints_114",
+      "name": "Park Road (Baker Street), The Regent's Park",
+      "lat": 51.524517,
+      "lng": -0.158963,
+      "bikes": 6,
+      "docks": 14,
+      "total": 22
+    },
+    {
+      "id": "BikePoints_115",
+      "name": "Braham Street, Aldgate",
+      "lat": 51.514233,
+      "lng": -0.073537,
+      "bikes": 4,
+      "docks": 30,
+      "total": 34
+    },
+    {
+      "id": "BikePoints_116",
+      "name": "Little Argyll Street, West End",
+      "lat": 51.514499,
+      "lng": -0.141423,
+      "bikes": 1,
+      "docks": 13,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_117",
+      "name": "Lollard Street, Vauxhall",
+      "lat": 51.49288,
+      "lng": -0.114934,
+      "bikes": 20,
+      "docks": 4,
+      "total": 25
+    },
+    {
+      "id": "BikePoints_118",
+      "name": "Rochester Row, Westminster",
+      "lat": 51.495827,
+      "lng": -0.135478,
+      "bikes": 5,
+      "docks": 7,
+      "total": 13
+    },
+    {
+      "id": "BikePoints_119",
+      "name": "Bath Street, St. Luke's",
+      "lat": 51.525893,
+      "lng": -0.090847,
+      "bikes": 1,
+      "docks": 16,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_120",
+      "name": "The Guildhall, Guildhall",
+      "lat": 51.515735,
+      "lng": -0.09308,
+      "bikes": 0,
+      "docks": 17,
+      "total": 17
+    },
+    {
+      "id": "BikePoints_121",
+      "name": "Baker Street, Marylebone",
+      "lat": 51.518913,
+      "lng": -0.156166,
+      "bikes": 4,
+      "docks": 17,
+      "total": 22
+    },
+    {
+      "id": "BikePoints_123",
+      "name": "St. John Street, Finsbury",
+      "lat": 51.52836,
+      "lng": -0.104724,
+      "bikes": 6,
+      "docks": 11,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_124",
+      "name": "Eaton Square, Belgravia",
+      "lat": 51.496544,
+      "lng": -0.150905,
+      "bikes": 0,
+      "docks": 15,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_125",
+      "name": "Borough High Street, The Borough",
+      "lat": 51.500694,
+      "lng": -0.094524,
+      "bikes": 16,
+      "docks": 1,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_126",
+      "name": "Museum of London, Barbican",
+      "lat": 51.517821,
+      "lng": -0.096496,
+      "bikes": 5,
+      "docks": 44,
+      "total": 52
+    },
+    {
+      "id": "BikePoints_127",
+      "name": "Wood Street, Guildhall",
+      "lat": 51.517008,
+      "lng": -0.093885,
+      "bikes": 0,
+      "docks": 16,
+      "total": 17
+    },
+    {
+      "id": "BikePoints_128",
+      "name": "Emperor's Gate, South Kensington",
+      "lat": 51.495362,
+      "lng": -0.185296,
+      "bikes": 6,
+      "docks": 16,
+      "total": 22
+    },
+    {
+      "id": "BikePoints_130",
+      "name": "Tower Gardens , Tower",
+      "lat": 51.509506,
+      "lng": -0.075459,
+      "bikes": 8,
+      "docks": 12,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_131",
+      "name": "Eversholt Street , Camden Town",
+      "lat": 51.533005,
+      "lng": -0.136792,
+      "bikes": 4,
+      "docks": 12,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_132",
+      "name": "Bethnal Green Road, Shoreditch",
+      "lat": 51.523648,
+      "lng": -0.074754,
+      "bikes": 8,
+      "docks": 28,
+      "total": 38
+    },
+    {
+      "id": "BikePoints_133",
+      "name": "Derry Street, Kensington",
+      "lat": 51.501364,
+      "lng": -0.191462,
+      "bikes": 13,
+      "docks": 0,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_134",
+      "name": "Wapping High Street, Wapping",
+      "lat": 51.504904,
+      "lng": -0.06797,
+      "bikes": 3,
+      "docks": 16,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_135",
+      "name": "Clerkenwell Green, Clerkenwell",
+      "lat": 51.52326,
+      "lng": -0.104708,
+      "bikes": 3,
+      "docks": 17,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_136",
+      "name": "Queen Victoria Street, St. Paul's",
+      "lat": 51.511961,
+      "lng": -0.097441,
+      "bikes": 1,
+      "docks": 31,
+      "total": 32
+    },
+    {
+      "id": "BikePoints_138",
+      "name": "Green Street, Mayfair",
+      "lat": 51.512276,
+      "lng": -0.157436,
+      "bikes": 0,
+      "docks": 15,
+      "total": 19
+    },
+    {
+      "id": "BikePoints_139",
+      "name": "Lambeth Road, Vauxhall",
+      "lat": 51.494881,
+      "lng": -0.117974,
+      "bikes": 3,
+      "docks": 14,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_140",
+      "name": "Finsbury Square , Moorgate",
+      "lat": 51.520962,
+      "lng": -0.085634,
+      "bikes": 4,
+      "docks": 29,
+      "total": 33
+    },
+    {
+      "id": "BikePoints_141",
+      "name": "Chapel Place, Marylebone",
+      "lat": 51.515308,
+      "lng": -0.147203,
+      "bikes": 0,
+      "docks": 25,
+      "total": 29
+    },
+    {
+      "id": "BikePoints_142",
+      "name": "West Cromwell Road, Earl's Court",
+      "lat": 51.493724,
+      "lng": -0.198286,
+      "bikes": 15,
+      "docks": 8,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_143",
+      "name": "Pont Street, Knightsbridge",
+      "lat": 51.496886,
+      "lng": -0.161203,
+      "bikes": 5,
+      "docks": 16,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_144",
+      "name": "Kennington Cross, Kennington",
+      "lat": 51.48894,
+      "lng": -0.111435,
+      "bikes": 4,
+      "docks": 38,
+      "total": 47
+    },
+    {
+      "id": "BikePoints_145",
+      "name": "Ilchester Place, Kensington",
+      "lat": 51.500743,
+      "lng": -0.202759,
+      "bikes": 3,
+      "docks": 21,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_146",
+      "name": "Vauxhall Bridge , Pimlico",
+      "lat": 51.488365,
+      "lng": -0.129361,
+      "bikes": 13,
+      "docks": 20,
+      "total": 35
+    },
+    {
+      "id": "BikePoints_147",
+      "name": "Portugal Street, Holborn",
+      "lat": 51.514943,
+      "lng": -0.116146,
+      "bikes": 0,
+      "docks": 15,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_148",
+      "name": "Tachbrook Street, Victoria",
+      "lat": 51.492111,
+      "lng": -0.138364,
+      "bikes": 13,
+      "docks": 1,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_149",
+      "name": "Kennington Road Post Office, Oval",
+      "lat": 51.484788,
+      "lng": -0.110683,
+      "bikes": 5,
+      "docks": 11,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_150",
+      "name": "Holy Trinity Brompton, Knightsbridge",
+      "lat": 51.497056,
+      "lng": -0.168917,
+      "bikes": 9,
+      "docks": 18,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_151",
+      "name": "Chepstow Villas, Notting Hill",
+      "lat": 51.512136,
+      "lng": -0.201554,
+      "bikes": 13,
+      "docks": 12,
+      "total": 26
+    },
+    {
+      "id": "BikePoints_152",
+      "name": "Hampton Street, Walworth",
+      "lat": 51.49217,
+      "lng": -0.101536,
+      "bikes": 6,
+      "docks": 13,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_153",
+      "name": "Bayswater Road, Hyde Park",
+      "lat": 51.511933,
+      "lng": -0.174411,
+      "bikes": 0,
+      "docks": 25,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_154",
+      "name": "Waterloo Station 3, Waterloo",
+      "lat": 51.503791,
+      "lng": -0.112824,
+      "bikes": 4,
+      "docks": 26,
+      "total": 35
+    },
+    {
+      "id": "BikePoints_155",
+      "name": "Lexham Gardens, Kensington",
+      "lat": 51.495866,
+      "lng": -0.191933,
+      "bikes": 11,
+      "docks": 6,
+      "total": 19
+    },
+    {
+      "id": "BikePoints_156",
+      "name": "New Kent Road, The Borough",
+      "lat": 51.494436,
+      "lng": -0.092921,
+      "bikes": 27,
+      "docks": 4,
+      "total": 33
+    },
+    {
+      "id": "BikePoints_157",
+      "name": "Wright's Lane, Kensington",
+      "lat": 51.500397,
+      "lng": -0.193068,
+      "bikes": 16,
+      "docks": 19,
+      "total": 37
+    },
+    {
+      "id": "BikePoints_158",
+      "name": "Trebovir Road, Earl's Court",
+      "lat": 51.490853,
+      "lng": -0.19617,
+      "bikes": 5,
+      "docks": 12,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_160",
+      "name": "Waterloo Place, St. James's",
+      "lat": 51.506633,
+      "lng": -0.131773,
+      "bikes": 5,
+      "docks": 9,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_162",
+      "name": "Southampton Place, Holborn",
+      "lat": 51.517606,
+      "lng": -0.121328,
+      "bikes": 4,
+      "docks": 16,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_163",
+      "name": "Sloane Avenue, Knightsbridge",
+      "lat": 51.493184,
+      "lng": -0.167894,
+      "bikes": 7,
+      "docks": 17,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_164",
+      "name": "Cleveland Gardens, Bayswater",
+      "lat": 51.515607,
+      "lng": -0.183118,
+      "bikes": 6,
+      "docks": 9,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_165",
+      "name": "Orsett Terrace, Bayswater",
+      "lat": 51.517932,
+      "lng": -0.183716,
+      "bikes": 3,
+      "docks": 12,
+      "total": 15
+    },
+    {
+      "id": "BikePoints_166",
+      "name": "Seville Street, Knightsbridge",
+      "lat": 51.501855,
+      "lng": -0.159237,
+      "bikes": 1,
+      "docks": 22,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_167",
+      "name": "Eccleston Place, Victoria",
+      "lat": 51.49395,
+      "lng": -0.147624,
+      "bikes": 10,
+      "docks": 6,
+      "total": 19
+    },
+    {
+      "id": "BikePoints_168",
+      "name": "Argyll Road, Kensington",
+      "lat": 51.500401,
+      "lng": -0.195455,
+      "bikes": 3,
+      "docks": 14,
+      "total": 19
+    },
+    {
+      "id": "BikePoints_169",
+      "name": "Porchester Place, Paddington",
+      "lat": 51.514746,
+      "lng": -0.165164,
+      "bikes": 5,
+      "docks": 7,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_170",
+      "name": "Hardwick Street, Clerkenwell",
+      "lat": 51.527842,
+      "lng": -0.108068,
+      "bikes": 15,
+      "docks": 14,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_171",
+      "name": "Collingham Gardens, Earl's Court",
+      "lat": 51.491615,
+      "lng": -0.186753,
+      "bikes": 4,
+      "docks": 10,
+      "total": 14
+    },
+    {
+      "id": "BikePoints_172",
+      "name": "Sumner Place, South Kensington",
+      "lat": 51.491211,
+      "lng": -0.173715,
+      "bikes": 6,
+      "docks": 10,
+      "total": 19
+    },
+    {
+      "id": "BikePoints_173",
+      "name": "Waterloo Road, South Bank",
+      "lat": 51.50486,
+      "lng": -0.113001,
+      "bikes": 9,
+      "docks": 1,
+      "total": 15
+    },
+    {
+      "id": "BikePoints_175",
+      "name": "Worship Street, Shoreditch",
+      "lat": 51.521668,
+      "lng": -0.079608,
+      "bikes": 7,
+      "docks": 43,
+      "total": 51
+    },
+    {
+      "id": "BikePoints_176",
+      "name": "Gloucester Terrace, Bayswater",
+      "lat": 51.517919,
+      "lng": -0.188098,
+      "bikes": 1,
+      "docks": 20,
+      "total": 23
+    },
+    {
+      "id": "BikePoints_177",
+      "name": "Ashley Place, Victoria",
+      "lat": 51.49616,
+      "lng": -0.140947,
+      "bikes": 1,
+      "docks": 20,
+      "total": 25
+    },
+    {
+      "id": "BikePoints_178",
+      "name": "Warwick Square, Pimlico",
+      "lat": 51.489856,
+      "lng": -0.141923,
+      "bikes": 14,
+      "docks": 3,
+      "total": 19
+    },
+    {
+      "id": "BikePoints_180",
+      "name": "North Audley Street, Mayfair",
+      "lat": 51.512911,
+      "lng": -0.153645,
+      "bikes": 8,
+      "docks": 6,
+      "total": 17
+    },
+    {
+      "id": "BikePoints_181",
+      "name": "Belgrave Square, Belgravia",
+      "lat": 51.499412,
+      "lng": -0.152317,
+      "bikes": 0,
+      "docks": 20,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_182",
+      "name": "Bell Street , Marylebone",
+      "lat": 51.522029,
+      "lng": -0.165842,
+      "bikes": 6,
+      "docks": 11,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_183",
+      "name": "Riverlight North, Nine Elms",
+      "lat": 51.482362,
+      "lng": -0.136123,
+      "bikes": 13,
+      "docks": 9,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_184",
+      "name": "Portland Place, Marylebone",
+      "lat": 51.520715,
+      "lng": -0.145211,
+      "bikes": 2,
+      "docks": 27,
+      "total": 34
+    },
+    {
+      "id": "BikePoints_185",
+      "name": "Alderney Street, Pimlico",
+      "lat": 51.488057,
+      "lng": -0.140741,
+      "bikes": 8,
+      "docks": 1,
+      "total": 14
+    },
+    {
+      "id": "BikePoints_186",
+      "name": "South Wharf Road, Paddington",
+      "lat": 51.517335,
+      "lng": -0.17581,
+      "bikes": 8,
+      "docks": 4,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_187",
+      "name": "Queen's Gate (South), South Kensington",
+      "lat": 51.492479,
+      "lng": -0.178433,
+      "bikes": 15,
+      "docks": 8,
+      "total": 25
+    },
+    {
+      "id": "BikePoints_188",
+      "name": "Nutford Place, Marylebone",
+      "lat": 51.516517,
+      "lng": -0.164393,
+      "bikes": 11,
+      "docks": 3,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_189",
+      "name": "Claremont Square, Angel",
+      "lat": 51.531666,
+      "lng": -0.109914,
+      "bikes": 2,
+      "docks": 16,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_190",
+      "name": "Rampayne Street, Pimlico",
+      "lat": 51.489975,
+      "lng": -0.132845,
+      "bikes": 11,
+      "docks": 8,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_191",
+      "name": "Hyde Park Corner, Hyde Park",
+      "lat": 51.503117,
+      "lng": -0.15352,
+      "bikes": 4,
+      "docks": 25,
+      "total": 36
+    },
+    {
+      "id": "BikePoints_193",
+      "name": "Bankside Mix, Bankside",
+      "lat": 51.505817,
+      "lng": -0.100186,
+      "bikes": 4,
+      "docks": 53,
+      "total": 60
+    },
+    {
+      "id": "BikePoints_194",
+      "name": "Hop Exchange, The Borough",
+      "lat": 51.504627,
+      "lng": -0.091773,
+      "bikes": 45,
+      "docks": 6,
+      "total": 55
+    },
+    {
+      "id": "BikePoints_195",
+      "name": "Milroy Walk, South Bank",
+      "lat": 51.507244,
+      "lng": -0.106237,
+      "bikes": 0,
+      "docks": 29,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_196",
+      "name": "Union Street, The Borough",
+      "lat": 51.503688,
+      "lng": -0.098497,
+      "bikes": 5,
+      "docks": 10,
+      "total": 17
+    },
+    {
+      "id": "BikePoints_197",
+      "name": "Stamford Street, South Bank",
+      "lat": 51.505569,
+      "lng": -0.111606,
+      "bikes": 12,
+      "docks": 13,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_199",
+      "name": "Great Tower Street, Monument",
+      "lat": 51.510484,
+      "lng": -0.082989,
+      "bikes": 1,
+      "docks": 20,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_200",
+      "name": "LMU Commercial Road, Whitechapel",
+      "lat": 51.514924,
+      "lng": -0.066078,
+      "bikes": 9,
+      "docks": 4,
+      "total": 14
+    },
+    {
+      "id": "BikePoints_201",
+      "name": "Dorset Square, Marylebone",
+      "lat": 51.522596,
+      "lng": -0.161113,
+      "bikes": 6,
+      "docks": 8,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_202",
+      "name": "Leman Street, Aldgate",
+      "lat": 51.512363,
+      "lng": -0.069542,
+      "bikes": 8,
+      "docks": 28,
+      "total": 37
+    },
+    {
+      "id": "BikePoints_203",
+      "name": "West Smithfield Rotunda, Farringdon",
+      "lat": 51.518218,
+      "lng": -0.100791,
+      "bikes": 11,
+      "docks": 3,
+      "total": 15
+    },
+    {
+      "id": "BikePoints_204",
+      "name": "Margery Street, Clerkenwell",
+      "lat": 51.526599,
+      "lng": -0.112432,
+      "bikes": 10,
+      "docks": 7,
+      "total": 19
+    },
+    {
+      "id": "BikePoints_206",
+      "name": "New Road 1 , Whitechapel",
+      "lat": 51.518154,
+      "lng": -0.062697,
+      "bikes": 13,
+      "docks": 17,
+      "total": 36
+    },
+    {
+      "id": "BikePoints_207",
+      "name": "Grosvenor Crescent, Belgravia",
+      "lat": 51.501352,
+      "lng": -0.153194,
+      "bikes": 1,
+      "docks": 17,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_208",
+      "name": "Mallory Street, Marylebone",
+      "lat": 51.525051,
+      "lng": -0.166304,
+      "bikes": 6,
+      "docks": 13,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_209",
+      "name": "Denyer Street, Knightsbridge",
+      "lat": 51.493583,
+      "lng": -0.165101,
+      "bikes": 8,
+      "docks": 21,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_210",
+      "name": "Hinde Street, Marylebone",
+      "lat": 51.516814,
+      "lng": -0.151926,
+      "bikes": 0,
+      "docks": 16,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_211",
+      "name": "Cadogan Place, Knightsbridge",
+      "lat": 51.494645,
+      "lng": -0.158105,
+      "bikes": 17,
+      "docks": 16,
+      "total": 34
+    },
+    {
+      "id": "BikePoints_212",
+      "name": "Campden Hill Road, Notting Hill",
+      "lat": 51.506584,
+      "lng": -0.199004,
+      "bikes": 5,
+      "docks": 10,
+      "total": 17
+    },
+    {
+      "id": "BikePoints_213",
+      "name": "Wellington Arch, Hyde Park",
+      "lat": 51.50274,
+      "lng": -0.149569,
+      "bikes": 0,
+      "docks": 29,
+      "total": 36
+    },
+    {
+      "id": "BikePoints_214",
+      "name": "Endsleigh Gardens, Euston",
+      "lat": 51.526838,
+      "lng": -0.130504,
+      "bikes": 26,
+      "docks": 5,
+      "total": 32
+    },
+    {
+      "id": "BikePoints_215",
+      "name": "Moorfields, Moorgate",
+      "lat": 51.519069,
+      "lng": -0.088285,
+      "bikes": 2,
+      "docks": 52,
+      "total": 54
+    },
+    {
+      "id": "BikePoints_216",
+      "name": "Old Brompton Road, South Kensington",
+      "lat": 51.490945,
+      "lng": -0.18119,
+      "bikes": 27,
+      "docks": 1,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_217",
+      "name": "Wormwood Street, Liverpool Street",
+      "lat": 51.516154,
+      "lng": -0.082422,
+      "bikes": 14,
+      "docks": 2,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_218",
+      "name": "St. Luke's Church, Chelsea",
+      "lat": 51.489716,
+      "lng": -0.170194,
+      "bikes": 13,
+      "docks": 3,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_219",
+      "name": "Bramham Gardens, Earl's Court",
+      "lat": 51.490163,
+      "lng": -0.190393,
+      "bikes": 18,
+      "docks": 11,
+      "total": 29
+    },
+    {
+      "id": "BikePoints_220",
+      "name": "Chelsea Green, Chelsea",
+      "lat": 51.490664,
+      "lng": -0.166485,
+      "bikes": 1,
+      "docks": 13,
+      "total": 15
+    },
+    {
+      "id": "BikePoints_221",
+      "name": "Horseferry Road, Westminster",
+      "lat": 51.494816,
+      "lng": -0.130458,
+      "bikes": 2,
+      "docks": 11,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_222",
+      "name": "Knightsbridge, Hyde Park",
+      "lat": 51.502757,
+      "lng": -0.155349,
+      "bikes": 0,
+      "docks": 41,
+      "total": 43
+    },
+    {
+      "id": "BikePoints_223",
+      "name": "Rodney Road , Walworth",
+      "lat": 51.491484,
+      "lng": -0.09022,
+      "bikes": 12,
+      "docks": 11,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_224",
+      "name": "Queensway, Kensington Gardens",
+      "lat": 51.51031,
+      "lng": -0.187402,
+      "bikes": 6,
+      "docks": 8,
+      "total": 17
+    },
+    {
+      "id": "BikePoints_225",
+      "name": "Notting Hill Gate Station, Notting Hill",
+      "lat": 51.509353,
+      "lng": -0.196422,
+      "bikes": 6,
+      "docks": 24,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_226",
+      "name": "Charles II Street, West End",
+      "lat": 51.508446,
+      "lng": -0.131961,
+      "bikes": 2,
+      "docks": 19,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_227",
+      "name": "Great Percy Street, Clerkenwell",
+      "lat": 51.528915,
+      "lng": -0.11548,
+      "bikes": 14,
+      "docks": 9,
+      "total": 23
+    },
+    {
+      "id": "BikePoints_228",
+      "name": "St. James's Square, St. James's",
+      "lat": 51.507424,
+      "lng": -0.134621,
+      "bikes": 8,
+      "docks": 31,
+      "total": 40
+    },
+    {
+      "id": "BikePoints_229",
+      "name": "Whitehall Place, Strand",
+      "lat": 51.506543,
+      "lng": -0.123179,
+      "bikes": 4,
+      "docks": 37,
+      "total": 46
+    },
+    {
+      "id": "BikePoints_230",
+      "name": "Poured Lines, Bankside",
+      "lat": 51.506692,
+      "lng": -0.103137,
+      "bikes": 15,
+      "docks": 14,
+      "total": 31
+    },
+    {
+      "id": "BikePoints_231",
+      "name": "Queen's Gate (Central), South Kensington",
+      "lat": 51.493967,
+      "lng": -0.178732,
+      "bikes": 0,
+      "docks": 29,
+      "total": 31
+    },
+    {
+      "id": "BikePoints_232",
+      "name": "Carey Street, Holborn",
+      "lat": 51.51501,
+      "lng": -0.112753,
+      "bikes": 0,
+      "docks": 15,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_234",
+      "name": "Liverpool Road (N1 Centre), Angel",
+      "lat": 51.534504,
+      "lng": -0.106992,
+      "bikes": 14,
+      "docks": 9,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_235",
+      "name": "Kennington Road, Vauxhall",
+      "lat": 51.495718,
+      "lng": -0.110889,
+      "bikes": 15,
+      "docks": 18,
+      "total": 36
+    },
+    {
+      "id": "BikePoints_236",
+      "name": "Fashion Street, Whitechapel",
+      "lat": 51.51838,
+      "lng": -0.073438,
+      "bikes": 4,
+      "docks": 26,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_237",
+      "name": "Dock Street, Wapping",
+      "lat": 51.509786,
+      "lng": -0.068161,
+      "bikes": 16,
+      "docks": 12,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_238",
+      "name": "Frampton Street, Paddington",
+      "lat": 51.523353,
+      "lng": -0.175116,
+      "bikes": 4,
+      "docks": 25,
+      "total": 32
+    },
+    {
+      "id": "BikePoints_239",
+      "name": "Warren Street Station, Euston",
+      "lat": 51.524438,
+      "lng": -0.138019,
+      "bikes": 7,
+      "docks": 18,
+      "total": 26
+    },
+    {
+      "id": "BikePoints_240",
+      "name": "Colombo Street, Southwark",
+      "lat": 51.505459,
+      "lng": -0.105692,
+      "bikes": 4,
+      "docks": 9,
+      "total": 14
+    },
+    {
+      "id": "BikePoints_242",
+      "name": "Beaumont Street, Marylebone",
+      "lat": 51.522008,
+      "lng": -0.151359,
+      "bikes": 4,
+      "docks": 19,
+      "total": 23
+    },
+    {
+      "id": "BikePoints_243",
+      "name": "Gloucester Street, Pimlico",
+      "lat": 51.490962,
+      "lng": -0.139625,
+      "bikes": 10,
+      "docks": 11,
+      "total": 25
+    },
+    {
+      "id": "BikePoints_244",
+      "name": "Bucknall Street, Covent Garden",
+      "lat": 51.51615,
+      "lng": -0.128417,
+      "bikes": 2,
+      "docks": 5,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_245",
+      "name": "Grosvenor Road, Pimlico",
+      "lat": 51.485357,
+      "lng": -0.142207,
+      "bikes": 13,
+      "docks": 13,
+      "total": 29
+    },
+    {
+      "id": "BikePoints_246",
+      "name": "Berry Street, Clerkenwell",
+      "lat": 51.522853,
+      "lng": -0.099994,
+      "bikes": 5,
+      "docks": 36,
+      "total": 41
+    },
+    {
+      "id": "BikePoints_247",
+      "name": "St. John's Wood Church, The Regent's Park",
+      "lat": 51.530529,
+      "lng": -0.167515,
+      "bikes": 0,
+      "docks": 49,
+      "total": 50
+    },
+    {
+      "id": "BikePoints_248",
+      "name": "Triangle Car Park, Hyde Park",
+      "lat": 51.506451,
+      "lng": -0.170279,
+      "bikes": 0,
+      "docks": 21,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_249",
+      "name": "Harper Road, The Borough",
+      "lat": 51.498597,
+      "lng": -0.096191,
+      "bikes": 39,
+      "docks": 2,
+      "total": 42
+    },
+    {
+      "id": "BikePoints_250",
+      "name": "Royal Avenue 1, Chelsea",
+      "lat": 51.489932,
+      "lng": -0.162727,
+      "bikes": 1,
+      "docks": 8,
+      "total": 10
+    },
+    {
+      "id": "BikePoints_251",
+      "name": "Brushfield Street, Liverpool Street",
+      "lat": 51.518908,
+      "lng": -0.079249,
+      "bikes": 7,
+      "docks": 26,
+      "total": 34
+    },
+    {
+      "id": "BikePoints_253",
+      "name": "Shoreditch Park, Hoxton",
+      "lat": 51.534042,
+      "lng": -0.086379,
+      "bikes": 11,
+      "docks": 17,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_254",
+      "name": "Chadwell Street, Angel",
+      "lat": 51.530515,
+      "lng": -0.106408,
+      "bikes": 10,
+      "docks": 8,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_255",
+      "name": "Clifton Road, Maida Vale",
+      "lat": 51.525575,
+      "lng": -0.179592,
+      "bikes": 10,
+      "docks": 7,
+      "total": 22
+    },
+    {
+      "id": "BikePoints_256",
+      "name": "Houghton Street, Strand",
+      "lat": 51.51362,
+      "lng": -0.116764,
+      "bikes": 0,
+      "docks": 15,
+      "total": 15
+    },
+    {
+      "id": "BikePoints_257",
+      "name": "Westminster University, Marylebone",
+      "lat": 51.522481,
+      "lng": -0.154907,
+      "bikes": 2,
+      "docks": 13,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_258",
+      "name": "Kensington Gore, Knightsbridge",
+      "lat": 51.501432,
+      "lng": -0.178656,
+      "bikes": 2,
+      "docks": 21,
+      "total": 23
+    },
+    {
+      "id": "BikePoints_259",
+      "name": "Bourne Street, Belgravia",
+      "lat": 51.490959,
+      "lng": -0.153233,
+      "bikes": 3,
+      "docks": 7,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_261",
+      "name": "Princes Square, Bayswater",
+      "lat": 51.513489,
+      "lng": -0.191351,
+      "bikes": 8,
+      "docks": 8,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_262",
+      "name": "LSBU (Borough Road), Elephant & Castle",
+      "lat": 51.498744,
+      "lng": -0.103132,
+      "bikes": 14,
+      "docks": 19,
+      "total": 35
+    },
+    {
+      "id": "BikePoints_263",
+      "name": "St. Mary Axe, Aldgate",
+      "lat": 51.514225,
+      "lng": -0.08066,
+      "bikes": 3,
+      "docks": 17,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_264",
+      "name": "Tysoe Street, Clerkenwell",
+      "lat": 51.526443,
+      "lng": -0.109256,
+      "bikes": 11,
+      "docks": 9,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_265",
+      "name": "Southwick Street, Paddington",
+      "lat": 51.515953,
+      "lng": -0.169249,
+      "bikes": 4,
+      "docks": 11,
+      "total": 17
+    },
+    {
+      "id": "BikePoints_266",
+      "name": "Queen's Gate (North), Kensington",
+      "lat": 51.501026,
+      "lng": -0.180246,
+      "bikes": 2,
+      "docks": 39,
+      "total": 41
+    },
+    {
+      "id": "BikePoints_267",
+      "name": "Regency Street, Westminster",
+      "lat": 51.49206,
+      "lng": -0.132224,
+      "bikes": 6,
+      "docks": 14,
+      "total": 22
+    },
+    {
+      "id": "BikePoints_268",
+      "name": "Belgrave Road, Victoria",
+      "lat": 51.493204,
+      "lng": -0.144132,
+      "bikes": 16,
+      "docks": 10,
+      "total": 29
+    },
+    {
+      "id": "BikePoints_269",
+      "name": "Empire Square, The Borough",
+      "lat": 51.500823,
+      "lng": -0.08974,
+      "bikes": 24,
+      "docks": 20,
+      "total": 46
+    },
+    {
+      "id": "BikePoints_271",
+      "name": "London Zoo,  The Regent's Park",
+      "lat": 51.535836,
+      "lng": -0.156285,
+      "bikes": 16,
+      "docks": 12,
+      "total": 32
+    },
+    {
+      "id": "BikePoints_272",
+      "name": "Baylis Road, Waterloo",
+      "lat": 51.501444,
+      "lng": -0.110699,
+      "bikes": 16,
+      "docks": 5,
+      "total": 22
+    },
+    {
+      "id": "BikePoints_273",
+      "name": "Belvedere Road 1, South Bank",
+      "lat": 51.506133,
+      "lng": -0.114686,
+      "bikes": 21,
+      "docks": 11,
+      "total": 38
+    },
+    {
+      "id": "BikePoints_274",
+      "name": "Warwick Road, Olympia",
+      "lat": 51.496712,
+      "lng": -0.205284,
+      "bikes": 16,
+      "docks": 18,
+      "total": 36
+    },
+    {
+      "id": "BikePoints_275",
+      "name": "Barbican Centre, Barbican",
+      "lat": 51.520044,
+      "lng": -0.092176,
+      "bikes": 0,
+      "docks": 19,
+      "total": 19
+    },
+    {
+      "id": "BikePoints_276",
+      "name": "Lower Thames Street, Monument",
+      "lat": 51.509301,
+      "lng": -0.084985,
+      "bikes": 0,
+      "docks": 22,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_277",
+      "name": "Kensington Church Street, Kensington",
+      "lat": 51.503157,
+      "lng": -0.191496,
+      "bikes": 4,
+      "docks": 10,
+      "total": 17
+    },
+    {
+      "id": "BikePoints_278",
+      "name": "Tooley Street, Bermondsey",
+      "lat": 51.503493,
+      "lng": -0.07962,
+      "bikes": 15,
+      "docks": 10,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_279",
+      "name": "North Wharf Road, Paddington",
+      "lat": 51.518623,
+      "lng": -0.176603,
+      "bikes": 13,
+      "docks": 7,
+      "total": 23
+    },
+    {
+      "id": "BikePoints_280",
+      "name": "Royal Avenue 2, Chelsea",
+      "lat": 51.490083,
+      "lng": -0.162418,
+      "bikes": 0,
+      "docks": 6,
+      "total": 10
+    },
+    {
+      "id": "BikePoints_281",
+      "name": "Smith Square, Westminster",
+      "lat": 51.495805,
+      "lng": -0.127575,
+      "bikes": 6,
+      "docks": 9,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_282",
+      "name": "Royal London Hospital, Whitechapel",
+      "lat": 51.518675,
+      "lng": -0.06111,
+      "bikes": 13,
+      "docks": 26,
+      "total": 42
+    },
+    {
+      "id": "BikePoints_283",
+      "name": "Kingsway, Covent Garden",
+      "lat": 51.514409,
+      "lng": -0.118478,
+      "bikes": 2,
+      "docks": 12,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_284",
+      "name": "Lambeth North Station, Waterloo",
+      "lat": 51.49914,
+      "lng": -0.112031,
+      "bikes": 16,
+      "docks": 0,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_286",
+      "name": "St. John's Wood Road, St. John's Wood",
+      "lat": 51.527294,
+      "lng": -0.174653,
+      "bikes": 9,
+      "docks": 26,
+      "total": 35
+    },
+    {
+      "id": "BikePoints_287",
+      "name": "Bedford Way, Bloomsbury",
+      "lat": 51.523673,
+      "lng": -0.128377,
+      "bikes": 4,
+      "docks": 18,
+      "total": 23
+    },
+    {
+      "id": "BikePoints_288",
+      "name": "Elizabeth Bridge, Victoria",
+      "lat": 51.492369,
+      "lng": -0.147478,
+      "bikes": 16,
+      "docks": 14,
+      "total": 34
+    },
+    {
+      "id": "BikePoints_289",
+      "name": "South Audley Street, Mayfair",
+      "lat": 51.50923,
+      "lng": -0.151289,
+      "bikes": 0,
+      "docks": 14,
+      "total": 15
+    },
+    {
+      "id": "BikePoints_290",
+      "name": "St Mary's Hospital, Paddington",
+      "lat": 51.518268,
+      "lng": -0.171103,
+      "bikes": 9,
+      "docks": 10,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_291",
+      "name": "Claverton Street, Pimlico",
+      "lat": 51.484839,
+      "lng": -0.138089,
+      "bikes": 13,
+      "docks": 14,
+      "total": 32
+    },
+    {
+      "id": "BikePoints_292",
+      "name": "Montpelier Street, Knightsbridge",
+      "lat": 51.498884,
+      "lng": -0.165471,
+      "bikes": 2,
+      "docks": 12,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_293",
+      "name": "Kensington Olympia Station, Olympia",
+      "lat": 51.498157,
+      "lng": -0.209494,
+      "bikes": 7,
+      "docks": 14,
+      "total": 25
+    },
+    {
+      "id": "BikePoints_294",
+      "name": "St. George's Square, Pimlico",
+      "lat": 51.488226,
+      "lng": -0.135635,
+      "bikes": 11,
+      "docks": 4,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_295",
+      "name": "Swan Street, The Borough",
+      "lat": 51.500296,
+      "lng": -0.092762,
+      "bikes": 24,
+      "docks": 2,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_296",
+      "name": "Knaresborough Place, Earl's Court",
+      "lat": 51.493631,
+      "lng": -0.190603,
+      "bikes": 14,
+      "docks": 3,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_297",
+      "name": "Geraldine Street, Elephant & Castle",
+      "lat": 51.496127,
+      "lng": -0.106,
+      "bikes": 1,
+      "docks": 12,
+      "total": 17
+    },
+    {
+      "id": "BikePoints_298",
+      "name": "Curlew Street, Shad Thames",
+      "lat": 51.502279,
+      "lng": -0.074189,
+      "bikes": 13,
+      "docks": 8,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_299",
+      "name": "Vincent Square, Westminster",
+      "lat": 51.493985,
+      "lng": -0.136928,
+      "bikes": 5,
+      "docks": 13,
+      "total": 19
+    },
+    {
+      "id": "BikePoints_300",
+      "name": "Serpentine Car Park, Hyde Park",
+      "lat": 51.505014,
+      "lng": -0.17306,
+      "bikes": 0,
+      "docks": 10,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_301",
+      "name": "Marylebone Lane, Marylebone",
+      "lat": 51.514759,
+      "lng": -0.148105,
+      "bikes": 0,
+      "docks": 23,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_302",
+      "name": "Putney Pier, Wandsworth",
+      "lat": 51.466907,
+      "lng": -0.216573,
+      "bikes": 15,
+      "docks": 12,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_303",
+      "name": "Albert Gate, Hyde Park",
+      "lat": 51.502953,
+      "lng": -0.158456,
+      "bikes": 0,
+      "docks": 33,
+      "total": 34
+    },
+    {
+      "id": "BikePoints_306",
+      "name": "Rathbone Street, Fitzrovia",
+      "lat": 51.518162,
+      "lng": -0.135025,
+      "bikes": 0,
+      "docks": 16,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_307",
+      "name": "Black Lion Gate, Kensington Gardens",
+      "lat": 51.509908,
+      "lng": -0.187842,
+      "bikes": 10,
+      "docks": 5,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_308",
+      "name": "Long Lane , Bermondsey",
+      "lat": 51.499075,
+      "lng": -0.085666,
+      "bikes": 2,
+      "docks": 15,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_309",
+      "name": "Embankment (Savoy), Strand",
+      "lat": 51.509631,
+      "lng": -0.119047,
+      "bikes": 26,
+      "docks": 13,
+      "total": 41
+    },
+    {
+      "id": "BikePoints_310",
+      "name": "Black Prince Road, Vauxhall",
+      "lat": 51.490867,
+      "lng": -0.116911,
+      "bikes": 6,
+      "docks": 12,
+      "total": 19
+    },
+    {
+      "id": "BikePoints_311",
+      "name": "Foley Street, Fitzrovia",
+      "lat": 51.519181,
+      "lng": -0.140485,
+      "bikes": 4,
+      "docks": 17,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_312",
+      "name": "Grove End Road, St. John's Wood",
+      "lat": 51.530889,
+      "lng": -0.17677,
+      "bikes": 7,
+      "docks": 11,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_313",
+      "name": "Wells Street, Fitzrovia",
+      "lat": 51.517344,
+      "lng": -0.138072,
+      "bikes": 5,
+      "docks": 29,
+      "total": 38
+    },
+    {
+      "id": "BikePoints_314",
+      "name": "Tyers Gate, Bermondsey",
+      "lat": 51.500889,
+      "lng": -0.083159,
+      "bikes": 18,
+      "docks": 17,
+      "total": 36
+    },
+    {
+      "id": "BikePoints_315",
+      "name": "The Tennis Courts, The Regent's Park",
+      "lat": 51.525367,
+      "lng": -0.153463,
+      "bikes": 0,
+      "docks": 12,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_316",
+      "name": "Warwick Row, Westminster",
+      "lat": 51.497998,
+      "lng": -0.14296,
+      "bikes": 3,
+      "docks": 15,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_317",
+      "name": "Dickens Square, Borough",
+      "lat": 51.496791,
+      "lng": -0.093913,
+      "bikes": 23,
+      "docks": 8,
+      "total": 32
+    },
+    {
+      "id": "BikePoints_318",
+      "name": "Sackville Street, Mayfair",
+      "lat": 51.510048,
+      "lng": -0.138846,
+      "bikes": 1,
+      "docks": 15,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_319",
+      "name": "Baldwin Street, St. Luke's",
+      "lat": 51.527025,
+      "lng": -0.088542,
+      "bikes": 5,
+      "docks": 15,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_320",
+      "name": "Queen Mother Sports Centre, Victoria",
+      "lat": 51.493573,
+      "lng": -0.139956,
+      "bikes": 23,
+      "docks": 0,
+      "total": 26
+    },
+    {
+      "id": "BikePoints_321",
+      "name": "Bermondsey Street, Bermondsey",
+      "lat": 51.497855,
+      "lng": -0.081608,
+      "bikes": 7,
+      "docks": 14,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_322",
+      "name": "Palissy Street, Shoreditch",
+      "lat": 51.526293,
+      "lng": -0.073955,
+      "bikes": 4,
+      "docks": 21,
+      "total": 26
+    },
+    {
+      "id": "BikePoints_323",
+      "name": "Clifton Street, Shoreditch",
+      "lat": 51.523196,
+      "lng": -0.083067,
+      "bikes": 4,
+      "docks": 20,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_326",
+      "name": "Graham Street, Angel",
+      "lat": 51.532661,
+      "lng": -0.099981,
+      "bikes": 22,
+      "docks": 2,
+      "total": 26
+    },
+    {
+      "id": "BikePoints_327",
+      "name": "Westbourne Green, Westbourne",
+      "lat": 51.522168,
+      "lng": -0.192814,
+      "bikes": 6,
+      "docks": 13,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_328",
+      "name": "New North Road 2, Hoxton",
+      "lat": 51.53114,
+      "lng": -0.086016,
+      "bikes": 8,
+      "docks": 14,
+      "total": 22
+    },
+    {
+      "id": "BikePoints_329",
+      "name": "Prince Albert Road, The Regent's Park",
+      "lat": 51.535892,
+      "lng": -0.160854,
+      "bikes": 8,
+      "docks": 13,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_330",
+      "name": "Eastbourne Mews, Paddington",
+      "lat": 51.516417,
+      "lng": -0.179135,
+      "bikes": 2,
+      "docks": 30,
+      "total": 34
+    },
+    {
+      "id": "BikePoints_331",
+      "name": "Bunhill Row, Moorgate",
+      "lat": 51.520858,
+      "lng": -0.089887,
+      "bikes": 1,
+      "docks": 29,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_332",
+      "name": "Nevern Place, Earl's Court",
+      "lat": 51.493343,
+      "lng": -0.194757,
+      "bikes": 6,
+      "docks": 13,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_333",
+      "name": "Palace Gardens Terrace, Notting Hill",
+      "lat": 51.508605,
+      "lng": -0.193764,
+      "bikes": 8,
+      "docks": 26,
+      "total": 37
+    },
+    {
+      "id": "BikePoints_334",
+      "name": "Agar Grove, Camden Town",
+      "lat": 51.542891,
+      "lng": -0.132253,
+      "bikes": 1,
+      "docks": 11,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_335",
+      "name": "Tavistock Street, Covent Garden",
+      "lat": 51.511968,
+      "lng": -0.120718,
+      "bikes": 6,
+      "docks": 22,
+      "total": 33
+    },
+    {
+      "id": "BikePoints_336",
+      "name": "Concert Hall Approach, South Bank",
+      "lat": 51.504841,
+      "lng": -0.115153,
+      "bikes": 23,
+      "docks": 4,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_337",
+      "name": "Pembridge Villas, Notting Hill",
+      "lat": 51.511084,
+      "lng": -0.197524,
+      "bikes": 9,
+      "docks": 5,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_338",
+      "name": "Wellington Street , Strand",
+      "lat": 51.511756,
+      "lng": -0.119643,
+      "bikes": 2,
+      "docks": 15,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_340",
+      "name": "Bank of England Museum, Bank",
+      "lat": 51.514441,
+      "lng": -0.087587,
+      "bikes": 6,
+      "docks": 7,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_341",
+      "name": "Craven Street, Strand",
+      "lat": 51.508103,
+      "lng": -0.126021,
+      "bikes": 5,
+      "docks": 14,
+      "total": 23
+    },
+    {
+      "id": "BikePoints_344",
+      "name": "Goswell Road (City Uni), Finsbury",
+      "lat": 51.528246,
+      "lng": -0.101026,
+      "bikes": 7,
+      "docks": 8,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_345",
+      "name": "Flood Street, Chelsea",
+      "lat": 51.488023,
+      "lng": -0.166878,
+      "bikes": 2,
+      "docks": 29,
+      "total": 33
+    },
+    {
+      "id": "BikePoints_348",
+      "name": "Grosvenor Square, Mayfair",
+      "lat": 51.51217,
+      "lng": -0.150481,
+      "bikes": 5,
+      "docks": 9,
+      "total": 17
+    },
+    {
+      "id": "BikePoints_349",
+      "name": "St. George Street, Mayfair",
+      "lat": 51.51196,
+      "lng": -0.142783,
+      "bikes": 0,
+      "docks": 17,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_350",
+      "name": "Queen's Gate, Kensington Gardens",
+      "lat": 51.501715,
+      "lng": -0.179854,
+      "bikes": 0,
+      "docks": 17,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_351",
+      "name": "Macclesfield Rd, St Lukes",
+      "lat": 51.529423,
+      "lng": -0.097122,
+      "bikes": 8,
+      "docks": 18,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_352",
+      "name": "Vauxhall Street, Vauxhall",
+      "lat": 51.486965,
+      "lng": -0.116625,
+      "bikes": 18,
+      "docks": 0,
+      "total": 19
+    },
+    {
+      "id": "BikePoints_353",
+      "name": "Greycoat Street , Westminster",
+      "lat": 51.494591,
+      "lng": -0.134234,
+      "bikes": 2,
+      "docks": 14,
+      "total": 17
+    },
+    {
+      "id": "BikePoints_354",
+      "name": "Northumberland Avenue, Strand",
+      "lat": 51.506767,
+      "lng": -0.123702,
+      "bikes": 1,
+      "docks": 32,
+      "total": 37
+    },
+    {
+      "id": "BikePoints_355",
+      "name": "Clapham Common Station, Clapham Common",
+      "lat": 51.461388,
+      "lng": -0.139221,
+      "bikes": 12,
+      "docks": 2,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_356",
+      "name": "South Kensington Station, South Kensington",
+      "lat": 51.494412,
+      "lng": -0.173881,
+      "bikes": 8,
+      "docks": 4,
+      "total": 15
+    },
+    {
+      "id": "BikePoints_357",
+      "name": "Howland Street, Fitzrovia",
+      "lat": 51.520994,
+      "lng": -0.139016,
+      "bikes": 4,
+      "docks": 21,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_358",
+      "name": "High Holborn , Covent Garden",
+      "lat": 51.516398,
+      "lng": -0.124257,
+      "bikes": 0,
+      "docks": 15,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_359",
+      "name": "Butler Place, Westminster",
+      "lat": 51.497829,
+      "lng": -0.13544,
+      "bikes": 3,
+      "docks": 14,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_360",
+      "name": "Howick Place, Westminster",
+      "lat": 51.496753,
+      "lng": -0.138733,
+      "bikes": 2,
+      "docks": 20,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_361",
+      "name": "Waterloo Station 2, Waterloo",
+      "lat": 51.503919,
+      "lng": -0.113426,
+      "bikes": 12,
+      "docks": 38,
+      "total": 55
+    },
+    {
+      "id": "BikePoints_362",
+      "name": "Royal College Street, Camden Town",
+      "lat": 51.536264,
+      "lng": -0.133952,
+      "bikes": 6,
+      "docks": 47,
+      "total": 57
+    },
+    {
+      "id": "BikePoints_363",
+      "name": "Lord's, St. John's Wood",
+      "lat": 51.529121,
+      "lng": -0.171185,
+      "bikes": 15,
+      "docks": 8,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_364",
+      "name": "Store Street, Bloomsbury",
+      "lat": 51.519572,
+      "lng": -0.13214,
+      "bikes": 3,
+      "docks": 28,
+      "total": 32
+    },
+    {
+      "id": "BikePoints_365",
+      "name": "City Road, Angel",
+      "lat": 51.530344,
+      "lng": -0.100168,
+      "bikes": 18,
+      "docks": 28,
+      "total": 47
+    },
+    {
+      "id": "BikePoints_366",
+      "name": "Millennium Hotel, Mayfair",
+      "lat": 51.510919,
+      "lng": -0.151126,
+      "bikes": 6,
+      "docks": 19,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_367",
+      "name": "Harrowby Street, Marylebone",
+      "lat": 51.517372,
+      "lng": -0.164207,
+      "bikes": 10,
+      "docks": 5,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_368",
+      "name": "Lowndes Square, Knightsbridge",
+      "lat": 51.50058,
+      "lng": -0.158837,
+      "bikes": 3,
+      "docks": 17,
+      "total": 23
+    },
+    {
+      "id": "BikePoints_370",
+      "name": "Paddington Green, Paddington",
+      "lat": 51.520205,
+      "lng": -0.174593,
+      "bikes": 13,
+      "docks": 4,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_371",
+      "name": "Brockwell Lido, Brixton",
+      "lat": 51.453118,
+      "lng": -0.104955,
+      "bikes": 16,
+      "docks": 11,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_372",
+      "name": "Sardinia Street, Holborn",
+      "lat": 51.515208,
+      "lng": -0.117863,
+      "bikes": 2,
+      "docks": 22,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_373",
+      "name": "Prince Consort Road, Knightsbridge",
+      "lat": 51.499806,
+      "lng": -0.176415,
+      "bikes": 0,
+      "docks": 16,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_374",
+      "name": "Waterloo Station 1, Waterloo",
+      "lat": 51.504027,
+      "lng": -0.113864,
+      "bikes": 29,
+      "docks": 4,
+      "total": 36
+    },
+    {
+      "id": "BikePoints_375",
+      "name": "Kensington Town Hall, Kensington",
+      "lat": 51.501945,
+      "lng": -0.194392,
+      "bikes": 4,
+      "docks": 14,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_376",
+      "name": "Millbank Tower, Pimlico",
+      "lat": 51.491884,
+      "lng": -0.125674,
+      "bikes": 0,
+      "docks": 21,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_377",
+      "name": "Waterloo Bridge, South Bank",
+      "lat": 51.505354,
+      "lng": -0.113656,
+      "bikes": 7,
+      "docks": 6,
+      "total": 15
+    },
+    {
+      "id": "BikePoints_378",
+      "name": "Natural History Museum, South Kensington",
+      "lat": 51.495592,
+      "lng": -0.179077,
+      "bikes": 6,
+      "docks": 35,
+      "total": 42
+    },
+    {
+      "id": "BikePoints_379",
+      "name": "Turquoise Island, Notting Hill",
+      "lat": 51.514311,
+      "lng": -0.200838,
+      "bikes": 17,
+      "docks": 3,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_380",
+      "name": "Stanhope Gate, Mayfair",
+      "lat": 51.506864,
+      "lng": -0.150666,
+      "bikes": 0,
+      "docks": 19,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_381",
+      "name": "Charlotte Street, Fitzrovia",
+      "lat": 51.51953,
+      "lng": -0.135777,
+      "bikes": 1,
+      "docks": 9,
+      "total": 14
+    },
+    {
+      "id": "BikePoints_382",
+      "name": "Farm Street, Mayfair",
+      "lat": 51.509351,
+      "lng": -0.147449,
+      "bikes": 1,
+      "docks": 12,
+      "total": 15
+    },
+    {
+      "id": "BikePoints_384",
+      "name": "Marloes Road, Kensington",
+      "lat": 51.496481,
+      "lng": -0.192404,
+      "bikes": 13,
+      "docks": 1,
+      "total": 15
+    },
+    {
+      "id": "BikePoints_387",
+      "name": "Fire Brigade Pier, Vauxhall",
+      "lat": 51.493699,
+      "lng": -0.121394,
+      "bikes": 7,
+      "docks": 20,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_388",
+      "name": "Southampton Street, Strand",
+      "lat": 51.510701,
+      "lng": -0.121723,
+      "bikes": 4,
+      "docks": 7,
+      "total": 14
+    },
+    {
+      "id": "BikePoints_390",
+      "name": "Buxton Street 1, Shoreditch",
+      "lat": 51.521776,
+      "lng": -0.068856,
+      "bikes": 10,
+      "docks": 31,
+      "total": 41
+    },
+    {
+      "id": "BikePoints_391",
+      "name": "Clifford Street, Mayfair",
+      "lat": 51.510662,
+      "lng": -0.142345,
+      "bikes": 1,
+      "docks": 12,
+      "total": 17
+    },
+    {
+      "id": "BikePoints_392",
+      "name": "Imperial College, Knightsbridge",
+      "lat": 51.499428,
+      "lng": -0.179702,
+      "bikes": 2,
+      "docks": 31,
+      "total": 33
+    },
+    {
+      "id": "BikePoints_393",
+      "name": "Snow Hill, Farringdon",
+      "lat": 51.517334,
+      "lng": -0.103604,
+      "bikes": 1,
+      "docks": 14,
+      "total": 15
+    },
+    {
+      "id": "BikePoints_394",
+      "name": "Aberdeen Place, St. John's Wood",
+      "lat": 51.524826,
+      "lng": -0.176268,
+      "bikes": 1,
+      "docks": 17,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_395",
+      "name": "Cadogan Gardens, Chelsea",
+      "lat": 51.492462,
+      "lng": -0.159919,
+      "bikes": 6,
+      "docks": 6,
+      "total": 15
+    },
+    {
+      "id": "BikePoints_396",
+      "name": "Shouldham Street, Marylebone",
+      "lat": 51.51809,
+      "lng": -0.163609,
+      "bikes": 3,
+      "docks": 11,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_397",
+      "name": "Devonshire Terrace, Bayswater",
+      "lat": 51.51348,
+      "lng": -0.17977,
+      "bikes": 11,
+      "docks": 4,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_398",
+      "name": "Holland Park, Kensington",
+      "lat": 51.502319,
+      "lng": -0.200742,
+      "bikes": 2,
+      "docks": 27,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_399",
+      "name": "Brick Lane Market, Shoreditch",
+      "lat": 51.522617,
+      "lng": -0.071653,
+      "bikes": 11,
+      "docks": 13,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_400",
+      "name": "George Street, Marylebone",
+      "lat": 51.517703,
+      "lng": -0.154106,
+      "bikes": 22,
+      "docks": 5,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_401",
+      "name": "Columbia Road, Shoreditch",
+      "lat": 51.528187,
+      "lng": -0.075375,
+      "bikes": 13,
+      "docks": 9,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_402",
+      "name": "Penfold Street, Marylebone",
+      "lat": 51.522892,
+      "lng": -0.171681,
+      "bikes": 9,
+      "docks": 5,
+      "total": 15
+    },
+    {
+      "id": "BikePoints_404",
+      "name": "Palace Gate, Kensington Gardens",
+      "lat": 51.502042,
+      "lng": -0.1844,
+      "bikes": 7,
+      "docks": 3,
+      "total": 13
+    },
+    {
+      "id": "BikePoints_405",
+      "name": "Gloucester Road Station, South Kensington",
+      "lat": 51.494185,
+      "lng": -0.18267,
+      "bikes": 4,
+      "docks": 7,
+      "total": 15
+    },
+    {
+      "id": "BikePoints_408",
+      "name": "Sun Street, Liverpool Street",
+      "lat": 51.520009,
+      "lng": -0.083935,
+      "bikes": 4,
+      "docks": 16,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_409",
+      "name": "Strata, Elephant & Castle",
+      "lat": 51.493146,
+      "lng": -0.099828,
+      "bikes": 35,
+      "docks": 0,
+      "total": 41
+    },
+    {
+      "id": "BikePoints_410",
+      "name": "Orchard Place, Blackwall Tunnel",
+      "lat": 51.510212,
+      "lng": 0.004979,
+      "bikes": 21,
+      "docks": 2,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_411",
+      "name": "Rotherhithe Roundabout, Rotherhithe",
+      "lat": 51.499169,
+      "lng": -0.055846,
+      "bikes": 16,
+      "docks": 0,
+      "total": 19
+    },
+    {
+      "id": "BikePoints_412",
+      "name": "Cleaver Street, Kennington",
+      "lat": 51.488105,
+      "lng": -0.110121,
+      "bikes": 7,
+      "docks": 10,
+      "total": 17
+    },
+    {
+      "id": "BikePoints_419",
+      "name": "Chelsea Bridge, Pimlico",
+      "lat": 51.485821,
+      "lng": -0.149004,
+      "bikes": 0,
+      "docks": 13,
+      "total": 15
+    },
+    {
+      "id": "BikePoints_423",
+      "name": "Eaton Square (South), Belgravia",
+      "lat": 51.494561,
+      "lng": -0.153933,
+      "bikes": 20,
+      "docks": 9,
+      "total": 31
+    },
+    {
+      "id": "BikePoints_424",
+      "name": "Ebury Bridge, Pimlico",
+      "lat": 51.490491,
+      "lng": -0.149186,
+      "bikes": 6,
+      "docks": 22,
+      "total": 29
+    },
+    {
+      "id": "BikePoints_425",
+      "name": "Camley Street, Camden Town",
+      "lat": 51.53792,
+      "lng": -0.130529,
+      "bikes": 3,
+      "docks": 12,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_426",
+      "name": "Vincent Street, Pimlico",
+      "lat": 51.493072,
+      "lng": -0.129925,
+      "bikes": 13,
+      "docks": 2,
+      "total": 17
+    },
+    {
+      "id": "BikePoints_427",
+      "name": "Cheapside, Bank",
+      "lat": 51.51397,
+      "lng": -0.09294,
+      "bikes": 1,
+      "docks": 41,
+      "total": 43
+    },
+    {
+      "id": "BikePoints_428",
+      "name": "Exhibition Road, Knightsbridge",
+      "lat": 51.499917,
+      "lng": -0.174554,
+      "bikes": 1,
+      "docks": 17,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_430",
+      "name": "South Parade, Chelsea",
+      "lat": 51.48902,
+      "lng": -0.17524,
+      "bikes": 11,
+      "docks": 6,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_431",
+      "name": "Crinan Street, King's Cross",
+      "lat": 51.534474,
+      "lng": -0.122203,
+      "bikes": 1,
+      "docks": 19,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_432",
+      "name": "Exhibition Road Museums 1, South Kensington",
+      "lat": 51.496468,
+      "lng": -0.173796,
+      "bikes": 1,
+      "docks": 9,
+      "total": 13
+    },
+    {
+      "id": "BikePoints_433",
+      "name": "Wren Street, Holborn",
+      "lat": 51.524564,
+      "lng": -0.116279,
+      "bikes": 4,
+      "docks": 29,
+      "total": 33
+    },
+    {
+      "id": "BikePoints_435",
+      "name": "Kennington Station, Kennington",
+      "lat": 51.488852,
+      "lng": -0.105593,
+      "bikes": 13,
+      "docks": 10,
+      "total": 23
+    },
+    {
+      "id": "BikePoints_436",
+      "name": "Red Lion Street, Holborn",
+      "lat": 51.51824,
+      "lng": -0.11655,
+      "bikes": 0,
+      "docks": 35,
+      "total": 36
+    },
+    {
+      "id": "BikePoints_437",
+      "name": "Vauxhall Walk, Vauxhall",
+      "lat": 51.488124,
+      "lng": -0.120903,
+      "bikes": 24,
+      "docks": 1,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_439",
+      "name": "Killick Street, King's Cross",
+      "lat": 51.5338,
+      "lng": -0.118677,
+      "bikes": 4,
+      "docks": 18,
+      "total": 22
+    },
+    {
+      "id": "BikePoints_440",
+      "name": "Kennington Oval, Oval",
+      "lat": 51.483145,
+      "lng": -0.113134,
+      "bikes": 10,
+      "docks": 22,
+      "total": 33
+    },
+    {
+      "id": "BikePoints_441",
+      "name": "Sail Street, Vauxhall",
+      "lat": 51.495656,
+      "lng": -0.114605,
+      "bikes": 12,
+      "docks": 10,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_442",
+      "name": "Walmer Road, Avondale",
+      "lat": 51.510101,
+      "lng": -0.211358,
+      "bikes": 3,
+      "docks": 19,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_443",
+      "name": "Philpot Street, Whitechapel",
+      "lat": 51.515256,
+      "lng": -0.058641,
+      "bikes": 10,
+      "docks": 18,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_444",
+      "name": "Bethnal Green Garden, Bethnal Green",
+      "lat": 51.52568,
+      "lng": -0.055312,
+      "bikes": 0,
+      "docks": 23,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_445",
+      "name": "Cheshire Street, Bethnal Green",
+      "lat": 51.52388,
+      "lng": -0.065076,
+      "bikes": 15,
+      "docks": 13,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_446",
+      "name": "York Hall, Bethnal Green",
+      "lat": 51.528936,
+      "lng": -0.055894,
+      "bikes": 1,
+      "docks": 26,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_447",
+      "name": "Jubilee Crescent, Cubitt Town",
+      "lat": 51.493381,
+      "lng": -0.007542,
+      "bikes": 21,
+      "docks": 32,
+      "total": 54
+    },
+    {
+      "id": "BikePoints_448",
+      "name": "Fisherman's Walk West, Canary Wharf",
+      "lat": 51.50623,
+      "lng": -0.02296,
+      "bikes": 19,
+      "docks": 9,
+      "total": 36
+    },
+    {
+      "id": "BikePoints_449",
+      "name": "Shadwell Station, Shadwell",
+      "lat": 51.511088,
+      "lng": -0.057159,
+      "bikes": 32,
+      "docks": 1,
+      "total": 35
+    },
+    {
+      "id": "BikePoints_450",
+      "name": "Jubilee Street, Stepney",
+      "lat": 51.515975,
+      "lng": -0.053177,
+      "bikes": 15,
+      "docks": 12,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_451",
+      "name": "Hermitage Court, Wapping",
+      "lat": 51.504719,
+      "lng": -0.063531,
+      "bikes": 4,
+      "docks": 12,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_452",
+      "name": "St. Katharine's Way, Tower",
+      "lat": 51.505697,
+      "lng": -0.070542,
+      "bikes": 5,
+      "docks": 19,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_453",
+      "name": "Garnet Street, Shadwell",
+      "lat": 51.508447,
+      "lng": -0.055167,
+      "bikes": 11,
+      "docks": 12,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_454",
+      "name": "Napier Avenue, Millwall",
+      "lat": 51.487679,
+      "lng": -0.021582,
+      "bikes": 9,
+      "docks": 8,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_455",
+      "name": "East Ferry Road, Cubitt Town",
+      "lat": 51.49447,
+      "lng": -0.014409,
+      "bikes": 13,
+      "docks": 0,
+      "total": 17
+    },
+    {
+      "id": "BikePoints_456",
+      "name": "Albert Street, Camden Town",
+      "lat": 51.537706,
+      "lng": -0.144801,
+      "bikes": 17,
+      "docks": 9,
+      "total": 26
+    },
+    {
+      "id": "BikePoints_457",
+      "name": "Castlehaven Road, Camden Town",
+      "lat": 51.542138,
+      "lng": -0.145393,
+      "bikes": 16,
+      "docks": 11,
+      "total": 29
+    },
+    {
+      "id": "BikePoints_458",
+      "name": "Wapping Lane, Wapping",
+      "lat": 51.504749,
+      "lng": -0.057544,
+      "bikes": 22,
+      "docks": 5,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_459",
+      "name": "Gunmakers Lane, Old Ford",
+      "lat": 51.535179,
+      "lng": -0.03338,
+      "bikes": 16,
+      "docks": 0,
+      "total": 17
+    },
+    {
+      "id": "BikePoints_461",
+      "name": "Aston Street, Stepney",
+      "lat": 51.516,
+      "lng": -0.038775,
+      "bikes": 14,
+      "docks": 12,
+      "total": 26
+    },
+    {
+      "id": "BikePoints_462",
+      "name": "Bonny Street, Camden Town",
+      "lat": 51.541603,
+      "lng": -0.138853,
+      "bikes": 21,
+      "docks": 24,
+      "total": 45
+    },
+    {
+      "id": "BikePoints_463",
+      "name": "Thurtle Road, Haggerston",
+      "lat": 51.534776,
+      "lng": -0.071881,
+      "bikes": 6,
+      "docks": 16,
+      "total": 22
+    },
+    {
+      "id": "BikePoints_464",
+      "name": "St. Mary & St. Michael Church, Stepney",
+      "lat": 51.51417,
+      "lng": -0.052099,
+      "bikes": 4,
+      "docks": 21,
+      "total": 25
+    },
+    {
+      "id": "BikePoints_465",
+      "name": "Pitfield Street North,Hoxton",
+      "lat": 51.53558,
+      "lng": -0.08249,
+      "bikes": 22,
+      "docks": 0,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_466",
+      "name": "Whiston Road, Haggerston",
+      "lat": 51.534464,
+      "lng": -0.076341,
+      "bikes": 3,
+      "docks": 18,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_467",
+      "name": "Southern Grove, Bow",
+      "lat": 51.523538,
+      "lng": -0.030556,
+      "bikes": 6,
+      "docks": 10,
+      "total": 17
+    },
+    {
+      "id": "BikePoints_468",
+      "name": "Cantrell Road, Bow",
+      "lat": 51.521564,
+      "lng": -0.022694,
+      "bikes": 4,
+      "docks": 19,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_469",
+      "name": "Lindfield Street, Poplar",
+      "lat": 51.513757,
+      "lng": -0.020467,
+      "bikes": 28,
+      "docks": 13,
+      "total": 44
+    },
+    {
+      "id": "BikePoints_470",
+      "name": "Mostyn Grove, Bow",
+      "lat": 51.530535,
+      "lng": -0.025492,
+      "bikes": 11,
+      "docks": 34,
+      "total": 46
+    },
+    {
+      "id": "BikePoints_471",
+      "name": "Hewison Street, Old Ford",
+      "lat": 51.533283,
+      "lng": -0.028155,
+      "bikes": 15,
+      "docks": 2,
+      "total": 19
+    },
+    {
+      "id": "BikePoints_472",
+      "name": "Malmesbury Road, Bow",
+      "lat": 51.529452,
+      "lng": -0.027616,
+      "bikes": 2,
+      "docks": 18,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_473",
+      "name": "Millharbour, Millwall",
+      "lat": 51.496137,
+      "lng": -0.019355,
+      "bikes": 16,
+      "docks": 0,
+      "total": 19
+    },
+    {
+      "id": "BikePoints_474",
+      "name": "Gascoyne Road, Victoria Park",
+      "lat": 51.541515,
+      "lng": -0.038557,
+      "bikes": 10,
+      "docks": 5,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_475",
+      "name": "Lightermans Road, Millwall",
+      "lat": 51.499041,
+      "lng": -0.020157,
+      "bikes": 28,
+      "docks": 1,
+      "total": 31
+    },
+    {
+      "id": "BikePoints_476",
+      "name": "Stebondale Street, Cubitt Town",
+      "lat": 51.489096,
+      "lng": -0.009205,
+      "bikes": 22,
+      "docks": 6,
+      "total": 29
+    },
+    {
+      "id": "BikePoints_477",
+      "name": "Spindrift Avenue, Millwall",
+      "lat": 51.49109,
+      "lng": -0.018716,
+      "bikes": 17,
+      "docks": 17,
+      "total": 36
+    },
+    {
+      "id": "BikePoints_478",
+      "name": "Stepney Green Station, Stepney",
+      "lat": 51.521889,
+      "lng": -0.04667,
+      "bikes": 14,
+      "docks": 6,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_479",
+      "name": "Pott Street, Bethnal Green",
+      "lat": 51.527152,
+      "lng": -0.058005,
+      "bikes": 4,
+      "docks": 14,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_480",
+      "name": "Flamborough Street, Limehouse",
+      "lat": 51.512871,
+      "lng": -0.038986,
+      "bikes": 22,
+      "docks": 0,
+      "total": 25
+    },
+    {
+      "id": "BikePoints_481",
+      "name": "Saunders Ness Road, Cubitt Town",
+      "lat": 51.487129,
+      "lng": -0.009001,
+      "bikes": 17,
+      "docks": 14,
+      "total": 35
+    },
+    {
+      "id": "BikePoints_482",
+      "name": "Exhibition Road Museums 2, South Kensington",
+      "lat": 51.495947,
+      "lng": -0.173689,
+      "bikes": 1,
+      "docks": 13,
+      "total": 14
+    },
+    {
+      "id": "BikePoints_483",
+      "name": "Albert Gardens, Stepney",
+      "lat": 51.51328,
+      "lng": -0.047784,
+      "bikes": 10,
+      "docks": 23,
+      "total": 33
+    },
+    {
+      "id": "BikePoints_484",
+      "name": "Bromley High Street, Bow",
+      "lat": 51.528828,
+      "lng": -0.013258,
+      "bikes": 9,
+      "docks": 13,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_485",
+      "name": "Old Ford Road, Bethnal Green",
+      "lat": 51.531127,
+      "lng": -0.048017,
+      "bikes": 7,
+      "docks": 17,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_486",
+      "name": "Granby Street, Shoreditch",
+      "lat": 51.525645,
+      "lng": -0.069543,
+      "bikes": 12,
+      "docks": 24,
+      "total": 37
+    },
+    {
+      "id": "BikePoints_487",
+      "name": "Canton Street, Poplar",
+      "lat": 51.511811,
+      "lng": -0.025626,
+      "bikes": 15,
+      "docks": 6,
+      "total": 23
+    },
+    {
+      "id": "BikePoints_488",
+      "name": "Reardon Street, Wapping",
+      "lat": 51.506946,
+      "lng": -0.058681,
+      "bikes": 14,
+      "docks": 6,
+      "total": 22
+    },
+    {
+      "id": "BikePoints_489",
+      "name": "Christian Street, Whitechapel",
+      "lat": 51.513074,
+      "lng": -0.064094,
+      "bikes": 4,
+      "docks": 28,
+      "total": 34
+    },
+    {
+      "id": "BikePoints_490",
+      "name": "Pennington Street, Wapping",
+      "lat": 51.508622,
+      "lng": -0.065006,
+      "bikes": 14,
+      "docks": 31,
+      "total": 45
+    },
+    {
+      "id": "BikePoints_491",
+      "name": "Queen Mary's, Mile End",
+      "lat": 51.522507,
+      "lng": -0.041378,
+      "bikes": 6,
+      "docks": 36,
+      "total": 45
+    },
+    {
+      "id": "BikePoints_494",
+      "name": "South Quay East, Canary Wharf",
+      "lat": 51.50196,
+      "lng": -0.016251,
+      "bikes": 13,
+      "docks": 20,
+      "total": 36
+    },
+    {
+      "id": "BikePoints_495",
+      "name": "Bow Church Station, Bow",
+      "lat": 51.528169,
+      "lng": -0.018703,
+      "bikes": 19,
+      "docks": 15,
+      "total": 39
+    },
+    {
+      "id": "BikePoints_496",
+      "name": "Devons Road, Bow",
+      "lat": 51.52512,
+      "lng": -0.015578,
+      "bikes": 24,
+      "docks": 9,
+      "total": 39
+    },
+    {
+      "id": "BikePoints_497",
+      "name": "Merchant Street, Bow",
+      "lat": 51.526578,
+      "lng": -0.027581,
+      "bikes": 7,
+      "docks": 20,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_498",
+      "name": "Bow Road Station, Bow",
+      "lat": 51.527058,
+      "lng": -0.025296,
+      "bikes": 2,
+      "docks": 36,
+      "total": 42
+    },
+    {
+      "id": "BikePoints_499",
+      "name": "Furze Green, Bow",
+      "lat": 51.519265,
+      "lng": -0.021345,
+      "bikes": 25,
+      "docks": 10,
+      "total": 36
+    },
+    {
+      "id": "BikePoints_500",
+      "name": "Ansell House, Stepney",
+      "lat": 51.520019,
+      "lng": -0.05438,
+      "bikes": 0,
+      "docks": 39,
+      "total": 41
+    },
+    {
+      "id": "BikePoints_501",
+      "name": "Cephas Street, Bethnal Green",
+      "lat": 51.522561,
+      "lng": -0.054883,
+      "bikes": 4,
+      "docks": 18,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_502",
+      "name": "Bonner Gate, Victoria Park",
+      "lat": 51.53341,
+      "lng": -0.049591,
+      "bikes": 4,
+      "docks": 17,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_503",
+      "name": "Cleveland Way, Stepney",
+      "lat": 51.520893,
+      "lng": -0.051394,
+      "bikes": 1,
+      "docks": 33,
+      "total": 36
+    },
+    {
+      "id": "BikePoints_504",
+      "name": "St. John's Park, Cubitt Town",
+      "lat": 51.496454,
+      "lng": -0.009506,
+      "bikes": 10,
+      "docks": 19,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_505",
+      "name": "Ackroyd Drive, Bow",
+      "lat": 51.520398,
+      "lng": -0.026768,
+      "bikes": 8,
+      "docks": 21,
+      "total": 29
+    },
+    {
+      "id": "BikePoints_506",
+      "name": "Bell Lane, Liverpool Street",
+      "lat": 51.517475,
+      "lng": -0.075855,
+      "bikes": 10,
+      "docks": 11,
+      "total": 23
+    },
+    {
+      "id": "BikePoints_507",
+      "name": "Clarkson Street, Bethnal Green",
+      "lat": 51.528692,
+      "lng": -0.059091,
+      "bikes": 7,
+      "docks": 23,
+      "total": 31
+    },
+    {
+      "id": "BikePoints_508",
+      "name": "Fournier Street, Whitechapel",
+      "lat": 51.519362,
+      "lng": -0.074431,
+      "bikes": 3,
+      "docks": 15,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_509",
+      "name": "Fore Street Avenue, Guildhall",
+      "lat": 51.517842,
+      "lng": -0.090075,
+      "bikes": 0,
+      "docks": 18,
+      "total": 19
+    },
+    {
+      "id": "BikePoints_510",
+      "name": "Westferry DLR, Limehouse",
+      "lat": 51.509303,
+      "lng": -0.025996,
+      "bikes": 32,
+      "docks": 7,
+      "total": 41
+    },
+    {
+      "id": "BikePoints_511",
+      "name": "Sutton Street, Shadwell",
+      "lat": 51.511066,
+      "lng": -0.053558,
+      "bikes": 16,
+      "docks": 13,
+      "total": 33
+    },
+    {
+      "id": "BikePoints_513",
+      "name": "Watney Market, Stepney",
+      "lat": 51.514222,
+      "lng": -0.055656,
+      "bikes": 33,
+      "docks": 17,
+      "total": 51
+    },
+    {
+      "id": "BikePoints_514",
+      "name": "Portman Square, Marylebone",
+      "lat": 51.516204,
+      "lng": -0.155525,
+      "bikes": 3,
+      "docks": 11,
+      "total": 17
+    },
+    {
+      "id": "BikePoints_515",
+      "name": "Russell Gardens, Olympia",
+      "lat": 51.500088,
+      "lng": -0.211316,
+      "bikes": 10,
+      "docks": 12,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_516",
+      "name": "Chrisp Street Market, Poplar",
+      "lat": 51.5112,
+      "lng": -0.014438,
+      "bikes": 17,
+      "docks": 0,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_517",
+      "name": "Ford Road, Old Ford",
+      "lat": 51.532513,
+      "lng": -0.033085,
+      "bikes": 7,
+      "docks": 9,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_518",
+      "name": "Antill Road, Mile End",
+      "lat": 51.528224,
+      "lng": -0.037471,
+      "bikes": 11,
+      "docks": 16,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_519",
+      "name": "Teviot Street, Poplar",
+      "lat": 51.518811,
+      "lng": -0.011662,
+      "bikes": 9,
+      "docks": 20,
+      "total": 33
+    },
+    {
+      "id": "BikePoints_520",
+      "name": "Bancroft Road, Bethnal Green",
+      "lat": 51.526041,
+      "lng": -0.047218,
+      "bikes": 1,
+      "docks": 20,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_521",
+      "name": "Driffield Road, Old Ford",
+      "lat": 51.534137,
+      "lng": -0.037366,
+      "bikes": 18,
+      "docks": 0,
+      "total": 19
+    },
+    {
+      "id": "BikePoints_522",
+      "name": "Clinton Road, Mile End",
+      "lat": 51.525941,
+      "lng": -0.036017,
+      "bikes": 26,
+      "docks": 7,
+      "total": 36
+    },
+    {
+      "id": "BikePoints_523",
+      "name": "Langdon Park, Poplar",
+      "lat": 51.51549,
+      "lng": -0.013475,
+      "bikes": 22,
+      "docks": 0,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_524",
+      "name": "Lancaster Gate , Bayswater",
+      "lat": 51.511654,
+      "lng": -0.179668,
+      "bikes": 6,
+      "docks": 30,
+      "total": 38
+    },
+    {
+      "id": "BikePoints_525",
+      "name": "Blythe Road, Olympia",
+      "lat": 51.496927,
+      "lng": -0.2135,
+      "bikes": 19,
+      "docks": 4,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_526",
+      "name": "Lancaster Drive, Blackwall",
+      "lat": 51.503143,
+      "lng": -0.008428,
+      "bikes": 4,
+      "docks": 19,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_527",
+      "name": "Hansard Mews, Holland Park",
+      "lat": 51.503802,
+      "lng": -0.215808,
+      "bikes": 17,
+      "docks": 2,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_528",
+      "name": "Clarges Street, Mayfair",
+      "lat": 51.507326,
+      "lng": -0.145827,
+      "bikes": 0,
+      "docks": 15,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_529",
+      "name": "Manresa Road, Chelsea",
+      "lat": 51.486892,
+      "lng": -0.170983,
+      "bikes": 7,
+      "docks": 8,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_530",
+      "name": "Newby Place, Poplar",
+      "lat": 51.508896,
+      "lng": -0.012413,
+      "bikes": 15,
+      "docks": 3,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_531",
+      "name": "Twig Folly Bridge, Mile End",
+      "lat": 51.530326,
+      "lng": -0.042744,
+      "bikes": 9,
+      "docks": 11,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_532",
+      "name": "Jubilee Plaza, Canary Wharf",
+      "lat": 51.5034,
+      "lng": -0.020242,
+      "bikes": 23,
+      "docks": 24,
+      "total": 63
+    },
+    {
+      "id": "BikePoints_533",
+      "name": "Wellington Row, Bethnal Green",
+      "lat": 51.528222,
+      "lng": -0.069743,
+      "bikes": 0,
+      "docks": 33,
+      "total": 33
+    },
+    {
+      "id": "BikePoints_534",
+      "name": "Goldsmith's Row, Haggerston",
+      "lat": 51.531864,
+      "lng": -0.066035,
+      "bikes": 0,
+      "docks": 25,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_536",
+      "name": "Queensbridge Road, Haggerston",
+      "lat": 51.53385,
+      "lng": -0.06992,
+      "bikes": 5,
+      "docks": 28,
+      "total": 35
+    },
+    {
+      "id": "BikePoints_537",
+      "name": "Old Montague Street, Whitechapel",
+      "lat": 51.51793,
+      "lng": -0.067937,
+      "bikes": 11,
+      "docks": 7,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_538",
+      "name": "Naval Row, Blackwall",
+      "lat": 51.508981,
+      "lng": -0.00699,
+      "bikes": 18,
+      "docks": 0,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_539",
+      "name": "Hoxton Station, Hoxton",
+      "lat": 51.531091,
+      "lng": -0.075901,
+      "bikes": 2,
+      "docks": 19,
+      "total": 22
+    },
+    {
+      "id": "BikePoints_542",
+      "name": "Salmon Lane, Limehouse",
+      "lat": 51.514115,
+      "lng": -0.033828,
+      "bikes": 24,
+      "docks": 8,
+      "total": 33
+    },
+    {
+      "id": "BikePoints_543",
+      "name": "Lansdowne Walk, Ladbroke Grove",
+      "lat": 51.509591,
+      "lng": -0.204666,
+      "bikes": 5,
+      "docks": 14,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_544",
+      "name": "Percival Street, Finsbury",
+      "lat": 51.526153,
+      "lng": -0.102208,
+      "bikes": 3,
+      "docks": 18,
+      "total": 22
+    },
+    {
+      "id": "BikePoints_545",
+      "name": "Arlington Road, Camden Town",
+      "lat": 51.539957,
+      "lng": -0.145246,
+      "bikes": 15,
+      "docks": 9,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_546",
+      "name": "New Fetter Lane, Holborn",
+      "lat": 51.517428,
+      "lng": -0.107987,
+      "bikes": 4,
+      "docks": 17,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_547",
+      "name": "East India DLR, Blackwall",
+      "lat": 51.509474,
+      "lng": -0.002275,
+      "bikes": 46,
+      "docks": 1,
+      "total": 51
+    },
+    {
+      "id": "BikePoints_548",
+      "name": "Westminster Bridge Road, Elephant & Castle",
+      "lat": 51.498386,
+      "lng": -0.107913,
+      "bikes": 22,
+      "docks": 3,
+      "total": 26
+    },
+    {
+      "id": "BikePoints_549",
+      "name": "Gaywood  Street, Elephant & Castle",
+      "lat": 51.49605,
+      "lng": -0.104193,
+      "bikes": 4,
+      "docks": 38,
+      "total": 45
+    },
+    {
+      "id": "BikePoints_550",
+      "name": "Harford Street, Mile End",
+      "lat": 51.521564,
+      "lng": -0.039264,
+      "bikes": 12,
+      "docks": 9,
+      "total": 23
+    },
+    {
+      "id": "BikePoints_551",
+      "name": "Import Dock, Canary Wharf",
+      "lat": 51.505772,
+      "lng": -0.01646,
+      "bikes": 11,
+      "docks": 23,
+      "total": 39
+    },
+    {
+      "id": "BikePoints_552",
+      "name": "Watney Street, Shadwell",
+      "lat": 51.511542,
+      "lng": -0.056667,
+      "bikes": 6,
+      "docks": 19,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_553",
+      "name": "Regent's Row , Haggerston",
+      "lat": 51.535678,
+      "lng": -0.062546,
+      "bikes": 12,
+      "docks": 11,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_554",
+      "name": "Aberfeldy Street, Poplar",
+      "lat": 51.513548,
+      "lng": -0.005659,
+      "bikes": 8,
+      "docks": 5,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_556",
+      "name": "Heron Quays DLR, Canary Wharf",
+      "lat": 51.502661,
+      "lng": -0.021596,
+      "bikes": 17,
+      "docks": 10,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_557",
+      "name": "King Edward Street, St Pauls",
+      "lat": 51.51601,
+      "lng": -0.0985,
+      "bikes": 0,
+      "docks": 18,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_558",
+      "name": "Page Street, Westminster",
+      "lat": 51.493978,
+      "lng": -0.127554,
+      "bikes": 9,
+      "docks": 10,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_559",
+      "name": "Abbotsbury Road, Holland Park",
+      "lat": 51.501391,
+      "lng": -0.205991,
+      "bikes": 1,
+      "docks": 22,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_560",
+      "name": "Ladbroke Grove Central, Ladbroke Grove",
+      "lat": 51.511624,
+      "lng": -0.205921,
+      "bikes": 17,
+      "docks": 3,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_561",
+      "name": "Rectory Square, Stepney",
+      "lat": 51.518369,
+      "lng": -0.043371,
+      "bikes": 8,
+      "docks": 13,
+      "total": 22
+    },
+    {
+      "id": "BikePoints_562",
+      "name": "Bury Place, Holborn",
+      "lat": 51.51742,
+      "lng": -0.123189,
+      "bikes": 4,
+      "docks": 13,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_563",
+      "name": "Preston's Road, Cubitt Town",
+      "lat": 51.499286,
+      "lng": -0.009152,
+      "bikes": 7,
+      "docks": 19,
+      "total": 26
+    },
+    {
+      "id": "BikePoints_564",
+      "name": "Somerset House, Strand",
+      "lat": 51.509943,
+      "lng": -0.117619,
+      "bikes": 7,
+      "docks": 31,
+      "total": 41
+    },
+    {
+      "id": "BikePoints_565",
+      "name": "Selby Street, Whitechapel",
+      "lat": 51.521905,
+      "lng": -0.063386,
+      "bikes": 13,
+      "docks": 4,
+      "total": 17
+    },
+    {
+      "id": "BikePoints_568",
+      "name": "Bishop's Bridge Road West, Bayswater",
+      "lat": 51.51616,
+      "lng": -0.18697,
+      "bikes": 4,
+      "docks": 12,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_569",
+      "name": "Pitfield Street Central, Hoxton",
+      "lat": 51.53213,
+      "lng": -0.08299,
+      "bikes": 6,
+      "docks": 23,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_570",
+      "name": "Upper Bank Street, Canary Wharf",
+      "lat": 51.503083,
+      "lng": -0.017676,
+      "bikes": 22,
+      "docks": 13,
+      "total": 36
+    },
+    {
+      "id": "BikePoints_571",
+      "name": "Westfield Southern Terrace ,Shepherd's Bush",
+      "lat": 51.506256,
+      "lng": -0.218337,
+      "bikes": 22,
+      "docks": 4,
+      "total": 29
+    },
+    {
+      "id": "BikePoints_572",
+      "name": "Greenland Road, Camden Town",
+      "lat": 51.539099,
+      "lng": -0.141728,
+      "bikes": 24,
+      "docks": 8,
+      "total": 36
+    },
+    {
+      "id": "BikePoints_573",
+      "name": "Limerston Street, West Chelsea",
+      "lat": 51.485587,
+      "lng": -0.18119,
+      "bikes": 13,
+      "docks": 0,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_574",
+      "name": "Eagle Wharf Road, Hoxton",
+      "lat": 51.53356,
+      "lng": -0.09315,
+      "bikes": 16,
+      "docks": 23,
+      "total": 45
+    },
+    {
+      "id": "BikePoints_576",
+      "name": "Alpha Grove, Millwall",
+      "lat": 51.497304,
+      "lng": -0.022793,
+      "bikes": 18,
+      "docks": 2,
+      "total": 23
+    },
+    {
+      "id": "BikePoints_577",
+      "name": "Globe Town Market, Bethnal Green",
+      "lat": 51.528869,
+      "lng": -0.047548,
+      "bikes": 5,
+      "docks": 9,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_578",
+      "name": "Hollybush Gardens, Bethnal Green",
+      "lat": 51.527607,
+      "lng": -0.057133,
+      "bikes": 0,
+      "docks": 32,
+      "total": 32
+    },
+    {
+      "id": "BikePoints_579",
+      "name": "Queen Street 2, Bank",
+      "lat": 51.511246,
+      "lng": -0.093051,
+      "bikes": 1,
+      "docks": 34,
+      "total": 36
+    },
+    {
+      "id": "BikePoints_580",
+      "name": "Doddington Grove, Kennington",
+      "lat": 51.486929,
+      "lng": -0.102996,
+      "bikes": 29,
+      "docks": 4,
+      "total": 36
+    },
+    {
+      "id": "BikePoints_581",
+      "name": "New Cavendish Street, Marylebone",
+      "lat": 51.519167,
+      "lng": -0.147983,
+      "bikes": 12,
+      "docks": 5,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_583",
+      "name": "Abingdon Green, Westminster",
+      "lat": 51.49764,
+      "lng": -0.125972,
+      "bikes": 2,
+      "docks": 12,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_584",
+      "name": "Ilchester Gardens, Bayswater",
+      "lat": 51.51244,
+      "lng": -0.19096,
+      "bikes": 5,
+      "docks": 13,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_586",
+      "name": "Mudchute DLR, Cubitt Town",
+      "lat": 51.490645,
+      "lng": -0.014582,
+      "bikes": 15,
+      "docks": 14,
+      "total": 31
+    },
+    {
+      "id": "BikePoints_587",
+      "name": "Monument Street, Monument",
+      "lat": 51.50964,
+      "lng": -0.08497,
+      "bikes": 3,
+      "docks": 16,
+      "total": 22
+    },
+    {
+      "id": "BikePoints_588",
+      "name": "Hoxton Street, Hoxton",
+      "lat": 51.52959,
+      "lng": -0.0801,
+      "bikes": 6,
+      "docks": 20,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_589",
+      "name": "Drayton Gardens, West Chelsea",
+      "lat": 51.487196,
+      "lng": -0.179369,
+      "bikes": 13,
+      "docks": 3,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_590",
+      "name": "Greenberry Street, St.John's Wood",
+      "lat": 51.53256,
+      "lng": -0.16862,
+      "bikes": 4,
+      "docks": 22,
+      "total": 26
+    },
+    {
+      "id": "BikePoints_592",
+      "name": "Bishop's Bridge Road East, Bayswater",
+      "lat": 51.5171,
+      "lng": -0.18377,
+      "bikes": 0,
+      "docks": 20,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_593",
+      "name": "Northdown Street, King's Cross",
+      "lat": 51.531066,
+      "lng": -0.11934,
+      "bikes": 19,
+      "docks": 2,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_594",
+      "name": "Kingsway Southbound, Strand",
+      "lat": 51.513875,
+      "lng": -0.117774,
+      "bikes": 4,
+      "docks": 29,
+      "total": 33
+    },
+    {
+      "id": "BikePoints_595",
+      "name": "Hammersmith Road, Hammersmith",
+      "lat": 51.493267,
+      "lng": -0.21985,
+      "bikes": 12,
+      "docks": 10,
+      "total": 22
+    },
+    {
+      "id": "BikePoints_596",
+      "name": "Parson's Green , Parson's Green",
+      "lat": 51.472817,
+      "lng": -0.199783,
+      "bikes": 12,
+      "docks": 7,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_597",
+      "name": "Fulham Park Road, Fulham",
+      "lat": 51.473471,
+      "lng": -0.20782,
+      "bikes": 14,
+      "docks": 13,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_598",
+      "name": "Southerton Road, Hammersmith",
+      "lat": 51.494499,
+      "lng": -0.228188,
+      "bikes": 36,
+      "docks": 1,
+      "total": 38
+    },
+    {
+      "id": "BikePoints_599",
+      "name": "Manbre Road, Hammersmith",
+      "lat": 51.485743,
+      "lng": -0.223616,
+      "bikes": 26,
+      "docks": 1,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_600",
+      "name": "South Lambeth Road, Vauxhall",
+      "lat": 51.481747,
+      "lng": -0.124642,
+      "bikes": 19,
+      "docks": 0,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_602",
+      "name": "Union Grove, Wandsworth Road",
+      "lat": 51.472993,
+      "lng": -0.133972,
+      "bikes": 38,
+      "docks": 7,
+      "total": 45
+    },
+    {
+      "id": "BikePoints_603",
+      "name": "Caldwell Street, Stockwell",
+      "lat": 51.477839,
+      "lng": -0.116493,
+      "bikes": 34,
+      "docks": 8,
+      "total": 44
+    },
+    {
+      "id": "BikePoints_604",
+      "name": "St Martins Close, Camden Town",
+      "lat": 51.538792,
+      "lng": -0.138535,
+      "bikes": 3,
+      "docks": 13,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_605",
+      "name": "Seymour Place, Marylebone",
+      "lat": 51.520331,
+      "lng": -0.163667,
+      "bikes": 0,
+      "docks": 22,
+      "total": 29
+    },
+    {
+      "id": "BikePoints_606",
+      "name": "Addison Road, Holland Park",
+      "lat": 51.504199,
+      "lng": -0.210941,
+      "bikes": 10,
+      "docks": 13,
+      "total": 26
+    },
+    {
+      "id": "BikePoints_607",
+      "name": "Putney Bridge Station, Fulham",
+      "lat": 51.468814,
+      "lng": -0.210279,
+      "bikes": 16,
+      "docks": 3,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_608",
+      "name": "Colet Gardens, Hammersmith",
+      "lat": 51.491093,
+      "lng": -0.216493,
+      "bikes": 7,
+      "docks": 21,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_609",
+      "name": "Sugden Road, Clapham",
+      "lat": 51.465123,
+      "lng": -0.157788,
+      "bikes": 13,
+      "docks": 5,
+      "total": 19
+    },
+    {
+      "id": "BikePoints_610",
+      "name": "Danvers Street, West Chelsea",
+      "lat": 51.482567,
+      "lng": -0.172078,
+      "bikes": 9,
+      "docks": 10,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_611",
+      "name": "Princedale Road , Holland Park",
+      "lat": 51.506465,
+      "lng": -0.208486,
+      "bikes": 6,
+      "docks": 12,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_612",
+      "name": "Wandsworth Rd, Isley Court, Wandsworth Road",
+      "lat": 51.469259,
+      "lng": -0.141812,
+      "bikes": 20,
+      "docks": 8,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_613",
+      "name": "Woodstock Grove, Shepherd's Bush",
+      "lat": 51.504038,
+      "lng": -0.2174,
+      "bikes": 7,
+      "docks": 13,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_615",
+      "name": "Finlay Street, Fulham",
+      "lat": 51.476885,
+      "lng": -0.215895,
+      "bikes": 19,
+      "docks": 1,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_616",
+      "name": "Aintree Street, Fulham",
+      "lat": 51.481021,
+      "lng": -0.209973,
+      "bikes": 7,
+      "docks": 16,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_617",
+      "name": "Elysium Place, Fulham",
+      "lat": 51.471079,
+      "lng": -0.207842,
+      "bikes": 0,
+      "docks": 19,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_618",
+      "name": "Eel Brook Common, Walham Green",
+      "lat": 51.476259,
+      "lng": -0.193254,
+      "bikes": 16,
+      "docks": 3,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_619",
+      "name": "Irene Road, Parsons Green",
+      "lat": 51.473763,
+      "lng": -0.19701,
+      "bikes": 14,
+      "docks": 7,
+      "total": 23
+    },
+    {
+      "id": "BikePoints_620",
+      "name": "Surrey Lane, Battersea",
+      "lat": 51.47518,
+      "lng": -0.16716,
+      "bikes": 4,
+      "docks": 22,
+      "total": 26
+    },
+    {
+      "id": "BikePoints_621",
+      "name": "Wandsworth Town Station, Wandsworth",
+      "lat": 51.460864,
+      "lng": -0.187427,
+      "bikes": 24,
+      "docks": 8,
+      "total": 33
+    },
+    {
+      "id": "BikePoints_622",
+      "name": "Lansdowne Road, Ladbroke Grove",
+      "lat": 51.507481,
+      "lng": -0.205535,
+      "bikes": 23,
+      "docks": 6,
+      "total": 29
+    },
+    {
+      "id": "BikePoints_623",
+      "name": "Nantes Close, Wandsworth",
+      "lat": 51.46193,
+      "lng": -0.180791,
+      "bikes": 1,
+      "docks": 21,
+      "total": 22
+    },
+    {
+      "id": "BikePoints_624",
+      "name": "Courland Grove, Wandsworth Road",
+      "lat": 51.472918,
+      "lng": -0.132102,
+      "bikes": 31,
+      "docks": 9,
+      "total": 40
+    },
+    {
+      "id": "BikePoints_625",
+      "name": "Queen's Circus, Battersea Park",
+      "lat": 51.477619,
+      "lng": -0.149551,
+      "bikes": 19,
+      "docks": 6,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_626",
+      "name": "Normand Park, West Kensington",
+      "lat": 51.484386,
+      "lng": -0.204815,
+      "bikes": 12,
+      "docks": 10,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_627",
+      "name": "Holden Street, Battersea",
+      "lat": 51.46879,
+      "lng": -0.15823,
+      "bikes": 16,
+      "docks": 4,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_628",
+      "name": "William Morris Way, Sands End",
+      "lat": 51.468819,
+      "lng": -0.184318,
+      "bikes": 12,
+      "docks": 13,
+      "total": 26
+    },
+    {
+      "id": "BikePoints_629",
+      "name": "Morie Street, Wandsworth",
+      "lat": 51.459953,
+      "lng": -0.190184,
+      "bikes": 12,
+      "docks": 14,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_630",
+      "name": "Clarence Walk, Stockwell",
+      "lat": 51.470732,
+      "lng": -0.126994,
+      "bikes": 23,
+      "docks": 3,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_631",
+      "name": "Battersea Park Road, Nine Elms",
+      "lat": 51.479501,
+      "lng": -0.14177,
+      "bikes": 1,
+      "docks": 21,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_632",
+      "name": "Sheepcote Lane, Battersea",
+      "lat": 51.470538,
+      "lng": -0.163041,
+      "bikes": 18,
+      "docks": 9,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_633",
+      "name": "Vereker Road, West Kensington",
+      "lat": 51.489591,
+      "lng": -0.209378,
+      "bikes": 14,
+      "docks": 15,
+      "total": 32
+    },
+    {
+      "id": "BikePoints_634",
+      "name": "Brook Green South, Brook Green",
+      "lat": 51.494347,
+      "lng": -0.215804,
+      "bikes": 19,
+      "docks": 14,
+      "total": 33
+    },
+    {
+      "id": "BikePoints_635",
+      "name": "Greyhound Road, Hammersmith",
+      "lat": 51.486062,
+      "lng": -0.214428,
+      "bikes": 14,
+      "docks": 19,
+      "total": 37
+    },
+    {
+      "id": "BikePoints_636",
+      "name": "South Park, Sands End",
+      "lat": 51.467064,
+      "lng": -0.193502,
+      "bikes": 13,
+      "docks": 11,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_638",
+      "name": "Falcon Road, Clapham Junction",
+      "lat": 51.466633,
+      "lng": -0.169821,
+      "bikes": 18,
+      "docks": 8,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_640",
+      "name": "Silverthorne Road, Battersea",
+      "lat": 51.472865,
+      "lng": -0.148059,
+      "bikes": 17,
+      "docks": 8,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_641",
+      "name": "Archbishop's Park, Waterloo",
+      "lat": 51.498241,
+      "lng": -0.117495,
+      "bikes": 18,
+      "docks": 4,
+      "total": 23
+    },
+    {
+      "id": "BikePoints_642",
+      "name": "Fawcett Close, Battersea",
+      "lat": 51.469161,
+      "lng": -0.174485,
+      "bikes": 17,
+      "docks": 10,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_643",
+      "name": "All Saints' Road, Portobello",
+      "lat": 51.519042,
+      "lng": -0.204764,
+      "bikes": 3,
+      "docks": 18,
+      "total": 22
+    },
+    {
+      "id": "BikePoints_644",
+      "name": "Rainville Road, Hammersmith",
+      "lat": 51.483732,
+      "lng": -0.223852,
+      "bikes": 3,
+      "docks": 31,
+      "total": 36
+    },
+    {
+      "id": "BikePoints_645",
+      "name": "Great Suffolk Street, The Borough",
+      "lat": 51.501732,
+      "lng": -0.100292,
+      "bikes": 4,
+      "docks": 14,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_646",
+      "name": "Buckingham Gate, Westminster",
+      "lat": 51.498865,
+      "lng": -0.137424,
+      "bikes": 3,
+      "docks": 11,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_647",
+      "name": "Richmond Way, Shepherd's Bush",
+      "lat": 51.500353,
+      "lng": -0.217515,
+      "bikes": 9,
+      "docks": 17,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_648",
+      "name": "Peterborough Road, Sands End",
+      "lat": 51.46904,
+      "lng": -0.196274,
+      "bikes": 6,
+      "docks": 13,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_649",
+      "name": "World's End Place, West Chelsea",
+      "lat": 51.481805,
+      "lng": -0.180274,
+      "bikes": 10,
+      "docks": 9,
+      "total": 22
+    },
+    {
+      "id": "BikePoints_650",
+      "name": "St. Mark's Road, North Kensington",
+      "lat": 51.51687,
+      "lng": -0.213872,
+      "bikes": 4,
+      "docks": 17,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_651",
+      "name": "Thorndike Close, West Chelsea",
+      "lat": 51.480898,
+      "lng": -0.183853,
+      "bikes": 7,
+      "docks": 17,
+      "total": 25
+    },
+    {
+      "id": "BikePoints_652",
+      "name": "Evesham Street, Avondale",
+      "lat": 51.511486,
+      "lng": -0.21819,
+      "bikes": 4,
+      "docks": 14,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_653",
+      "name": "Simpson Street, Clapham Junction",
+      "lat": 51.470847,
+      "lng": -0.170703,
+      "bikes": 25,
+      "docks": 0,
+      "total": 25
+    },
+    {
+      "id": "BikePoints_654",
+      "name": "Ashmole Estate, Oval",
+      "lat": 51.482678,
+      "lng": -0.117661,
+      "bikes": 12,
+      "docks": 21,
+      "total": 34
+    },
+    {
+      "id": "BikePoints_655",
+      "name": "Crabtree Lane, Fulham",
+      "lat": 51.482944,
+      "lng": -0.219346,
+      "bikes": 15,
+      "docks": 11,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_656",
+      "name": "Broomhouse Lane, Parsons Green",
+      "lat": 51.468418,
+      "lng": -0.199135,
+      "bikes": 13,
+      "docks": 14,
+      "total": 29
+    },
+    {
+      "id": "BikePoints_657",
+      "name": "Blythe Road West, Shepherd's Bush",
+      "lat": 51.49968,
+      "lng": -0.221791,
+      "bikes": 13,
+      "docks": 7,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_658",
+      "name": "Ethelburga Estate, Battersea Park",
+      "lat": 51.477292,
+      "lng": -0.164786,
+      "bikes": 12,
+      "docks": 17,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_659",
+      "name": "Blackfriars Station, St. Paul's",
+      "lat": 51.511934,
+      "lng": -0.103078,
+      "bikes": 3,
+      "docks": 31,
+      "total": 35
+    },
+    {
+      "id": "BikePoints_660",
+      "name": "West Kensington Station, West Kensington",
+      "lat": 51.49087,
+      "lng": -0.206029,
+      "bikes": 14,
+      "docks": 6,
+      "total": 22
+    },
+    {
+      "id": "BikePoints_661",
+      "name": "All Saints Church, Portobello",
+      "lat": 51.51632,
+      "lng": -0.202608,
+      "bikes": 23,
+      "docks": 12,
+      "total": 37
+    },
+    {
+      "id": "BikePoints_662",
+      "name": "Phene Street, Chelsea",
+      "lat": 51.484984,
+      "lng": -0.167919,
+      "bikes": 3,
+      "docks": 20,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_663",
+      "name": "Clarendon Road, Avondale",
+      "lat": 51.51323,
+      "lng": -0.211593,
+      "bikes": 9,
+      "docks": 12,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_664",
+      "name": "Austin Road, Battersea Park",
+      "lat": 51.474376,
+      "lng": -0.155442,
+      "bikes": 17,
+      "docks": 3,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_665",
+      "name": "Smugglers Way, Wandsworth",
+      "lat": 51.461083,
+      "lng": -0.191722,
+      "bikes": 22,
+      "docks": 5,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_666",
+      "name": "Harris Academy, Bermondsey",
+      "lat": 51.492668,
+      "lng": -0.07235,
+      "bikes": 11,
+      "docks": 7,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_667",
+      "name": "Shepherd's Bush Road North, Shepherd's Bush",
+      "lat": 51.501594,
+      "lng": -0.222293,
+      "bikes": 27,
+      "docks": 2,
+      "total": 34
+    },
+    {
+      "id": "BikePoints_668",
+      "name": "Ravenscourt Park Station, Hammersmith",
+      "lat": 51.494223,
+      "lng": -0.236769,
+      "bikes": 22,
+      "docks": 2,
+      "total": 26
+    },
+    {
+      "id": "BikePoints_669",
+      "name": "Teversham Lane, Stockwell",
+      "lat": 51.476149,
+      "lng": -0.123258,
+      "bikes": 36,
+      "docks": 3,
+      "total": 39
+    },
+    {
+      "id": "BikePoints_670",
+      "name": "Ashley Crescent, Battersea",
+      "lat": 51.467185,
+      "lng": -0.152248,
+      "bikes": 4,
+      "docks": 21,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_671",
+      "name": "Parsons Green Station, Parsons Green",
+      "lat": 51.475089,
+      "lng": -0.201968,
+      "bikes": 34,
+      "docks": 21,
+      "total": 56
+    },
+    {
+      "id": "BikePoints_672",
+      "name": "Chicheley Street, South Bank",
+      "lat": 51.502698,
+      "lng": -0.116747,
+      "bikes": 6,
+      "docks": 15,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_673",
+      "name": "Hibbert Street, Battersea",
+      "lat": 51.46517,
+      "lng": -0.180389,
+      "bikes": 7,
+      "docks": 28,
+      "total": 36
+    },
+    {
+      "id": "BikePoints_674",
+      "name": "Carnegie Street, King's Cross",
+      "lat": 51.535467,
+      "lng": -0.116191,
+      "bikes": 4,
+      "docks": 35,
+      "total": 40
+    },
+    {
+      "id": "BikePoints_675",
+      "name": "Usk Road, Clapham Junction",
+      "lat": 51.463489,
+      "lng": -0.182126,
+      "bikes": 19,
+      "docks": 11,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_676",
+      "name": "Hartington Road, Stockwell",
+      "lat": 51.47787,
+      "lng": -0.126874,
+      "bikes": 35,
+      "docks": 0,
+      "total": 35
+    },
+    {
+      "id": "BikePoints_677",
+      "name": "Heath Road, Battersea",
+      "lat": 51.468669,
+      "lng": -0.146544,
+      "bikes": 26,
+      "docks": 1,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_678",
+      "name": "Esmond Street, Putney",
+      "lat": 51.462312,
+      "lng": -0.211468,
+      "bikes": 22,
+      "docks": 8,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_679",
+      "name": "Orbel Street, Battersea",
+      "lat": 51.474535,
+      "lng": -0.17021,
+      "bikes": 23,
+      "docks": 3,
+      "total": 26
+    },
+    {
+      "id": "BikePoints_680",
+      "name": "Westbridge Road, Battersea",
+      "lat": 51.477684,
+      "lng": -0.170329,
+      "bikes": 8,
+      "docks": 18,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_681",
+      "name": "Bishop's Avenue, Fulham",
+      "lat": 51.473036,
+      "lng": -0.214749,
+      "bikes": 25,
+      "docks": 18,
+      "total": 46
+    },
+    {
+      "id": "BikePoints_682",
+      "name": "Crisp Road, Hammersmith",
+      "lat": 51.488108,
+      "lng": -0.226606,
+      "bikes": 40,
+      "docks": 2,
+      "total": 46
+    },
+    {
+      "id": "BikePoints_683",
+      "name": "Dorothy Road, Clapham Junction",
+      "lat": 51.465064,
+      "lng": -0.16375,
+      "bikes": 11,
+      "docks": 16,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_684",
+      "name": "Neville Gill Close, Wandsworth",
+      "lat": 51.454752,
+      "lng": -0.195197,
+      "bikes": 27,
+      "docks": 3,
+      "total": 32
+    },
+    {
+      "id": "BikePoints_685",
+      "name": "Osiers Road, Wandsworth",
+      "lat": 51.46067,
+      "lng": -0.198735,
+      "bikes": 10,
+      "docks": 20,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_686",
+      "name": "Beryl Road, Hammersmith",
+      "lat": 51.488144,
+      "lng": -0.222456,
+      "bikes": 11,
+      "docks": 13,
+      "total": 26
+    },
+    {
+      "id": "BikePoints_687",
+      "name": "Clements Road, Bermondsey",
+      "lat": 51.4954,
+      "lng": -0.061698,
+      "bikes": 20,
+      "docks": 0,
+      "total": 23
+    },
+    {
+      "id": "BikePoints_688",
+      "name": "Northfields, Wandsworth",
+      "lat": 51.460951,
+      "lng": -0.200667,
+      "bikes": 7,
+      "docks": 20,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_689",
+      "name": "Spanish Road, Clapham Junction",
+      "lat": 51.459225,
+      "lng": -0.180884,
+      "bikes": 20,
+      "docks": 9,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_690",
+      "name": "Stanley Grove, Battersea",
+      "lat": 51.470475,
+      "lng": -0.15213,
+      "bikes": 14,
+      "docks": 10,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_691",
+      "name": "Erin Close, Walham Green",
+      "lat": 51.479463,
+      "lng": -0.195777,
+      "bikes": 23,
+      "docks": 1,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_692",
+      "name": "Cadogan Close, Victoria Park",
+      "lat": 51.542118,
+      "lng": -0.028941,
+      "bikes": 14,
+      "docks": 6,
+      "total": 22
+    },
+    {
+      "id": "BikePoints_693",
+      "name": "Felsham Road, Putney",
+      "lat": 51.464786,
+      "lng": -0.215618,
+      "bikes": 18,
+      "docks": 0,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_694",
+      "name": "Putney Rail Station, Putney",
+      "lat": 51.460717,
+      "lng": -0.216526,
+      "bikes": 13,
+      "docks": 6,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_695",
+      "name": "Islington Green, Angel",
+      "lat": 51.536384,
+      "lng": -0.102757,
+      "bikes": 16,
+      "docks": 3,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_696",
+      "name": "Charing Cross Hospital, Hammersmith",
+      "lat": 51.487285,
+      "lng": -0.217995,
+      "bikes": 7,
+      "docks": 13,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_697",
+      "name": "Charlotte Terrace, Angel",
+      "lat": 51.536392,
+      "lng": -0.112721,
+      "bikes": 11,
+      "docks": 6,
+      "total": 25
+    },
+    {
+      "id": "BikePoints_698",
+      "name": "Shoreditch Court, Haggerston",
+      "lat": 51.539083,
+      "lng": -0.070329,
+      "bikes": 35,
+      "docks": 0,
+      "total": 35
+    },
+    {
+      "id": "BikePoints_699",
+      "name": "Belford House, Haggerston",
+      "lat": 51.536654,
+      "lng": -0.07023,
+      "bikes": 27,
+      "docks": 11,
+      "total": 39
+    },
+    {
+      "id": "BikePoints_700",
+      "name": "Battersea Church Road, Battersea",
+      "lat": 51.476964,
+      "lng": -0.174347,
+      "bikes": 11,
+      "docks": 13,
+      "total": 25
+    },
+    {
+      "id": "BikePoints_701",
+      "name": "Vicarage Crescent, Battersea",
+      "lat": 51.472876,
+      "lng": -0.176267,
+      "bikes": 16,
+      "docks": 13,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_702",
+      "name": "Durant Street, Bethnal Green",
+      "lat": 51.528681,
+      "lng": -0.06555,
+      "bikes": 9,
+      "docks": 12,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_703",
+      "name": "St. Bride Street, Holborn",
+      "lat": 51.514665,
+      "lng": -0.104583,
+      "bikes": 2,
+      "docks": 22,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_704",
+      "name": "Mexfield Road, East Putney",
+      "lat": 51.45682,
+      "lng": -0.202802,
+      "bikes": 11,
+      "docks": 7,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_705",
+      "name": "Upper Richmond Road, Putney",
+      "lat": 51.459715,
+      "lng": -0.212145,
+      "bikes": 1,
+      "docks": 24,
+      "total": 25
+    },
+    {
+      "id": "BikePoints_706",
+      "name": "Snowsfields, London Bridge",
+      "lat": 51.502153,
+      "lng": -0.083632,
+      "bikes": 21,
+      "docks": 8,
+      "total": 31
+    },
+    {
+      "id": "BikePoints_707",
+      "name": "Barons Court Station, West Kensington",
+      "lat": 51.490217,
+      "lng": -0.215087,
+      "bikes": 9,
+      "docks": 20,
+      "total": 32
+    },
+    {
+      "id": "BikePoints_708",
+      "name": "Disraeli Road, Putney",
+      "lat": 51.46161,
+      "lng": -0.216145,
+      "bikes": 24,
+      "docks": 8,
+      "total": 33
+    },
+    {
+      "id": "BikePoints_709",
+      "name": "Montserrat Road , Putney",
+      "lat": 51.463211,
+      "lng": -0.21555,
+      "bikes": 21,
+      "docks": 0,
+      "total": 23
+    },
+    {
+      "id": "BikePoints_710",
+      "name": "Albert Bridge Road, Battersea Park",
+      "lat": 51.474392,
+      "lng": -0.163347,
+      "bikes": 10,
+      "docks": 7,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_711",
+      "name": "Everington Street, Fulham",
+      "lat": 51.483356,
+      "lng": -0.216305,
+      "bikes": 24,
+      "docks": 6,
+      "total": 31
+    },
+    {
+      "id": "BikePoints_712",
+      "name": "Mile End Stadium, Mile End",
+      "lat": 51.518541,
+      "lng": -0.034903,
+      "bikes": 2,
+      "docks": 19,
+      "total": 22
+    },
+    {
+      "id": "BikePoints_713",
+      "name": "Hawley Crescent, Camden Town",
+      "lat": 51.541007,
+      "lng": -0.14326,
+      "bikes": 3,
+      "docks": 19,
+      "total": 22
+    },
+    {
+      "id": "BikePoints_714",
+      "name": "Stewart's Road, Wandsworth Road",
+      "lat": 51.473116,
+      "lng": -0.137235,
+      "bikes": 27,
+      "docks": 0,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_715",
+      "name": "Aylward Street, Stepney",
+      "lat": 51.51563,
+      "lng": -0.049067,
+      "bikes": 5,
+      "docks": 16,
+      "total": 22
+    },
+    {
+      "id": "BikePoints_716",
+      "name": "Stainsby Road , Poplar",
+      "lat": 51.515427,
+      "lng": -0.023565,
+      "bikes": 12,
+      "docks": 11,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_717",
+      "name": "Dunston Road , Haggerston",
+      "lat": 51.536585,
+      "lng": -0.075885,
+      "bikes": 15,
+      "docks": 26,
+      "total": 43
+    },
+    {
+      "id": "BikePoints_718",
+      "name": "Ada Street, Hackney Central",
+      "lat": 51.535716,
+      "lng": -0.060291,
+      "bikes": 33,
+      "docks": 8,
+      "total": 45
+    },
+    {
+      "id": "BikePoints_719",
+      "name": "Victoria Park Road, Hackney Central",
+      "lat": 51.536424,
+      "lng": -0.054162,
+      "bikes": 20,
+      "docks": 13,
+      "total": 34
+    },
+    {
+      "id": "BikePoints_720",
+      "name": "Star Road, West Kensington",
+      "lat": 51.487244,
+      "lng": -0.205279,
+      "bikes": 13,
+      "docks": 9,
+      "total": 23
+    },
+    {
+      "id": "BikePoints_721",
+      "name": "Wendon Street, Old Ford",
+      "lat": 51.536039,
+      "lng": -0.026262,
+      "bikes": 12,
+      "docks": 6,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_722",
+      "name": "Finnis Street, Bethnal Green",
+      "lat": 51.524583,
+      "lng": -0.058631,
+      "bikes": 4,
+      "docks": 13,
+      "total": 19
+    },
+    {
+      "id": "BikePoints_723",
+      "name": "Stephendale Road, Sands End",
+      "lat": 51.46822,
+      "lng": -0.190346,
+      "bikes": 14,
+      "docks": 30,
+      "total": 48
+    },
+    {
+      "id": "BikePoints_724",
+      "name": "Alma Road, Wandsworth",
+      "lat": 51.457991,
+      "lng": -0.184806,
+      "bikes": 25,
+      "docks": 2,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_725",
+      "name": "Walworth Square, Walworth",
+      "lat": 51.491327,
+      "lng": -0.096518,
+      "bikes": 6,
+      "docks": 13,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_726",
+      "name": "Alfreda Street, Battersea Park",
+      "lat": 51.47505,
+      "lng": -0.150908,
+      "bikes": 21,
+      "docks": 0,
+      "total": 22
+    },
+    {
+      "id": "BikePoints_727",
+      "name": "Chesilton Road, Fulham",
+      "lat": 51.475698,
+      "lng": -0.205876,
+      "bikes": 16,
+      "docks": 6,
+      "total": 23
+    },
+    {
+      "id": "BikePoints_728",
+      "name": "Putney Bridge Road, East Putney",
+      "lat": 51.461999,
+      "lng": -0.20624,
+      "bikes": 7,
+      "docks": 22,
+      "total": 29
+    },
+    {
+      "id": "BikePoints_729",
+      "name": "St. Peter's Terrace, Fulham",
+      "lat": 51.478939,
+      "lng": -0.208485,
+      "bikes": 8,
+      "docks": 16,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_730",
+      "name": "Bridge Avenue, Hammersmith",
+      "lat": 51.492084,
+      "lng": -0.229116,
+      "bikes": 8,
+      "docks": 3,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_731",
+      "name": "Michael Road, Walham Green",
+      "lat": 51.477276,
+      "lng": -0.18921,
+      "bikes": 32,
+      "docks": 3,
+      "total": 37
+    },
+    {
+      "id": "BikePoints_732",
+      "name": "Duke Street Hill, London Bridge",
+      "lat": 51.506304,
+      "lng": -0.087262,
+      "bikes": 12,
+      "docks": 3,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_734",
+      "name": "Plough Terrace, Clapham Junction",
+      "lat": 51.462305,
+      "lng": -0.175407,
+      "bikes": 18,
+      "docks": 13,
+      "total": 31
+    },
+    {
+      "id": "BikePoints_735",
+      "name": "Grant Road East, Clapham Junction",
+      "lat": 51.464894,
+      "lng": -0.173029,
+      "bikes": 27,
+      "docks": 1,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_736",
+      "name": "Queensdale Road, Shepherd's Bush",
+      "lat": 51.50659,
+      "lng": -0.216104,
+      "bikes": 21,
+      "docks": 6,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_737",
+      "name": "Fulham Broadway, Walham Green",
+      "lat": 51.479932,
+      "lng": -0.194116,
+      "bikes": 22,
+      "docks": 2,
+      "total": 26
+    },
+    {
+      "id": "BikePoints_738",
+      "name": "Imperial Road, Sands End",
+      "lat": 51.475142,
+      "lng": -0.187278,
+      "bikes": 18,
+      "docks": 17,
+      "total": 37
+    },
+    {
+      "id": "BikePoints_739",
+      "name": "Hortensia Road, West Brompton",
+      "lat": 51.481765,
+      "lng": -0.185273,
+      "bikes": 7,
+      "docks": 19,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_740",
+      "name": "Sirdar Road, Avondale",
+      "lat": 51.510928,
+      "lng": -0.214594,
+      "bikes": 3,
+      "docks": 14,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_741",
+      "name": "Freston Road, Avondale",
+      "lat": 51.512981,
+      "lng": -0.219486,
+      "bikes": 14,
+      "docks": 6,
+      "total": 23
+    },
+    {
+      "id": "BikePoints_742",
+      "name": "Blenheim Crescent, Ladbroke Grove",
+      "lat": 51.515108,
+      "lng": -0.208565,
+      "bikes": 7,
+      "docks": 14,
+      "total": 22
+    },
+    {
+      "id": "BikePoints_743",
+      "name": "Oxford Road, Putney",
+      "lat": 51.460792,
+      "lng": -0.212607,
+      "bikes": 5,
+      "docks": 11,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_744",
+      "name": "Ingrave Street, Clapham Junction",
+      "lat": 51.467454,
+      "lng": -0.172293,
+      "bikes": 6,
+      "docks": 24,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_745",
+      "name": "Upcerne Road, West Chelsea",
+      "lat": 51.478169,
+      "lng": -0.182435,
+      "bikes": 4,
+      "docks": 22,
+      "total": 29
+    },
+    {
+      "id": "BikePoints_746",
+      "name": "Lots Road, West Chelsea",
+      "lat": 51.479573,
+      "lng": -0.179038,
+      "bikes": 22,
+      "docks": 2,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_747",
+      "name": "Ormonde Gate, Chelsea",
+      "lat": 51.487964,
+      "lng": -0.161765,
+      "bikes": 13,
+      "docks": 11,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_748",
+      "name": "Hertford Road, De Beauvoir Town",
+      "lat": 51.537277,
+      "lng": -0.079201,
+      "bikes": 22,
+      "docks": 0,
+      "total": 25
+    },
+    {
+      "id": "BikePoints_749",
+      "name": "Haggerston Road, Haggerston",
+      "lat": 51.539328,
+      "lng": -0.074284,
+      "bikes": 36,
+      "docks": 0,
+      "total": 37
+    },
+    {
+      "id": "BikePoints_750",
+      "name": "Culvert Road, Battersea",
+      "lat": 51.471095,
+      "lng": -0.15785,
+      "bikes": 18,
+      "docks": 7,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_751",
+      "name": "Newton Street, Covent Garden",
+      "lat": 51.516128,
+      "lng": -0.120909,
+      "bikes": 10,
+      "docks": 12,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_752",
+      "name": "London Street, Paddington",
+      "lat": 51.515117,
+      "lng": -0.173712,
+      "bikes": 4,
+      "docks": 9,
+      "total": 19
+    },
+    {
+      "id": "BikePoints_753",
+      "name": "Clapham South, Clapham South",
+      "lat": 51.452997,
+      "lng": -0.148651,
+      "bikes": 23,
+      "docks": 4,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_754",
+      "name": "Grenfell Road, Avondale",
+      "lat": 51.5129,
+      "lng": -0.214762,
+      "bikes": 14,
+      "docks": 9,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_755",
+      "name": "The Vale, Chelsea",
+      "lat": 51.485121,
+      "lng": -0.174971,
+      "bikes": 13,
+      "docks": 9,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_756",
+      "name": "Prince of Wales Drive, Battersea Park",
+      "lat": 51.475153,
+      "lng": -0.159169,
+      "bikes": 15,
+      "docks": 4,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_757",
+      "name": "Harcourt Terrace, West Brompton",
+      "lat": 51.487958,
+      "lng": -0.187404,
+      "bikes": 8,
+      "docks": 16,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_758",
+      "name": "Westbourne Park Road, Portobello",
+      "lat": 51.51787,
+      "lng": -0.201005,
+      "bikes": 1,
+      "docks": 21,
+      "total": 23
+    },
+    {
+      "id": "BikePoints_759",
+      "name": "Broadley Terrace, Marylebone",
+      "lat": 51.524561,
+      "lng": -0.165668,
+      "bikes": 7,
+      "docks": 8,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_760",
+      "name": "Elgin Avenue, Maida Hill",
+      "lat": 51.524309,
+      "lng": -0.201234,
+      "bikes": 18,
+      "docks": 0,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_761",
+      "name": "Humbolt Road, Fulham",
+      "lat": 51.483217,
+      "lng": -0.21186,
+      "bikes": 18,
+      "docks": 8,
+      "total": 26
+    },
+    {
+      "id": "BikePoints_762",
+      "name": "Storey's Gate, Westminster",
+      "lat": 51.500703,
+      "lng": -0.129698,
+      "bikes": 1,
+      "docks": 16,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_763",
+      "name": "Mile End Park Leisure Centre, Mile End",
+      "lat": 51.520597,
+      "lng": -0.032566,
+      "bikes": 32,
+      "docks": 8,
+      "total": 47
+    },
+    {
+      "id": "BikePoints_764",
+      "name": "St. John's Road, Clapham Junction",
+      "lat": 51.462392,
+      "lng": -0.168292,
+      "bikes": 23,
+      "docks": 10,
+      "total": 33
+    },
+    {
+      "id": "BikePoints_765",
+      "name": "Ranelagh Gardens, Fulham",
+      "lat": 51.467601,
+      "lng": -0.206827,
+      "bikes": 6,
+      "docks": 22,
+      "total": 29
+    },
+    {
+      "id": "BikePoints_766",
+      "name": "Ram Street, Wandsworth",
+      "lat": 51.457529,
+      "lng": -0.192165,
+      "bikes": 14,
+      "docks": 9,
+      "total": 25
+    },
+    {
+      "id": "BikePoints_767",
+      "name": "Santos Road, Wandsworth",
+      "lat": 51.457059,
+      "lng": -0.200806,
+      "bikes": 20,
+      "docks": 10,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_768",
+      "name": "Clapham Common North Side, Clapham Common",
+      "lat": 51.461343,
+      "lng": -0.159322,
+      "bikes": 29,
+      "docks": 7,
+      "total": 37
+    },
+    {
+      "id": "BikePoints_769",
+      "name": "Sandilands Road, Walham Green",
+      "lat": 51.473611,
+      "lng": -0.191803,
+      "bikes": 14,
+      "docks": 2,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_770",
+      "name": "Gwendwr Road, West Kensington",
+      "lat": 51.491026,
+      "lng": -0.209121,
+      "bikes": 28,
+      "docks": 1,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_771",
+      "name": "Rifle Place, Avondale",
+      "lat": 51.509224,
+      "lng": -0.216016,
+      "bikes": 9,
+      "docks": 9,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_772",
+      "name": "Binfield Road, Stockwell",
+      "lat": 51.472509,
+      "lng": -0.122831,
+      "bikes": 22,
+      "docks": 11,
+      "total": 35
+    },
+    {
+      "id": "BikePoints_773",
+      "name": "Tallis Street, Temple",
+      "lat": 51.511891,
+      "lng": -0.107349,
+      "bikes": 4,
+      "docks": 20,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_774",
+      "name": "Hurlingham Park, Parsons Green",
+      "lat": 51.470131,
+      "lng": -0.20464,
+      "bikes": 15,
+      "docks": 5,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_775",
+      "name": "Little Brook Green, Brook Green",
+      "lat": 51.496664,
+      "lng": -0.223868,
+      "bikes": 30,
+      "docks": 3,
+      "total": 33
+    },
+    {
+      "id": "BikePoints_776",
+      "name": "Adeline Place, Bloomsbury",
+      "lat": 51.517632,
+      "lng": -0.129985,
+      "bikes": 0,
+      "docks": 18,
+      "total": 22
+    },
+    {
+      "id": "BikePoints_779",
+      "name": "Houndsditch, Aldgate",
+      "lat": 51.514449,
+      "lng": -0.077178,
+      "bikes": 3,
+      "docks": 25,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_780",
+      "name": "Imperial Wharf Station, Sands End",
+      "lat": 51.474665,
+      "lng": -0.183165,
+      "bikes": 12,
+      "docks": 11,
+      "total": 25
+    },
+    {
+      "id": "BikePoints_782",
+      "name": "Halford Road, West Kensington",
+      "lat": 51.483911,
+      "lng": -0.197609,
+      "bikes": 15,
+      "docks": 5,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_783",
+      "name": "Monier Road, Hackney Wick",
+      "lat": 51.540311,
+      "lng": -0.02163,
+      "bikes": 18,
+      "docks": 7,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_784",
+      "name": "East Village, Queen Elizabeth Olympic Park",
+      "lat": 51.546326,
+      "lng": -0.009935,
+      "bikes": 26,
+      "docks": 4,
+      "total": 34
+    },
+    {
+      "id": "BikePoints_785",
+      "name": "Aquatic Centre, Queen Elizabeth Olympic Park",
+      "lat": 51.541482,
+      "lng": -0.010437,
+      "bikes": 2,
+      "docks": 19,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_786",
+      "name": "Lee Valley VeloPark, Queen Elizabeth Olympic Park",
+      "lat": 51.549369,
+      "lng": -0.015717,
+      "bikes": 11,
+      "docks": 33,
+      "total": 44
+    },
+    {
+      "id": "BikePoints_787",
+      "name": "Timber Lodge, Queen Elizabeth Olympic Park",
+      "lat": 51.546805,
+      "lng": -0.014691,
+      "bikes": 24,
+      "docks": 7,
+      "total": 35
+    },
+    {
+      "id": "BikePoints_788",
+      "name": "Copper Box Arena, Queen Elizabeth Olympic Park",
+      "lat": 51.544909,
+      "lng": -0.020542,
+      "bikes": 26,
+      "docks": 5,
+      "total": 31
+    },
+    {
+      "id": "BikePoints_789",
+      "name": "Podium, Queen Elizabeth Olympic Park",
+      "lat": 51.538718,
+      "lng": -0.011889,
+      "bikes": 30,
+      "docks": 6,
+      "total": 40
+    },
+    {
+      "id": "BikePoints_790",
+      "name": "Stratford Station, Stratford",
+      "lat": 51.541793,
+      "lng": -0.00481,
+      "bikes": 18,
+      "docks": 7,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_792",
+      "name": "Blackfriars Road, Southwark",
+      "lat": 51.505461,
+      "lng": -0.10454,
+      "bikes": 19,
+      "docks": 18,
+      "total": 42
+    },
+    {
+      "id": "BikePoints_793",
+      "name": "Cromer Street, Bloomsbury",
+      "lat": 51.528279,
+      "lng": -0.119558,
+      "bikes": 18,
+      "docks": 9,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_795",
+      "name": "Euston Square Gardens, Euston",
+      "lat": 51.527068,
+      "lng": -0.131861,
+      "bikes": 7,
+      "docks": 22,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_796",
+      "name": "Coram Street, Bloomsbury",
+      "lat": 51.524,
+      "lng": -0.126409,
+      "bikes": 7,
+      "docks": 22,
+      "total": 29
+    },
+    {
+      "id": "BikePoints_797",
+      "name": "Ossulston Street, Somers Town",
+      "lat": 51.5293,
+      "lng": -0.128279,
+      "bikes": 3,
+      "docks": 25,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_798",
+      "name": "Birkenhead Street, King's Cross",
+      "lat": 51.530199,
+      "lng": -0.122299,
+      "bikes": 9,
+      "docks": 15,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_799",
+      "name": "Kings Gate House, Westminster",
+      "lat": 51.497698,
+      "lng": -0.137598,
+      "bikes": 1,
+      "docks": 18,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_800",
+      "name": "Sopwith Way, Battersea Park",
+      "lat": 51.481121,
+      "lng": -0.149035,
+      "bikes": 5,
+      "docks": 23,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_801",
+      "name": "Lavington Street, Bankside",
+      "lat": 51.505224,
+      "lng": -0.098031,
+      "bikes": 8,
+      "docks": 18,
+      "total": 29
+    },
+    {
+      "id": "BikePoints_802",
+      "name": "Albert Square, Stockwell",
+      "lat": 51.47659,
+      "lng": -0.118256,
+      "bikes": 22,
+      "docks": 10,
+      "total": 32
+    },
+    {
+      "id": "BikePoints_803",
+      "name": "Southwark Street, Bankside",
+      "lat": 51.505409,
+      "lng": -0.098341,
+      "bikes": 12,
+      "docks": 9,
+      "total": 23
+    },
+    {
+      "id": "BikePoints_804",
+      "name": "Good's Way, King's Cross",
+      "lat": 51.534667,
+      "lng": -0.125078,
+      "bikes": 1,
+      "docks": 22,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_805",
+      "name": "The Metropolitan, Portobello",
+      "lat": 51.520509,
+      "lng": -0.200804,
+      "bikes": 4,
+      "docks": 13,
+      "total": 18
+    },
+    {
+      "id": "BikePoints_807",
+      "name": "Bevington Road West, North Kensington",
+      "lat": 51.5212,
+      "lng": -0.208888,
+      "bikes": 15,
+      "docks": 7,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_808",
+      "name": "Gauden Road, Clapham",
+      "lat": 51.464995,
+      "lng": -0.130908,
+      "bikes": 21,
+      "docks": 3,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_809",
+      "name": "Lincoln's Inn Fields, Holborn",
+      "lat": 51.516277,
+      "lng": -0.118272,
+      "bikes": 4,
+      "docks": 22,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_810",
+      "name": "Tate Modern, Bankside",
+      "lat": 51.506725,
+      "lng": -0.098807,
+      "bikes": 8,
+      "docks": 18,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_811",
+      "name": "Westferry Circus, Canary Wharf",
+      "lat": 51.505703,
+      "lng": -0.027772,
+      "bikes": 12,
+      "docks": 14,
+      "total": 36
+    },
+    {
+      "id": "BikePoints_812",
+      "name": "Here East North, Queen Elizabeth Olympic Park",
+      "lat": 51.548731,
+      "lng": -0.022606,
+      "bikes": 22,
+      "docks": 5,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_813",
+      "name": "New Spring Gardens Walk, Vauxhall",
+      "lat": 51.487807,
+      "lng": -0.122759,
+      "bikes": 29,
+      "docks": 0,
+      "total": 33
+    },
+    {
+      "id": "BikePoints_814",
+      "name": "Clapham Road, Lingham Street, Stockwell",
+      "lat": 51.471433,
+      "lng": -0.12367,
+      "bikes": 26,
+      "docks": 0,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_815",
+      "name": "Lambeth Palace Road, Waterloo",
+      "lat": 51.500089,
+      "lng": -0.116628,
+      "bikes": 27,
+      "docks": 2,
+      "total": 35
+    },
+    {
+      "id": "BikePoints_816",
+      "name": "Here East South, Queen Elizabeth Olympic Park",
+      "lat": 51.546532,
+      "lng": -0.020597,
+      "bikes": 15,
+      "docks": 1,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_818",
+      "name": "Westminster Pier, Westminster",
+      "lat": 51.501513,
+      "lng": -0.123823,
+      "bikes": 7,
+      "docks": 10,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_819",
+      "name": "Belvedere Road 2, South Bank",
+      "lat": 51.50621,
+      "lng": -0.114842,
+      "bikes": 7,
+      "docks": 30,
+      "total": 38
+    },
+    {
+      "id": "BikePoints_820",
+      "name": "Victory Place, Walworth",
+      "lat": 51.492807,
+      "lng": -0.091938,
+      "bikes": 7,
+      "docks": 14,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_821",
+      "name": "Battersea Power Station, Battersea Park",
+      "lat": 51.483507,
+      "lng": -0.147714,
+      "bikes": 0,
+      "docks": 23,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_826",
+      "name": "Allington Street, Victoria",
+      "lat": 51.496863,
+      "lng": -0.142943,
+      "bikes": 6,
+      "docks": 13,
+      "total": 28
+    },
+    {
+      "id": "BikePoints_827",
+      "name": "Cranmer Road, Stockwell",
+      "lat": 51.479601,
+      "lng": -0.111471,
+      "bikes": 7,
+      "docks": 16,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_828",
+      "name": "Normandy Road, Stockwell",
+      "lat": 51.473874,
+      "lng": -0.11258,
+      "bikes": 27,
+      "docks": 5,
+      "total": 32
+    },
+    {
+      "id": "BikePoints_829",
+      "name": "Wynne Road, Stockwell",
+      "lat": 51.469217,
+      "lng": -0.112686,
+      "bikes": 12,
+      "docks": 13,
+      "total": 25
+    },
+    {
+      "id": "BikePoints_830",
+      "name": "Sidney Road, Stockwell",
+      "lat": 51.469202,
+      "lng": -0.119022,
+      "bikes": 23,
+      "docks": 1,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_831",
+      "name": "St John's Crescent, Brixton",
+      "lat": 51.466232,
+      "lng": -0.113179,
+      "bikes": 7,
+      "docks": 16,
+      "total": 25
+    },
+    {
+      "id": "BikePoints_832",
+      "name": "Ferndale Road, Brixton",
+      "lat": 51.464019,
+      "lng": -0.115781,
+      "bikes": 5,
+      "docks": 21,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_833",
+      "name": "Saltoun Road, Brixton",
+      "lat": 51.460232,
+      "lng": -0.115375,
+      "bikes": 17,
+      "docks": 21,
+      "total": 42
+    },
+    {
+      "id": "BikePoints_834",
+      "name": "Gas Holders, Battersea Park",
+      "lat": 51.477966,
+      "lng": -0.147857,
+      "bikes": 20,
+      "docks": 4,
+      "total": 26
+    },
+    {
+      "id": "BikePoints_835",
+      "name": "Farringdon Street, Holborn",
+      "lat": 51.516785,
+      "lng": -0.104947,
+      "bikes": 2,
+      "docks": 23,
+      "total": 25
+    },
+    {
+      "id": "BikePoints_836",
+      "name": "York Way, Kings Cross",
+      "lat": 51.541596,
+      "lng": -0.125441,
+      "bikes": 9,
+      "docks": 10,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_838",
+      "name": "Fore Street, Guildhall",
+      "lat": 51.518093,
+      "lng": -0.091401,
+      "bikes": 1,
+      "docks": 22,
+      "total": 25
+    },
+    {
+      "id": "BikePoints_839",
+      "name": "Sea Containers, South Bank",
+      "lat": 51.508033,
+      "lng": -0.106823,
+      "bikes": 0,
+      "docks": 26,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_840",
+      "name": "George Row, Bermondsey",
+      "lat": 51.498585,
+      "lng": -0.068981,
+      "bikes": 21,
+      "docks": 0,
+      "total": 22
+    },
+    {
+      "id": "BikePoints_841",
+      "name": "Tower Wharf, Bermondsey",
+      "lat": 51.500845,
+      "lng": -0.074704,
+      "bikes": 14,
+      "docks": 6,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_842",
+      "name": "Temple Gardens, Temple",
+      "lat": 51.510981,
+      "lng": -0.108322,
+      "bikes": 5,
+      "docks": 16,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_844",
+      "name": "Canada Water Station, Rotherhithe",
+      "lat": 51.498439,
+      "lng": -0.04915,
+      "bikes": 34,
+      "docks": 0,
+      "total": 35
+    },
+    {
+      "id": "BikePoints_845",
+      "name": "Bermondsey Station, Bermondsey",
+      "lat": 51.497995,
+      "lng": -0.063471,
+      "bikes": 29,
+      "docks": 0,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_846",
+      "name": "Burgess Park Albany Road, Walworth",
+      "lat": 51.48224,
+      "lng": -0.094284,
+      "bikes": 27,
+      "docks": 0,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_847",
+      "name": "South Bermondsey Station, Bermondsey",
+      "lat": 51.488067,
+      "lng": -0.057774,
+      "bikes": 18,
+      "docks": 5,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_849",
+      "name": "Crimscott Street, Bermondsey",
+      "lat": 51.495598,
+      "lng": -0.078893,
+      "bikes": 10,
+      "docks": 7,
+      "total": 19
+    },
+    {
+      "id": "BikePoints_850",
+      "name": "Brandon Street, Walworth",
+      "lat": 51.489102,
+      "lng": -0.091548,
+      "bikes": 21,
+      "docks": 0,
+      "total": 22
+    },
+    {
+      "id": "BikePoints_851",
+      "name": "The Blue, Bermondsey",
+      "lat": 51.492221,
+      "lng": -0.062513,
+      "bikes": 22,
+      "docks": 0,
+      "total": 22
+    },
+    {
+      "id": "BikePoints_852",
+      "name": "Coomer Place, West Kensington",
+      "lat": 51.48357,
+      "lng": -0.202038,
+      "bikes": 24,
+      "docks": 0,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_857",
+      "name": "Strand, Strand",
+      "lat": 51.512582,
+      "lng": -0.115057,
+      "bikes": 0,
+      "docks": 35,
+      "total": 35
+    },
+    {
+      "id": "BikePoints_864",
+      "name": "Abbey Orchard Street, Westminster",
+      "lat": 51.498125,
+      "lng": -0.132102,
+      "bikes": 2,
+      "docks": 26,
+      "total": 29
+    },
+    {
+      "id": "BikePoints_865",
+      "name": "Leonard Circus , Shoreditch",
+      "lat": 51.524696,
+      "lng": -0.084439,
+      "bikes": 9,
+      "docks": 34,
+      "total": 43
+    },
+    {
+      "id": "BikePoints_866",
+      "name": "Limburg Road, Clapham Junction",
+      "lat": 51.461923,
+      "lng": -0.165297,
+      "bikes": 17,
+      "docks": 3,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_867",
+      "name": "Pritchard's Road, Bethnal Green",
+      "lat": 51.532091,
+      "lng": -0.061419,
+      "bikes": 5,
+      "docks": 25,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_868",
+      "name": "Kennington Lane Rail Bridge, Vauxhall",
+      "lat": 51.486343,
+      "lng": -0.122492,
+      "bikes": 22,
+      "docks": 6,
+      "total": 31
+    },
+    {
+      "id": "BikePoints_869",
+      "name": "Albert Embankment, Vauxhall",
+      "lat": 51.490435,
+      "lng": -0.122806,
+      "bikes": 20,
+      "docks": 0,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_870",
+      "name": "Lower Marsh, Waterloo",
+      "lat": 51.500139,
+      "lng": -0.113935,
+      "bikes": 14,
+      "docks": 3,
+      "total": 17
+    },
+    {
+      "id": "BikePoints_872",
+      "name": "Risinghill Street, Angel",
+      "lat": 51.533319,
+      "lng": -0.111781,
+      "bikes": 5,
+      "docks": 11,
+      "total": 25
+    },
+    {
+      "id": "BikePoints_873",
+      "name": "St. Pancras Way, Camden Town",
+      "lat": 51.537071,
+      "lng": -0.13285,
+      "bikes": 6,
+      "docks": 14,
+      "total": 20
+    },
+    {
+      "id": "BikePoints_874",
+      "name": "Handyside Street, King's Cross",
+      "lat": 51.53724,
+      "lng": -0.124807,
+      "bikes": 4,
+      "docks": 23,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_875",
+      "name": "Victoria Rise, Clapham Common",
+      "lat": 51.461376,
+      "lng": -0.147804,
+      "bikes": 19,
+      "docks": 1,
+      "total": 23
+    },
+    {
+      "id": "BikePoints_876",
+      "name": "Old Quebec Street, Marylebone",
+      "lat": 51.514577,
+      "lng": -0.158264,
+      "bikes": 9,
+      "docks": 7,
+      "total": 16
+    },
+    {
+      "id": "BikePoints_877",
+      "name": "Spencer Park, Wandsworth Common",
+      "lat": 51.45787,
+      "lng": -0.174691,
+      "bikes": 6,
+      "docks": 16,
+      "total": 25
+    },
+    {
+      "id": "BikePoints_878",
+      "name": "Victoria & Albert Museum, South Kensington",
+      "lat": 51.495898,
+      "lng": -0.173009,
+      "bikes": 0,
+      "docks": 30,
+      "total": 30
+    },
+    {
+      "id": "BikePoints_879",
+      "name": "BBC White City, White City",
+      "lat": 51.514767,
+      "lng": -0.225786,
+      "bikes": 15,
+      "docks": 15,
+      "total": 36
+    },
+    {
+      "id": "BikePoints_881",
+      "name": "Albany Street, The Regent's Park",
+      "lat": 51.528302,
+      "lng": -0.144465,
+      "bikes": 10,
+      "docks": 15,
+      "total": 27
+    },
+    {
+      "id": "BikePoints_882",
+      "name": "Maplin Street, Mile End",
+      "lat": 51.525501,
+      "lng": -0.032267,
+      "bikes": 11,
+      "docks": 23,
+      "total": 39
+    },
+    {
+      "id": "BikePoints_883",
+      "name": "London Fields, Hackney Central",
+      "lat": 51.54119,
+      "lng": -0.058826,
+      "bikes": 7,
+      "docks": 11,
+      "total": 21
+    },
+    {
+      "id": "BikePoints_884",
+      "name": "Westfield Ariel Way, White City",
+      "lat": 51.509158,
+      "lng": -0.224103,
+      "bikes": 27,
+      "docks": 7,
+      "total": 42
+    },
+    {
+      "id": "BikePoints_885",
+      "name": "Gloucester Avenue, Camden Town",
+      "lat": 51.537349,
+      "lng": -0.147154,
+      "bikes": 16,
+      "docks": 8,
+      "total": 24
+    },
+    {
+      "id": "BikePoints_887",
+      "name": "London Zoo Car Park, The Regent's Park",
+      "lat": 51.536922,
+      "lng": -0.150181,
+      "bikes": 13,
+      "docks": 20,
+      "total": 36
+    },
+    {
+      "id": "BikePoints_888",
+      "name": "Norton Folgate, Liverpool Street",
+      "lat": 51.521113,
+      "lng": -0.078869,
+      "bikes": 4,
+      "docks": 19,
+      "total": 23
+    },
+    {
+      "id": "BikePoints_889",
+      "name": "Horse Guards Avenue, Westminster",
+      "lat": 51.505031,
+      "lng": -0.123,
+      "bikes": 6,
+      "docks": 19,
+      "total": 29
+    },
+    {
+      "id": "BikePoints_890",
+      "name": "Burdett Road, Mile End",
+      "lat": 51.516196,
+      "lng": -0.029137,
+      "bikes": 23,
+      "docks": 0,
+      "total": 33
+    },
+    {
+      "id": "BikePoints_324",
+      "name": "Ontario Street, Elephant & Castle",
+      "lat": 51.49652,
+      "lng": -0.101384,
+      "bikes": 4,
+      "docks": 11,
+      "total": 15
+    }
+  ],
+  "disruptions": [
+    {
+      "id": "TIMS-231366",
+      "category": "Collisions",
+      "description": "[A13] Thames Gateway (Eastbound) at the junction of Ferry Lane - Road is closed following a collision. ",
+      "severity": "Serious",
+      "street": ""
+    },
+    {
+      "id": "TIMS-206772",
+      "category": "Works",
+      "description": "Gallows Corner Flyover Refurbishment - [A12] Eastern Avenue East (All directions) at the junction of [A12] Colchester Road - Various restrictions, to facilitate the refurbishment of Gallows Corner Fly",
+      "severity": "Moderate",
+      "street": ""
+    },
+    {
+      "id": "TIMS-213893",
+      "category": "Works",
+      "description": "[A23] Streatham Hill (Both directions) between [A205] Christchurch Road and Leigham Court Road - Various restrictions for TfL works. Lane restrictions in place over the course of the works.",
+      "severity": "Moderate",
+      "street": ""
+    },
+    {
+      "id": "TIMS-229103",
+      "category": "Works",
+      "description": "[A3] Tolworth Rise South (Southbound) at the junction of [A3] Hook Rise South - Lane one (of three) of the A3 is closed, there is no access from the Tolworth Junction onto the A3 southbound to facilit",
+      "severity": "Moderate",
+      "street": ""
+    },
+    {
+      "id": "TIMS-230857",
+      "category": "Works",
+      "description": "[A40] Westway (Westbound) between [A5] Edgware Road and [A3220] Northern Roundabout  - The flyover is closed westbound between Harrow Road and Northern Roundabout for infrastructure inspection works. ",
+      "severity": "Moderate",
+      "street": ""
+    },
+    {
+      "id": "TIMS-225279",
+      "category": "Works",
+      "description": "[A406] Sterling Way (Both directions) between Fore Street and the Great Cambridge Junction - Lane closures from 03/03/2026 to 25/07/2026 and a nightly road closure of Sterling Way between Fore Street ",
+      "severity": "Moderate",
+      "street": ""
+    },
+    {
+      "id": "TIMS-200007",
+      "category": "Works",
+      "description": "King William Street (Southbound) at the junction of Lombard Street - Road closed to facilitate highway authority works.",
+      "severity": "Moderate",
+      "street": ""
+    },
+    {
+      "id": "TIMS-227649",
+      "category": "Planned events",
+      "description": "Pride in London 2026 - [A4202] Park Lane (Southbound) at the junction of Upper Grosvenor Street - Pride in London 2026 is taking place within the Central London area with extensive road closures in pl",
+      "severity": "Moderate",
+      "street": ""
+    },
+    {
+      "id": "TIMS-216408",
+      "category": "Works",
+      "description": "[A400] Hampstead Road (Both directions) at the junction of Robert Street - Various restrictions in place, including temporary signals, for HS2 works. Additionally, Varndell Street is closed in both di",
+      "severity": "Moderate",
+      "street": ""
+    },
+    {
+      "id": "TIMS-230382",
+      "category": "Network delays",
+      "description": "[A101] Rotherhithe Tunnel (Both directions) at the junction of [B205] Brunel Road - During times of congestion the tunnel may be closed intermittently as part of traffic calming measures.",
+      "severity": "Moderate",
+      "street": ""
+    },
+    {
+      "id": "TIMS-231099",
+      "category": "Works",
+      "description": "[A102] Homerton High Street (All approaches) at the junction of Ponsford Street - Three-way temporary traffic signals in operation to facilitate emergency Thames Water works. ",
+      "severity": "Moderate",
+      "street": ""
+    },
+    {
+      "id": "TIMS-221115",
+      "category": "Works",
+      "description": "[A11] Mile End Road (Both directions) at the junction of [A1205] Burdett Road - Various restrictions in place to facilitate Thames Water works. Additionally, Burdett Road is reduced to one lane in bot",
+      "severity": "Moderate",
+      "street": ""
+    },
+    {
+      "id": "TIMS-230047",
+      "category": "Planned events",
+      "description": "Harry Syles in Concert - Wembley Stadium - [B4557] South Way (All directions) at the junction of [B4565] Wembley Hill Road - A concert is taking place at this location. Lane restrictions and road clos",
+      "severity": "Moderate",
+      "street": ""
+    },
+    {
+      "id": "TIMS-224034",
+      "category": "Works",
+      "description": "[A3031] Albert Bridge Road (Both directions) at the junction of [A3212] Chelsea Embankment - The bridge is closed to facilitate local borough works.",
+      "severity": "Moderate",
+      "street": ""
+    },
+    {
+      "id": "TIMS-231308",
+      "category": "Asset issues",
+      "description": "[A1055] Bullsmoor Lane (All directions) at the junction of [A1010] Hertford Road - The traffic signals are not phasing correctly due to a detection fault.",
+      "severity": "Moderate",
+      "street": ""
+    },
+    {
+      "id": "TIMS-228300",
+      "category": "Works",
+      "description": "[A217] Bridgend Road (Both directions) at the junction of [A217] Wandsworth Bridge - Various restrictions in place for bridge works. Additionally, temporary signals are in place at Townmead Road.",
+      "severity": "Moderate",
+      "street": ""
+    },
+    {
+      "id": "TIMS-231218",
+      "category": "Works",
+      "description": "[B466] High Road (All approaches) at the junction of Heacham Avenue - Temporary signals in use due to Affinity Water works.",
+      "severity": "Moderate",
+      "street": ""
+    },
+    {
+      "id": "TIMS-230921",
+      "category": "Asset issues",
+      "description": "[A3217] Kings Road (All directions) at the junction of [A3220] Edith Grove - There are temporary signals are in operation.",
+      "severity": "Moderate",
+      "street": ""
+    },
+    {
+      "id": "TIMS-231289",
+      "category": "Works",
+      "description": "[A1] Archway Road (All approaches) at the junction of [B550] Muswell Hill Road - Lane restrictions and five-way temporary traffic signals to facilitate repairs to a burst water main. ",
+      "severity": "Minimal",
+      "street": ""
+    },
+    {
+      "id": "TIMS-231368",
+      "category": "Works",
+      "description": "[A126] Butcher Row (Southbound) between [A13] Commercial Road and [A1203] Limehouse Link - Road closed to facilitate works. ",
+      "severity": "Minimal",
+      "street": ""
     }
   ]
 }
