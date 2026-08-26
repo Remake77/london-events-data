@@ -1,77 +1,77 @@
 {
-  "updated": "2026-08-26T02:50:14.671823",
+  "updated": "2026-08-26T03:55:02.120147",
   "lines": [
     {
       "id": "bakerloo",
       "name": "Bakerloo",
-      "status": "Service Closed",
-      "severity": 20,
-      "reason": "Bakerloo Line: Service will resume later this morning. ",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
       "color": "#B36305",
-      "good_service": false
+      "good_service": true
     },
     {
       "id": "central",
       "name": "Central",
-      "status": "Service Closed",
-      "severity": 20,
-      "reason": "Central Line: Service will resume later this morning. ",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
       "color": "#E32017",
-      "good_service": false
+      "good_service": true
     },
     {
       "id": "circle",
       "name": "Circle",
-      "status": "Service Closed",
-      "severity": 20,
-      "reason": "Circle Line: Service will resume later this morning. ",
+      "status": "Minor Delays",
+      "severity": 9,
+      "reason": "Circle Line: Minor delays due to train cancellations. ",
       "color": "#FFD300",
       "good_service": false
     },
     {
       "id": "district",
       "name": "District",
-      "status": "Service Closed",
-      "severity": 20,
-      "reason": "District Line: Service will resume later this morning. ",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
       "color": "#00782A",
-      "good_service": false
+      "good_service": true
     },
     {
       "id": "hammersmith-city",
       "name": "Hammersmith & City",
-      "status": "Service Closed",
-      "severity": 20,
-      "reason": "Hammersmith and City Line: Service will resume later this morning. ",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
       "color": "#F3A9BB",
-      "good_service": false
+      "good_service": true
     },
     {
       "id": "jubilee",
       "name": "Jubilee",
-      "status": "Service Closed",
-      "severity": 20,
-      "reason": "Jubilee Line: Service will resume later this morning. ",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
       "color": "#A0A5A9",
-      "good_service": false
+      "good_service": true
     },
     {
       "id": "metropolitan",
       "name": "Metropolitan",
-      "status": "Service Closed",
-      "severity": 20,
-      "reason": "Metropolitan Line: Service will resume later this morning. ",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
       "color": "#9B0056",
-      "good_service": false
+      "good_service": true
     },
     {
       "id": "northern",
       "name": "Northern",
-      "status": "Service Closed",
-      "severity": 20,
-      "reason": "Northern Line: Service will resume later this morning. ",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
       "color": "#000000",
-      "good_service": false
+      "good_service": true
     },
     {
       "id": "piccadilly",
@@ -85,11 +85,11 @@
     {
       "id": "victoria",
       "name": "Victoria",
-      "status": "Service Closed",
-      "severity": 20,
-      "reason": "Victoria Line: Service will resume later this morning. ",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
       "color": "#0098D4",
-      "good_service": false
+      "good_service": true
     },
     {
       "id": "waterloo-city",
@@ -103,65 +103,65 @@
     {
       "id": "elizabeth",
       "name": "Elizabeth line",
-      "status": "Service Closed",
-      "severity": 20,
-      "reason": "Service will resume later this morning. ",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
       "color": "#6950A1",
-      "good_service": false
+      "good_service": true
     },
     {
       "id": "liberty",
       "name": "Liberty",
-      "status": "Service Closed",
-      "severity": 20,
-      "reason": "Liberty Line: Service will resume later this morning. ",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
       "color": "#868F98",
-      "good_service": false
+      "good_service": true
     },
     {
       "id": "lioness",
       "name": "Lioness",
-      "status": "Service Closed",
-      "severity": 20,
-      "reason": "Lioness Line: Service will resume later this morning. ",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
       "color": "#868F98",
-      "good_service": false
+      "good_service": true
     },
     {
       "id": "mildmay",
       "name": "Mildmay",
-      "status": "Service Closed",
-      "severity": 20,
-      "reason": "Mildmay Line: Service will resume later this morning. ",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
       "color": "#868F98",
-      "good_service": false
+      "good_service": true
     },
     {
       "id": "suffragette",
       "name": "Suffragette",
-      "status": "Service Closed",
-      "severity": 20,
-      "reason": "Suffragette Line: Service will resume later this morning. ",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
       "color": "#868F98",
-      "good_service": false
+      "good_service": true
     },
     {
       "id": "weaver",
       "name": "Weaver",
-      "status": "Service Closed",
-      "severity": 20,
-      "reason": "Weaver Line: Service will resume later this morning. ",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
       "color": "#868F98",
-      "good_service": false
+      "good_service": true
     },
     {
       "id": "windrush",
       "name": "Windrush",
-      "status": "Service Closed",
-      "severity": 20,
-      "reason": "Windrush Line: Service will resume later this morning. ",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
       "color": "#868F98",
-      "good_service": false
+      "good_service": true
     }
   ],
   "bikes": [
@@ -242,8 +242,8 @@
       "name": "New Globe Walk, Bankside",
       "lat": 51.507385,
       "lng": -0.09644,
-      "bikes": 1,
-      "docks": 17,
+      "bikes": 0,
+      "docks": 18,
       "total": 19
     },
     {
@@ -278,8 +278,8 @@
       "name": "Scala Street, Fitzrovia",
       "lat": 51.519914,
       "lng": -0.136039,
-      "bikes": 1,
-      "docks": 20,
+      "bikes": 0,
+      "docks": 21,
       "total": 21
     },
     {
@@ -467,8 +467,8 @@
       "name": "Penywern Road, Earl's Court",
       "lat": 51.491593,
       "lng": -0.192369,
-      "bikes": 8,
-      "docks": 9,
+      "bikes": 9,
+      "docks": 8,
       "total": 17
     },
     {
@@ -845,8 +845,8 @@
       "name": "Webber Street , Southwark",
       "lat": 51.500693,
       "lng": -0.102091,
-      "bikes": 31,
-      "docks": 11,
+      "bikes": 30,
+      "docks": 12,
       "total": 45
     },
     {
@@ -863,8 +863,8 @@
       "name": "Panton Street, West End",
       "lat": 51.509639,
       "lng": -0.13151,
-      "bikes": 0,
-      "docks": 19,
+      "bikes": 1,
+      "docks": 18,
       "total": 21
     },
     {
@@ -1043,7 +1043,7 @@
       "name": "Westbourne Grove, Bayswater",
       "lat": 51.515529,
       "lng": -0.19024,
-      "bikes": 16,
+      "bikes": 15,
       "docks": 10,
       "total": 26
     },
@@ -1205,8 +1205,8 @@
       "name": "Borough High Street, The Borough",
       "lat": 51.500694,
       "lng": -0.094524,
-      "bikes": 11,
-      "docks": 9,
+      "bikes": 12,
+      "docks": 8,
       "total": 21
     },
     {
@@ -1250,8 +1250,8 @@
       "name": "Tower Gardens , Tower",
       "lat": 51.509506,
       "lng": -0.075459,
-      "bikes": 5,
-      "docks": 13,
+      "bikes": 9,
+      "docks": 9,
       "total": 24
     },
     {
@@ -1277,7 +1277,7 @@
       "name": "Derry Street, Kensington",
       "lat": 51.501364,
       "lng": -0.191462,
-      "bikes": 1,
+      "bikes": 0,
       "docks": 11,
       "total": 18
     },
@@ -1349,8 +1349,8 @@
       "name": "West Cromwell Road, Earl's Court",
       "lat": 51.493724,
       "lng": -0.198286,
-      "bikes": 13,
-      "docks": 11,
+      "bikes": 12,
+      "docks": 12,
       "total": 24
     },
     {
@@ -1367,7 +1367,7 @@
       "name": "Kennington Cross, Kennington",
       "lat": 51.48894,
       "lng": -0.111435,
-      "bikes": 40,
+      "bikes": 39,
       "docks": 7,
       "total": 47
     },
@@ -1412,8 +1412,8 @@
       "name": "Kennington Road Post Office, Oval",
       "lat": 51.484788,
       "lng": -0.110683,
-      "bikes": 14,
-      "docks": 4,
+      "bikes": 15,
+      "docks": 3,
       "total": 18
     },
     {
@@ -1484,8 +1484,8 @@
       "name": "Wright's Lane, Kensington",
       "lat": 51.500397,
       "lng": -0.193068,
-      "bikes": 2,
-      "docks": 32,
+      "bikes": 3,
+      "docks": 31,
       "total": 37
     },
     {
@@ -1628,7 +1628,7 @@
       "name": "Gloucester Terrace, Bayswater",
       "lat": 51.517919,
       "lng": -0.188098,
-      "bikes": 18,
+      "bikes": 17,
       "docks": 5,
       "total": 23
     },
@@ -1781,8 +1781,8 @@
       "name": "Hop Exchange, The Borough",
       "lat": 51.504627,
       "lng": -0.091773,
-      "bikes": 2,
-      "docks": 48,
+      "bikes": 1,
+      "docks": 49,
       "total": 55
     },
     {
@@ -1835,8 +1835,8 @@
       "name": "Dorset Square, Marylebone",
       "lat": 51.522596,
       "lng": -0.161113,
-      "bikes": 7,
-      "docks": 6,
+      "bikes": 6,
+      "docks": 7,
       "total": 16
     },
     {
@@ -1853,8 +1853,8 @@
       "name": "West Smithfield Rotunda, Farringdon",
       "lat": 51.518218,
       "lng": -0.100791,
-      "bikes": 2,
-      "docks": 10,
+      "bikes": 1,
+      "docks": 11,
       "total": 15
     },
     {
@@ -1871,8 +1871,8 @@
       "name": "New Road 1 , Whitechapel",
       "lat": 51.518154,
       "lng": -0.062697,
-      "bikes": 1,
-      "docks": 30,
+      "bikes": 0,
+      "docks": 31,
       "total": 36
     },
     {
@@ -1970,8 +1970,8 @@
       "name": "Wormwood Street, Liverpool Street",
       "lat": 51.516154,
       "lng": -0.082422,
-      "bikes": 4,
-      "docks": 8,
+      "bikes": 3,
+      "docks": 9,
       "total": 16
     },
     {
@@ -1979,8 +1979,8 @@
       "name": "St. Luke's Church, Chelsea",
       "lat": 51.489716,
       "lng": -0.170194,
-      "bikes": 0,
-      "docks": 20,
+      "bikes": 1,
+      "docks": 19,
       "total": 20
     },
     {
@@ -1997,8 +1997,8 @@
       "name": "Chelsea Green, Chelsea",
       "lat": 51.490664,
       "lng": -0.166485,
-      "bikes": 4,
-      "docks": 11,
+      "bikes": 5,
+      "docks": 10,
       "total": 15
     },
     {
@@ -2033,7 +2033,7 @@
       "name": "Queensway, Kensington Gardens",
       "lat": 51.51031,
       "lng": -0.187402,
-      "bikes": 6,
+      "bikes": 5,
       "docks": 5,
       "total": 17
     },
@@ -2132,8 +2132,8 @@
       "name": "Kennington Road, Vauxhall",
       "lat": 51.495718,
       "lng": -0.110889,
-      "bikes": 25,
-      "docks": 10,
+      "bikes": 24,
+      "docks": 11,
       "total": 36
     },
     {
@@ -2231,8 +2231,8 @@
       "name": "St. John's Wood Church, The Regent's Park",
       "lat": 51.530529,
       "lng": -0.167515,
-      "bikes": 16,
-      "docks": 30,
+      "bikes": 17,
+      "docks": 29,
       "total": 50
     },
     {
@@ -2267,8 +2267,8 @@
       "name": "Brushfield Street, Liverpool Street",
       "lat": 51.518908,
       "lng": -0.079249,
-      "bikes": 0,
-      "docks": 30,
+      "bikes": 2,
+      "docks": 28,
       "total": 34
     },
     {
@@ -2285,7 +2285,7 @@
       "name": "Chadwell Street, Angel",
       "lat": 51.530515,
       "lng": -0.106408,
-      "bikes": 12,
+      "bikes": 10,
       "docks": 5,
       "total": 18
     },
@@ -2492,8 +2492,8 @@
       "name": "North Wharf Road, Paddington",
       "lat": 51.518623,
       "lng": -0.176603,
-      "bikes": 0,
-      "docks": 23,
+      "bikes": 1,
+      "docks": 22,
       "total": 23
     },
     {
@@ -2654,8 +2654,8 @@
       "name": "Curlew Street, Shad Thames",
       "lat": 51.502279,
       "lng": -0.074189,
-      "bikes": 15,
-      "docks": 5,
+      "bikes": 11,
+      "docks": 9,
       "total": 21
     },
     {
@@ -2915,8 +2915,8 @@
       "name": "Bunhill Row, Moorgate",
       "lat": 51.520858,
       "lng": -0.089887,
-      "bikes": 0,
-      "docks": 29,
+      "bikes": 1,
+      "docks": 28,
       "total": 30
     },
     {
@@ -3402,7 +3402,7 @@
       "lat": 51.517334,
       "lng": -0.103604,
       "bikes": 0,
-      "docks": 14,
+      "docks": 13,
       "total": 15
     },
     {
@@ -3447,7 +3447,7 @@
       "lat": 51.502319,
       "lng": -0.200742,
       "bikes": 0,
-      "docks": 30,
+      "docks": 29,
       "total": 30
     },
     {
@@ -3473,8 +3473,8 @@
       "name": "Columbia Road, Shoreditch",
       "lat": 51.528187,
       "lng": -0.075375,
-      "bikes": 19,
-      "docks": 3,
+      "bikes": 20,
+      "docks": 2,
       "total": 24
     },
     {
@@ -3536,8 +3536,8 @@
       "name": "Orchard Place, Blackwall Tunnel",
       "lat": 51.510212,
       "lng": 0.004979,
-      "bikes": 14,
-      "docks": 1,
+      "bikes": 13,
+      "docks": 2,
       "total": 24
     },
     {
@@ -3635,8 +3635,8 @@
       "name": "Exhibition Road Museums 1, South Kensington",
       "lat": 51.496468,
       "lng": -0.173796,
-      "bikes": 0,
-      "docks": 12,
+      "bikes": 1,
+      "docks": 11,
       "total": 13
     },
     {
@@ -3698,8 +3698,8 @@
       "name": "Sail Street, Vauxhall",
       "lat": 51.495656,
       "lng": -0.114605,
-      "bikes": 13,
-      "docks": 10,
+      "bikes": 11,
+      "docks": 12,
       "total": 24
     },
     {
@@ -3779,8 +3779,8 @@
       "name": "Jubilee Street, Stepney",
       "lat": 51.515975,
       "lng": -0.053177,
-      "bikes": 17,
-      "docks": 10,
+      "bikes": 16,
+      "docks": 11,
       "total": 28
     },
     {
@@ -3797,8 +3797,8 @@
       "name": "St. Katharine's Way, Tower",
       "lat": 51.505697,
       "lng": -0.070542,
-      "bikes": 8,
-      "docks": 14,
+      "bikes": 9,
+      "docks": 13,
       "total": 24
     },
     {
@@ -3833,8 +3833,8 @@
       "name": "Albert Street, Camden Town",
       "lat": 51.537706,
       "lng": -0.144801,
-      "bikes": 19,
-      "docks": 4,
+      "bikes": 18,
+      "docks": 5,
       "total": 26
     },
     {
@@ -3896,8 +3896,8 @@
       "name": "St. Mary & St. Michael Church, Stepney",
       "lat": 51.51417,
       "lng": -0.052099,
-      "bikes": 2,
-      "docks": 23,
+      "bikes": 3,
+      "docks": 22,
       "total": 25
     },
     {
@@ -3959,8 +3959,8 @@
       "name": "Hewison Street, Old Ford",
       "lat": 51.533283,
       "lng": -0.028155,
-      "bikes": 17,
-      "docks": 0,
+      "bikes": 16,
+      "docks": 1,
       "total": 19
     },
     {
@@ -3995,8 +3995,8 @@
       "name": "Lightermans Road, Millwall",
       "lat": 51.499041,
       "lng": -0.020157,
-      "bikes": 16,
-      "docks": 11,
+      "bikes": 19,
+      "docks": 8,
       "total": 31
     },
     {
@@ -4094,8 +4094,8 @@
       "name": "Granby Street, Shoreditch",
       "lat": 51.525645,
       "lng": -0.069543,
-      "bikes": 4,
-      "docks": 33,
+      "bikes": 3,
+      "docks": 34,
       "total": 37
     },
     {
@@ -4112,8 +4112,8 @@
       "name": "Reardon Street, Wapping",
       "lat": 51.506946,
       "lng": -0.058681,
-      "bikes": 16,
-      "docks": 6,
+      "bikes": 15,
+      "docks": 7,
       "total": 22
     },
     {
@@ -4202,8 +4202,8 @@
       "name": "Ansell House, Stepney",
       "lat": 51.520019,
       "lng": -0.05438,
-      "bikes": 14,
-      "docks": 26,
+      "bikes": 15,
+      "docks": 25,
       "total": 41
     },
     {
@@ -4247,8 +4247,8 @@
       "name": "Ackroyd Drive, Bow",
       "lat": 51.520398,
       "lng": -0.026768,
-      "bikes": 24,
-      "docks": 0,
+      "bikes": 23,
+      "docks": 1,
       "total": 29
     },
     {
@@ -4409,8 +4409,8 @@
       "name": "Lancaster Gate , Bayswater",
       "lat": 51.511654,
       "lng": -0.179668,
-      "bikes": 14,
-      "docks": 21,
+      "bikes": 13,
+      "docks": 22,
       "total": 38
     },
     {
@@ -4499,8 +4499,8 @@
       "name": "Goldsmith's Row, Haggerston",
       "lat": 51.531864,
       "lng": -0.066035,
-      "bikes": 14,
-      "docks": 12,
+      "bikes": 13,
+      "docks": 13,
       "total": 27
     },
     {
@@ -4526,8 +4526,8 @@
       "name": "Naval Row, Blackwall",
       "lat": 51.508981,
       "lng": -0.00699,
-      "bikes": 18,
-      "docks": 2,
+      "bikes": 17,
+      "docks": 3,
       "total": 21
     },
     {
@@ -4616,8 +4616,8 @@
       "name": "Gaywood  Street, Elephant & Castle",
       "lat": 51.49605,
       "lng": -0.104193,
-      "bikes": 27,
-      "docks": 18,
+      "bikes": 26,
+      "docks": 19,
       "total": 45
     },
     {
@@ -4625,8 +4625,8 @@
       "name": "Harford Street, Mile End",
       "lat": 51.521564,
       "lng": -0.039264,
-      "bikes": 21,
-      "docks": 0,
+      "bikes": 20,
+      "docks": 1,
       "total": 23
     },
     {
@@ -4652,8 +4652,8 @@
       "name": "Regent's Row , Haggerston",
       "lat": 51.535678,
       "lng": -0.062546,
-      "bikes": 7,
-      "docks": 16,
+      "bikes": 6,
+      "docks": 17,
       "total": 24
     },
     {
@@ -4688,8 +4688,8 @@
       "name": "Page Street, Westminster",
       "lat": 51.493978,
       "lng": -0.127554,
-      "bikes": 19,
-      "docks": 5,
+      "bikes": 20,
+      "docks": 4,
       "total": 24
     },
     {
@@ -5030,8 +5030,8 @@
       "name": "Caldwell Street, Stockwell",
       "lat": 51.477839,
       "lng": -0.116493,
-      "bikes": 31,
-      "docks": 10,
+      "bikes": 30,
+      "docks": 11,
       "total": 44
     },
     {
@@ -5354,8 +5354,8 @@
       "name": "Fawcett Close, Battersea",
       "lat": 51.469161,
       "lng": -0.174485,
-      "bikes": 14,
-      "docks": 15,
+      "bikes": 15,
+      "docks": 14,
       "total": 30
     },
     {
@@ -5381,7 +5381,7 @@
       "name": "Great Suffolk Street, The Borough",
       "lat": 51.501732,
       "lng": -0.100292,
-      "bikes": 15,
+      "bikes": 14,
       "docks": 5,
       "total": 21
     },
@@ -5435,8 +5435,8 @@
       "name": "Thorndike Close, West Chelsea",
       "lat": 51.480898,
       "lng": -0.183853,
-      "bikes": 6,
-      "docks": 19,
+      "bikes": 5,
+      "docks": 20,
       "total": 25
     },
     {
@@ -5462,8 +5462,8 @@
       "name": "Ashmole Estate, Oval",
       "lat": 51.482678,
       "lng": -0.117661,
-      "bikes": 18,
-      "docks": 15,
+      "bikes": 17,
+      "docks": 16,
       "total": 34
     },
     {
@@ -5507,8 +5507,8 @@
       "name": "Blackfriars Station, St. Paul's",
       "lat": 51.511934,
       "lng": -0.103078,
-      "bikes": 3,
-      "docks": 27,
+      "bikes": 2,
+      "docks": 28,
       "total": 35
     },
     {
@@ -5543,8 +5543,8 @@
       "name": "Clarendon Road, Avondale",
       "lat": 51.51323,
       "lng": -0.211593,
-      "bikes": 5,
-      "docks": 18,
+      "bikes": 4,
+      "docks": 19,
       "total": 24
     },
     {
@@ -5660,8 +5660,8 @@
       "name": "Hartington Road, Stockwell",
       "lat": 51.47787,
       "lng": -0.126874,
-      "bikes": 31,
-      "docks": 3,
+      "bikes": 29,
+      "docks": 5,
       "total": 35
     },
     {
@@ -5885,8 +5885,8 @@
       "name": "Vicarage Crescent, Battersea",
       "lat": 51.472876,
       "lng": -0.176267,
-      "bikes": 8,
-      "docks": 21,
+      "bikes": 7,
+      "docks": 22,
       "total": 30
     },
     {
@@ -6110,8 +6110,8 @@
       "name": "Alfreda Street, Battersea Park",
       "lat": 51.47505,
       "lng": -0.150908,
-      "bikes": 20,
-      "docks": 2,
+      "bikes": 19,
+      "docks": 3,
       "total": 22
     },
     {
@@ -6119,8 +6119,8 @@
       "name": "Chesilton Road, Fulham",
       "lat": 51.475698,
       "lng": -0.205876,
-      "bikes": 12,
-      "docks": 11,
+      "bikes": 11,
+      "docks": 12,
       "total": 23
     },
     {
@@ -6209,8 +6209,8 @@
       "name": "Fulham Broadway, Walham Green",
       "lat": 51.479932,
       "lng": -0.194116,
-      "bikes": 4,
-      "docks": 21,
+      "bikes": 5,
+      "docks": 20,
       "total": 26
     },
     {
@@ -6218,8 +6218,8 @@
       "name": "Imperial Road, Sands End",
       "lat": 51.475142,
       "lng": -0.187278,
-      "bikes": 17,
-      "docks": 20,
+      "bikes": 16,
+      "docks": 21,
       "total": 37
     },
     {
@@ -6290,8 +6290,8 @@
       "name": "Lots Road, West Chelsea",
       "lat": 51.479573,
       "lng": -0.179038,
-      "bikes": 7,
-      "docks": 17,
+      "bikes": 6,
+      "docks": 18,
       "total": 24
     },
     {
@@ -6308,8 +6308,8 @@
       "name": "Hertford Road, De Beauvoir Town",
       "lat": 51.537277,
       "lng": -0.079201,
-      "bikes": 16,
-      "docks": 8,
+      "bikes": 17,
+      "docks": 7,
       "total": 25
     },
     {
@@ -6344,8 +6344,8 @@
       "name": "London Street, Paddington",
       "lat": 51.515117,
       "lng": -0.173712,
-      "bikes": 11,
-      "docks": 4,
+      "bikes": 10,
+      "docks": 5,
       "total": 19
     },
     {
@@ -6569,8 +6569,8 @@
       "name": "Houndsditch, Aldgate",
       "lat": 51.514449,
       "lng": -0.077178,
-      "bikes": 5,
-      "docks": 21,
+      "bikes": 4,
+      "docks": 22,
       "total": 28
     },
     {
@@ -6722,8 +6722,8 @@
       "name": "Kings Gate House, Westminster",
       "lat": 51.497698,
       "lng": -0.137598,
-      "bikes": 0,
-      "docks": 24,
+      "bikes": 1,
+      "docks": 23,
       "total": 24
     },
     {
@@ -6821,8 +6821,8 @@
       "name": "Westferry Circus, Canary Wharf",
       "lat": 51.505703,
       "lng": -0.027772,
-      "bikes": 12,
-      "docks": 19,
+      "bikes": 11,
+      "docks": 20,
       "total": 36
     },
     {
@@ -7127,8 +7127,8 @@
       "name": "Strand, Strand",
       "lat": 51.512582,
       "lng": -0.115057,
-      "bikes": 0,
-      "docks": 34,
+      "bikes": 1,
+      "docks": 33,
       "total": 35
     },
     {
@@ -7190,8 +7190,8 @@
       "name": "Lower Marsh, Waterloo",
       "lat": 51.500139,
       "lng": -0.113935,
-      "bikes": 12,
-      "docks": 2,
+      "bikes": 13,
+      "docks": 1,
       "total": 17
     },
     {
@@ -7289,8 +7289,8 @@
       "name": "London Fields, Hackney Central",
       "lat": 51.54119,
       "lng": -0.058826,
-      "bikes": 18,
-      "docks": 0,
+      "bikes": 17,
+      "docks": 1,
       "total": 21
     },
     {
@@ -7298,8 +7298,8 @@
       "name": "Westfield Ariel Way, White City",
       "lat": 51.509158,
       "lng": -0.224103,
-      "bikes": 32,
-      "docks": 4,
+      "bikes": 33,
+      "docks": 3,
       "total": 42
     },
     {
@@ -7316,8 +7316,8 @@
       "name": "London Zoo Car Park, The Regent's Park",
       "lat": 51.536922,
       "lng": -0.150181,
-      "bikes": 9,
-      "docks": 24,
+      "bikes": 7,
+      "docks": 26,
       "total": 36
     },
     {
@@ -7426,16 +7426,16 @@
       "street": ""
     },
     {
-      "id": "TIMS-216408",
+      "id": "TIMS-233669",
       "category": "Works",
-      "description": "[A400] Hampstead Road (Both directions) at the junction of Robert Street - Various restrictions in place, including temporary signals, for HS2 works. Additionally, Varndell Street is closed in both di",
+      "description": "[A100] Tower Bridge Road (Northbound) at the junction of [A200] Druid Street - Lane one (of two) is closed due to Thames Water works.",
       "severity": "Moderate",
       "street": ""
     },
     {
-      "id": "TIMS-233669",
+      "id": "TIMS-216408",
       "category": "Works",
-      "description": "[A100] Tower Bridge Road (Northbound) at the junction of [A200] Druid Street - Lane one (of two) is closed due to Thames Water works.",
+      "description": "[A400] Hampstead Road (Both directions) at the junction of Robert Street - Various restrictions in place, including temporary signals, for HS2 works. Additionally, Varndell Street is closed in both di",
       "severity": "Moderate",
       "street": ""
     },
@@ -7454,16 +7454,16 @@
       "street": ""
     },
     {
-      "id": "TIMS-231640",
+      "id": "TIMS-221115",
       "category": "Works",
-      "description": "[A407] High Road (All approaches) at the junction of Bertie Road - Road closure and temporary traffic signals are in place to facilitate Thames Water works. ",
+      "description": "[A11] Mile End Road (Both directions) at the junction of [A1205] Burdett Road - Various restrictions in place to facilitate Thames Water works. Additionally, Burdett Road is reduced to one lane in bot",
       "severity": "Moderate",
       "street": ""
     },
     {
-      "id": "TIMS-221115",
+      "id": "TIMS-224034",
       "category": "Works",
-      "description": "[A11] Mile End Road (Both directions) at the junction of [A1205] Burdett Road - Various restrictions in place to facilitate Thames Water works. Additionally, Burdett Road is reduced to one lane in bot",
+      "description": "[A3031] Albert Bridge Road (Both directions) at the junction of [A3212] Chelsea Embankment - The bridge is closed to facilitate local borough works.",
       "severity": "Moderate",
       "street": ""
     },
@@ -7475,9 +7475,9 @@
       "street": ""
     },
     {
-      "id": "TIMS-224034",
+      "id": "TIMS-231640",
       "category": "Works",
-      "description": "[A3031] Albert Bridge Road (Both directions) at the junction of [A3212] Chelsea Embankment - The bridge is closed to facilitate local borough works.",
+      "description": "[A407] High Road (All approaches) at the junction of Bertie Road - Road closure and temporary traffic signals are in place to facilitate Thames Water works. ",
       "severity": "Moderate",
       "street": ""
     },
