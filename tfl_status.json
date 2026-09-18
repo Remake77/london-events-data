@@ -1,167 +1,167 @@
 {
-  "updated": "2026-09-17T22:21:29.729980",
+  "updated": "2026-09-18T00:40:00.517844",
   "lines": [
     {
       "id": "bakerloo",
       "name": "Bakerloo",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Bakerloo Line: Service will resume later this morning.\r\n ",
       "color": "#B36305",
-      "good_service": true
+      "good_service": false
     },
     {
       "id": "central",
       "name": "Central",
-      "status": "Severe Delays",
-      "severity": 6,
-      "reason": "Central Line: Severe delays due to train cancellations. Tickets being London Buses, Liberty Line, Elizabeth Line, Chiltern, Great Western and Greater Anglia services.  ",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Central Line: Service will resume later this morning.\r\n ",
       "color": "#E32017",
       "good_service": false
     },
     {
       "id": "circle",
       "name": "Circle",
-      "status": "Minor Delays",
-      "severity": 9,
-      "reason": "Circle Line: Minor delays due to an earlier customer incident at Edgware Road. ",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Circle Line: Service will resume later this morning.\r\n ",
       "color": "#FFD300",
       "good_service": false
     },
     {
       "id": "district",
       "name": "District",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "District Line: Service will resume later this morning.\r\n ",
       "color": "#00782A",
-      "good_service": true
+      "good_service": false
     },
     {
       "id": "hammersmith-city",
       "name": "Hammersmith & City",
-      "status": "Minor Delays",
-      "severity": 9,
-      "reason": "Hammersmith and City Line: Minor delays due to an earlier customer incident at Edgware Road. ",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Hammersmith and City Line: Service will resume later this morning.\r\n ",
       "color": "#F3A9BB",
       "good_service": false
     },
     {
       "id": "jubilee",
       "name": "Jubilee",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Jubilee Line: Service will resume later this morning.\r\n ",
       "color": "#A0A5A9",
-      "good_service": true
+      "good_service": false
     },
     {
       "id": "metropolitan",
       "name": "Metropolitan",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Metropolitan Line: Service will resume later this morning.\r\n ",
       "color": "#9B0056",
-      "good_service": true
+      "good_service": false
     },
     {
       "id": "northern",
       "name": "Northern",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Northern Line: Service will resume later this morning.\r\n ",
       "color": "#000000",
-      "good_service": true
+      "good_service": false
     },
     {
       "id": "piccadilly",
       "name": "Piccadilly",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Piccadilly Line: Service will resume later this morning.\r\n ",
       "color": "#003688",
-      "good_service": true
+      "good_service": false
     },
     {
       "id": "victoria",
       "name": "Victoria",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Victoria Line: Service will resume later this morning.\r\n ",
       "color": "#0098D4",
-      "good_service": true
+      "good_service": false
     },
     {
       "id": "waterloo-city",
       "name": "Waterloo & City",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Waterloo and City Line: Service will resume at 06:00.\r\n ",
       "color": "#95CDBA",
-      "good_service": true
+      "good_service": false
     },
     {
       "id": "elizabeth",
       "name": "Elizabeth line",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Service will resume later this morning.\r\n ",
       "color": "#6950A1",
-      "good_service": true
+      "good_service": false
     },
     {
       "id": "liberty",
       "name": "Liberty",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Liberty Line: Service will resume later this morning.\r\n ",
       "color": "#868F98",
-      "good_service": true
+      "good_service": false
     },
     {
       "id": "lioness",
       "name": "Lioness",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Lioness Line: Service will resume later this morning.\r\n ",
       "color": "#868F98",
-      "good_service": true
+      "good_service": false
     },
     {
       "id": "mildmay",
       "name": "Mildmay",
-      "status": "Part Closure",
-      "severity": 5,
-      "reason": "MILDMAY LINE: Wednesday 16 and Thursday 17 September, after 2300 each day, no service eastbound from Willesden Junction to Stratford. Customers should use the last eastbound services detailed below or London Overground services to Euston. Last through trains: Clapham Junction to Stratford 2218; Richmond to Stratford 22:32; Willesden Junction to Stratford 2252. The 2129 and 2159 trains from Stratford to Richmond, and 2135 train from Stratford to Clapham Junction, will terminate at Camden Road. The 2147 Clapham Junction to Stratford train will not run. The 2203 and 2234 Clapham Junction to Stratford trains, and the 2148 2240 and 2302 Richmond to Stratford trains will terminate at Willesden Junction. The 2300 Stratford to Richmond and 2318 Richmond to Willesden Junction trains will not run.",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Mildmay Line: Service will resume later this morning.\r\n ",
       "color": "#868F98",
       "good_service": false
     },
     {
       "id": "suffragette",
       "name": "Suffragette",
-      "status": "Reduced Service",
-      "severity": 7,
-      "reason": "SUFFRAGETTE LINE: Monday 14, Tuesday 15, Wednesday 16, Thursday 17 and Friday 18 Septenber, the 2303 train from Barking Riverside to Gospel Oak will terminate at Upper Holloway at 2338",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Suffragette Line: Service will resume later this morning.\r\n ",
       "color": "#868F98",
       "good_service": false
     },
     {
       "id": "weaver",
       "name": "Weaver",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Weaver Line: Service will resume later this morning.\r\n ",
       "color": "#868F98",
-      "good_service": true
+      "good_service": false
     },
     {
       "id": "windrush",
       "name": "Windrush",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Windrush Line: Service will resume later this morning.\r\n ",
       "color": "#868F98",
-      "good_service": true
+      "good_service": false
     }
   ],
   "bikes": [
@@ -7417,13 +7417,6 @@
       "street": ""
     },
     {
-      "id": "TIMS-234936",
-      "category": "Works",
-      "description": "[A107] Lower Clapton Road (Northbound) at the junction of Goulton Road - A contraflow is in place to facilitate Thames Water works.",
-      "severity": "Moderate",
-      "street": ""
-    },
-    {
       "id": "TIMS-224034",
       "category": "Works",
       "description": "[A3031] Albert Bridge Road (Both directions) at the junction of [A3212] Chelsea Embankment - The bridge is closed to facilitate local borough works.",
@@ -7431,9 +7424,9 @@
       "street": ""
     },
     {
-      "id": "TIMS-235075",
+      "id": "TIMS-234936",
       "category": "Works",
-      "description": "Overnight maintenance works - [A12] Blackwall Tunnel Northern Approach (Southbound) at the junction of Zetland Street - Lane one and two closed to facilitate maintenance works. ",
+      "description": "[A107] Lower Clapton Road (Northbound) at the junction of Goulton Road - A contraflow is in place to facilitate Thames Water works.",
       "severity": "Moderate",
       "street": ""
     },
@@ -7452,16 +7445,16 @@
       "street": ""
     },
     {
-      "id": "TIMS-234853",
+      "id": "TIMS-227426",
       "category": "Works",
-      "description": "[A12] Colchester Road (Eastbound) at the junction of Woodstock Avenue - Lane one (of two) closed to facilitate Essex & Suffolk Water works.",
+      "description": "Eastway Tunnel - [A12] East Cross Route (Both directions) at Eastway Tunnel - The tunnel is closed for overnight routine maintenance works. ",
       "severity": "Minimal",
       "street": ""
     },
     {
-      "id": "TIMS-233204",
+      "id": "TIMS-234853",
       "category": "Works",
-      "description": "[A13] Newham Way (Both directions) at the junction of [A112] Prince Regent Lane - Temporary traffic signals and lane restrictions in use to facilitate roadworks by Newham Council.",
+      "description": "[A12] Colchester Road (Eastbound) at the junction of Woodstock Avenue - Lane one (of two) closed to facilitate Essex & Suffolk Water works.",
       "severity": "Minimal",
       "street": ""
     },
@@ -7480,16 +7473,16 @@
       "street": ""
     },
     {
-      "id": "TIMS-232486",
+      "id": "TIMS-235040",
       "category": "Works",
-      "description": "[A20] Eltham Road (Westbound) at the junction of [A20] Sidcup Road - The road is closed due to SGN works. ",
+      "description": "[A202] Camberwell Church Street (Both directions) at the junction of Artichoke Place - Contraflow in use to facilitate urgent BT works.",
       "severity": "Minimal",
       "street": ""
     },
     {
-      "id": "TIMS-235040",
+      "id": "TIMS-232486",
       "category": "Works",
-      "description": "[A202] Camberwell Church Street (Both directions) at the junction of Artichoke Place - Contraflow in use to facilitate urgent BT works.",
+      "description": "[A20] Eltham Road (Westbound) at the junction of [A20] Sidcup Road - The road is closed due to SGN works. ",
       "severity": "Minimal",
       "street": ""
     },
@@ -7501,9 +7494,16 @@
       "street": ""
     },
     {
-      "id": "TIMS-234341",
+      "id": "TIMS-234940",
       "category": "Works",
-      "description": "[A205] John Wilson Street (All directions) at the junction of [B210] Wellington Street - Various lane restrictions are in place due to Thames Water works. ",
+      "description": "[A205] Well Hall Road (Both directions) at the junction of Downman Road - Two Way Temporary Signals in operation for emergency water works.",
+      "severity": "Minimal",
+      "street": ""
+    },
+    {
+      "id": "TIMS-230452",
+      "category": "Works",
+      "description": "[A217] Armoury Way (Eastbound) between [A217] Ram Street and [A3209] Putney Bridge Road - Lane four (of four) closed to facilitate collaborative works. ",
       "severity": "Minimal",
       "street": ""
     }
