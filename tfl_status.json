@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T11:13:39.667558",
+  "updated": "2026-11-13T18:34:25.431675",
   "lines": [
     {
       "id": "bakerloo",
@@ -13,9 +13,9 @@
     {
       "id": "central",
       "name": "Central",
-      "status": "Minor Delays",
-      "severity": 9,
-      "reason": "Central Line: Minor delays due to train cancellations.  ",
+      "status": "Severe Delays",
+      "severity": 6,
+      "reason": "Central Line: Severe delays between White City and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Hainault via Newbury Park due to train cancellations. MINOR DELAYS on the rest of the line.\r\nTickets are being accepted on London Buses, Chiltern Railways, Liberty Line and Greater Anglia services. ",
       "color": "#E32017",
       "good_service": false
     },
@@ -31,11 +31,11 @@
     {
       "id": "district",
       "name": "District",
-      "status": "Minor Delays",
-      "severity": 9,
-      "reason": "District Line: Minor delays between Earl's Court and Wimbledon due to train cancellations. GOOD SERVICE on the rest of the line.  ",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
       "color": "#00782A",
-      "good_service": false
+      "good_service": true
     },
     {
       "id": "hammersmith-city",
@@ -58,29 +58,29 @@
     {
       "id": "metropolitan",
       "name": "Metropolitan",
-      "status": "Part Suspended",
-      "severity": 3,
-      "reason": "Metropolitan Line: No service between Chalfont & Latimer and Amersham while we fix a points failure at Amersham. GOOD SERVICE on the rest of the line. ",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
       "color": "#9B0056",
-      "good_service": false
+      "good_service": true
     },
     {
       "id": "northern",
       "name": "Northern",
-      "status": "Minor Delays",
-      "severity": 9,
-      "reason": "Northern Line: No service between Tooting Broadway and Morden while we fix a points failure at Morden. Ticket will be accepted on London Buses, London Trams and Thameslink railways. MINOR DELAYS between Kennington and Tooting Broadway. GOOD SERVICE on the rest of the line.  ",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
       "color": "#000000",
-      "good_service": false
+      "good_service": true
     },
     {
       "id": "piccadilly",
       "name": "Piccadilly",
-      "status": "Minor Delays",
-      "severity": 9,
-      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow Airport due to an earlier points failure at Northfields. GOOD SERVICE on the rest of the line.  ",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
       "color": "#003688",
-      "good_service": false
+      "good_service": true
     },
     {
       "id": "victoria",
@@ -103,11 +103,11 @@
     {
       "id": "elizabeth",
       "name": "Elizabeth line",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Severe Delays",
+      "severity": 6,
+      "reason": "Severe delays between Abbey Wood  and Heathrow Terminals / Reading  and MINOR DELAYS between Whitechapel and Shenfield while we fix a signal failure in the Paddington area. ",
       "color": "#6950A1",
-      "good_service": true
+      "good_service": false
     },
     {
       "id": "liberty",
@@ -130,11 +130,11 @@
     {
       "id": "mildmay",
       "name": "Mildmay",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Minor Delays",
+      "severity": 9,
+      "reason": "Mildmay Line: No service between Clapham Junction and Shepherd's Bush. SEVERE DELAYS between Willesden Junction and Shepherd's Bush while we fix a signal failure in the Clapham Junction area. London Underground accepting tickets via any reasonable routes. MINOR DELAYS on the rest the line. \r\n\r\n\r\n\r\n ",
       "color": "#868F98",
-      "good_service": true
+      "good_service": false
     },
     {
       "id": "suffragette",
@@ -148,11 +148,11 @@
     {
       "id": "weaver",
       "name": "Weaver",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Minor Delays",
+      "severity": 9,
+      "reason": "Weaver Line: Minor delays while we fix an electrical fault. ",
       "color": "#868F98",
-      "good_service": true
+      "good_service": false
     },
     {
       "id": "windrush",
@@ -7296,6 +7296,13 @@
   ],
   "disruptions": [
     {
+      "id": "TIMS-238023",
+      "category": "Breakdowns",
+      "description": "[A13] Newham Way (Eastbound) at the junction of [A117] High Street South - Lane three (of three) blocked due to broken down vehicle. ",
+      "severity": "Serious",
+      "street": ""
+    },
+    {
       "id": "TIMS-235602",
       "category": "Works",
       "description": "A41 Brent Cross flyover renewals - [A41] Hendon Way (Both directions) at the junction of [A41] Brent Cross Roundabout - Various lane restrictions are in place to facilitate ongoing works. \r\n\r\nThe A406",
@@ -7303,9 +7310,9 @@
       "street": ""
     },
     {
-      "id": "TIMS-229426",
-      "category": "Planned events",
-      "description": "Changing of the Guard - The Mall (Both directions) at the junction of Queens Gardens - The Changing of the Guard will take place from 1100. Constitution Hill, the Queen Victoria Memorial, Spur Road, L",
+      "id": "TIMS-224034",
+      "category": "Works",
+      "description": "[A3031] Albert Bridge Road (Both directions) at the junction of [A3212] Chelsea Embankment - The bridge is closed to facilitate local borough works.",
       "severity": "Serious",
       "street": ""
     },
@@ -7331,9 +7338,23 @@
       "street": ""
     },
     {
-      "id": "TIMS-224034",
+      "id": "TIMS-235951",
       "category": "Works",
-      "description": "[A3031] Albert Bridge Road (Both directions) at the junction of [A3212] Chelsea Embankment - The bridge is closed to facilitate local borough works.",
+      "description": "[A4089] Ealing Road (Both directions) between Mount Pleasant and Braemar Avenue - Temporary two-way traffic lights are in place to facilitate Cadent Gas works. ",
+      "severity": "Moderate",
+      "street": ""
+    },
+    {
+      "id": "TIMS-236323",
+      "category": "Works",
+      "description": "[A404] Harrow Road (All approaches) at the junction of [A4207] Great Western Road - Temporary signals are in place to facilitate UKPN works.",
+      "severity": "Moderate",
+      "street": ""
+    },
+    {
+      "id": "TIMS-236539",
+      "category": "Works",
+      "description": "[A118] Romford Road (All directions) at the junction of [B165] Little Ilford Lane - Temporary traffic signals are in place due to Borough works.",
       "severity": "Moderate",
       "street": ""
     },
@@ -7352,44 +7373,23 @@
       "street": ""
     },
     {
-      "id": "TIMS-235951",
+      "id": "TIMS-235104",
       "category": "Works",
-      "description": "[A4089] Ealing Road (Both directions) between Mount Pleasant and Braemar Avenue - Temporary two-way traffic lights are in place to facilitate Cadent Gas works. ",
+      "description": "[A243] Leatherhead Road (All directions) at the junction of [B280] Fairoak Lane - Temporary traffic lights in operation to facilitate utility work.",
       "severity": "Moderate",
       "street": ""
     },
     {
-      "id": "TIMS-236539",
-      "category": "Works",
-      "description": "[A118] Romford Road (All directions) at the junction of [B165] Little Ilford Lane - Temporary traffic signals are in place due to Borough works.",
-      "severity": "Moderate",
-      "street": ""
-    },
-    {
-      "id": "TIMS-236323",
-      "category": "Works",
-      "description": "[A404] Harrow Road (All approaches) at the junction of [A4207] Great Western Road - Temporary signals are in place to facilitate UKPN works.",
-      "severity": "Moderate",
-      "street": ""
-    },
-    {
-      "id": "TIMS-237991",
-      "category": "Collisions",
-      "description": "[A105] Green Lanes (Both directions) at the junction of Princes Avenue - Road closed following a collision. ",
-      "severity": "Moderate",
+      "id": "TIMS-238026",
+      "category": "Obstructions",
+      "description": "[A1] Lyttelton Road (Westbound) at the junction of Gurney Drive - Lane one of two is blocked by an abandoned vehicle.",
+      "severity": "Minimal",
       "street": ""
     },
     {
       "id": "TIMS-237790",
       "category": "Works",
       "description": "[A13] East India Dock Road (Westbound) at the junction of Bazely Street - The carriageway is restricted to facilitate emergency Cadent Gas works. Additionally, Bazely Street is fully closed.",
-      "severity": "Minimal",
-      "street": ""
-    },
-    {
-      "id": "TIMS-238003",
-      "category": "Asset issues",
-      "description": "[A13] East India Dock Road (All directions) at the junction of [A12] Brunswick Road - Traffic signals at this location are not operating. ",
       "severity": "Minimal",
       "street": ""
     },
@@ -7415,13 +7415,6 @@
       "street": ""
     },
     {
-      "id": "TIMS-237122",
-      "category": "Works",
-      "description": "[A3] East Hill (Eastbound) at the junction of Dempster Road - Lane restrictions in place during repair works.",
-      "severity": "Minimal",
-      "street": ""
-    },
-    {
       "id": "TIMS-237785",
       "category": "Works",
       "description": "[A21] Bromley Common (Both directions) at the junction of Southlands Road - Temporary traffic signals in operation to facilitate emergency Thames Water works. ",
@@ -7429,9 +7422,16 @@
       "street": ""
     },
     {
-      "id": "TIMS-235617",
+      "id": "TIMS-237913",
       "category": "Works",
-      "description": "[A23] Brixton Hill (All directions) at the junction of [A205] Christchurch Road - There are temporary signals in operation and lane restrictions in place for junction improvement works.",
+      "description": "[A23] Streatham High Road (Northbound) at the junction of Station Approach - Bus lane closed to facilitate UKPN works.",
+      "severity": "Minimal",
+      "street": ""
+    },
+    {
+      "id": "TIMS-213893",
+      "category": "Works",
+      "description": "[A23] Streatham Hill (Both directions) between [A205] Christchurch Road and Leigham Court Road - Various restrictions for TfL works. Lane restrictions, in place over the course of the works. ",
       "severity": "Minimal",
       "street": ""
     }
