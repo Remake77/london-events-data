@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T12:30:59.534899",
+  "updated": "2026-11-14T18:30:12.159149",
   "lines": [
     {
       "id": "bakerloo",
@@ -13,11 +13,11 @@
     {
       "id": "central",
       "name": "Central",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Minor Delays",
+      "severity": 9,
+      "reason": "Central Line: Minor delays due to train cancellations.  ",
       "color": "#E32017",
-      "good_service": true
+      "good_service": false
     },
     {
       "id": "circle",
@@ -33,7 +33,7 @@
       "name": "District",
       "status": "Severe Delays",
       "severity": 6,
-      "reason": "District Line: Severe delays between Earl's Court and Kensington (Olympia). MINOR DELAYS between Earl's Court and Wimbledon due to train cancellations. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line. ",
+      "reason": "District Line: Severe delays between Tower Hill and Barking, east bound only and MINOR DELAYS on the rest of the line due to train cancellations. Tickets are being accepted by London Buses. ",
       "color": "#00782A",
       "good_service": false
     },
@@ -49,9 +49,9 @@
     {
       "id": "jubilee",
       "name": "Jubilee",
-      "status": "Severe Delays",
-      "severity": 6,
-      "reason": "Jubilee Line: Severe delays due to an earlier points failure at Wembley Park. Tickets are being accepted on London Buses, Mildmay line, DLR, Elizabeth line, C2C, Southeastern and Thameslink. ",
+      "status": "Minor Delays",
+      "severity": 9,
+      "reason": "Jubilee Line: Minor delays due to train cancellations. ",
       "color": "#A0A5A9",
       "good_service": false
     },
@@ -60,7 +60,7 @@
       "name": "Metropolitan",
       "status": "Minor Delays",
       "severity": 9,
-      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Uxbridge while we fix a track fault at Rayners Lane. MINOR DELAYS between Moor Park and Amersham/Chesham due to an earlier signalling problem at Rickmansworth. MINOR DELAYS on the rest of the line due to train cancellations. London Buses are accepting tickets via any reasonable route. ",
+      "reason": "Metropolitan Line: Minor delays due to train cancellations.  ",
       "color": "#9B0056",
       "good_service": false
     },
@@ -76,11 +76,11 @@
     {
       "id": "piccadilly",
       "name": "Piccadilly",
-      "status": "Part Suspended",
-      "severity": 3,
-      "reason": "Piccadilly Line: No service between Uxbridge and South Harrow while we fix a track fault at Rayners Lane. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.  ",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
       "color": "#003688",
-      "good_service": false
+      "good_service": true
     },
     {
       "id": "victoria",
@@ -130,18 +130,18 @@
     {
       "id": "mildmay",
       "name": "Mildmay",
-      "status": "Part Suspended",
-      "severity": 3,
-      "reason": "Mildmay Line: No service between Clapham Junction and Willesden Junction due to a points failure at Kensington (Olympia). GOOD SERVICE on the rest of the line. ",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
       "color": "#868F98",
-      "good_service": false
+      "good_service": true
     },
     {
       "id": "suffragette",
       "name": "Suffragette",
-      "status": "Severe Delays",
-      "severity": 6,
-      "reason": "Suffragette Line: No service between Barking Riverside and Barking for the rest of the day due to a points failure at Barking. SEVERE DELAYS on the rest of the line while we fix a fault with the overhead power lines. London Underground are accepting tickets via any reasonable route. ",
+      "status": "Part Suspended",
+      "severity": 3,
+      "reason": "Suffragette Line: No service between Barking Riverside and Barking for the rest of the day due to a points failure at Barking. GOOD SEVICE on the rest of the line. ",
       "color": "#868F98",
       "good_service": false
     },
@@ -7294,146 +7294,5 @@
       "total": 21
     }
   ],
-  "disruptions": [
-    {
-      "id": "TIMS-236361",
-      "category": "Works",
-      "description": "[A102] Blackwall Tunnel (Southbound) at the junction of [A12] Blackwall Tunnel Northern Approach - The tunnel is closed southbound due to works, from 22:00 on Friday until 05:00 on the following Tuesd",
-      "severity": "Serious",
-      "street": ""
-    },
-    {
-      "id": "TIMS-237764",
-      "category": "Works",
-      "description": "[A206] Trafalgar Road (Both directions) at the junction of Park Row - There are temporary signals in operation to facilitate Thames Water works.",
-      "severity": "Serious",
-      "street": ""
-    },
-    {
-      "id": "TIMS-230857",
-      "category": "Works",
-      "description": "[A40] Westway (Westbound) between [A5] Edgware Road and [A3220] Northern Roundabout  - [A40] Westway (Westbound) between [A5] Edgware Road and [A3220] Northern Roundabout is reduced to two lanes for i",
-      "severity": "Moderate",
-      "street": ""
-    },
-    {
-      "id": "TIMS-235602",
-      "category": "Works",
-      "description": "A41 Brent Cross flyover renewals - [A41] Hendon Way (Both directions) at the junction of [A41] Brent Cross Roundabout - Various lane restrictions are in place to facilitate ongoing works. \r\n\r\nUntil 05",
-      "severity": "Moderate",
-      "street": ""
-    },
-    {
-      "id": "TIMS-236323",
-      "category": "Works",
-      "description": "[A404] Harrow Road (All approaches) at the junction of [A4207] Great Western Road - Temporary signals are in place to facilitate UKPN works.",
-      "severity": "Moderate",
-      "street": ""
-    },
-    {
-      "id": "TIMS-235951",
-      "category": "Works",
-      "description": "[A4089] Ealing Road (Both directions) between Mount Pleasant and Braemar Avenue - Temporary two-way traffic lights are in place to facilitate Cadent Gas works. ",
-      "severity": "Moderate",
-      "street": ""
-    },
-    {
-      "id": "TIMS-236007",
-      "category": "Works",
-      "description": "[A1010] High Road (Both directions) at the junction of White Hart Lane - Temporary traffic signals in operation to facilitate UKPN works.",
-      "severity": "Moderate",
-      "street": ""
-    },
-    {
-      "id": "TIMS-236890",
-      "category": "Works",
-      "description": "[A104] Lea Bridge Road (All directions) at the junction of Argall Way - Temporary signals in operation to facilitate utility works.",
-      "severity": "Moderate",
-      "street": ""
-    },
-    {
-      "id": "TIMS-236539",
-      "category": "Works",
-      "description": "[A118] Romford Road (All directions) at the junction of [B165] Little Ilford Lane - Temporary traffic signals are in place due to Borough works.",
-      "severity": "Moderate",
-      "street": ""
-    },
-    {
-      "id": "TIMS-224034",
-      "category": "Works",
-      "description": "[A3031] Albert Bridge Road (Both directions) at the junction of [A3212] Chelsea Embankment - The bridge is closed to facilitate local borough works.",
-      "severity": "Moderate",
-      "street": ""
-    },
-    {
-      "id": "TIMS-237199",
-      "category": "Planned events",
-      "description": "Lord Mayor's Show 2026 - Mansion House Street (All approaches) at the junction of Queen Victoria Street - Extensive road closures are in place across the City of London and City of Westminster to faci",
-      "severity": "Moderate",
-      "street": ""
-    },
-    {
-      "id": "TIMS-237879",
-      "category": "Planned events",
-      "description": "Demonstration - [A1] Upper Street (All approaches) at the junction of Richmond Grove - A static demonstration is taking place. ",
-      "severity": "Minimal",
-      "street": ""
-    },
-    {
-      "id": "TIMS-238011",
-      "category": "Works",
-      "description": "[A12] Eastern Avenue East (Both directions) between Pettits Lane and Gallows Corner. - Lane two closed due to urgent works by Essex & Suffolk Water to repair a burst water main.",
-      "severity": "Minimal",
-      "street": ""
-    },
-    {
-      "id": "TIMS-237790",
-      "category": "Works",
-      "description": "[A13] East India Dock Road (Westbound) at the junction of Bazely Street - The carriageway is restricted to facilitate emergency Cadent Gas works. Additionally, Bazely Street is fully closed.",
-      "severity": "Minimal",
-      "street": ""
-    },
-    {
-      "id": "TIMS-230452",
-      "category": "Works",
-      "description": "[A217] Armoury Way (Eastbound) between [A217] Ram Street and [A3209] Putney Bridge Road - Lane four (of four) closed to facilitate collaborative works. ",
-      "severity": "Minimal",
-      "street": ""
-    },
-    {
-      "id": "TIMS-237785",
-      "category": "Works",
-      "description": "[A21] Bromley Common (Both directions) at the junction of Southlands Road - Temporary traffic signals in operation to facilitate emergency Thames Water works. ",
-      "severity": "Minimal",
-      "street": ""
-    },
-    {
-      "id": "TIMS-237913",
-      "category": "Works",
-      "description": "[A23] Streatham High Road (Northbound) at the junction of Station Approach - Bus lane closed to facilitate UKPN works.",
-      "severity": "Minimal",
-      "street": ""
-    },
-    {
-      "id": "TIMS-237885",
-      "category": "Planned events",
-      "description": "Demonstration  - [A204] Effra Road (All approaches) at Windrush Square - A mobile demonstration is taking place. ",
-      "severity": "Minimal",
-      "street": ""
-    },
-    {
-      "id": "TIMS-235617",
-      "category": "Works",
-      "description": "[A23] Brixton Hill (All directions) at the junction of [A205] Christchurch Road - There are temporary signals in operation and lane restrictions in place for junction improvement works.",
-      "severity": "Minimal",
-      "street": ""
-    },
-    {
-      "id": "TIMS-213893",
-      "category": "Works",
-      "description": "[A23] Streatham Hill (Both directions) between [A205] Christchurch Road and Leigham Court Road - Various restrictions for TfL works. Lane restrictions, in place over the course of the works. ",
-      "severity": "Minimal",
-      "street": ""
-    }
-  ]
+  "disruptions": []
 }
