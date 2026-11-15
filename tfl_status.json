@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-15T02:11:05.557446",
+  "updated": "2026-11-15T09:29:34.528941",
   "lines": [
     {
       "id": "bakerloo",
       "name": "Bakerloo",
-      "status": "Service Closed",
-      "severity": 20,
-      "reason": "Bakerloo Line: Service will resume later this morning. ",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
       "color": "#B36305",
-      "good_service": false
+      "good_service": true
     },
     {
       "id": "central",
@@ -22,29 +22,29 @@
     {
       "id": "circle",
       "name": "Circle",
-      "status": "Service Closed",
-      "severity": 20,
-      "reason": "Circle Line: Service will resume later this morning. ",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
       "color": "#FFD300",
-      "good_service": false
+      "good_service": true
     },
     {
       "id": "district",
       "name": "District",
-      "status": "Service Closed",
-      "severity": 20,
-      "reason": "District Line: Service will resume later this morning. ",
+      "status": "Minor Delays",
+      "severity": 9,
+      "reason": "District Line: No service between Earl's Court and Kensington (Olympia) due to train cancellations. MINOR DELAYS between Turnham Green and Ealing Broadway / Richmond. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line. ",
       "color": "#00782A",
       "good_service": false
     },
     {
       "id": "hammersmith-city",
       "name": "Hammersmith & City",
-      "status": "Service Closed",
-      "severity": 20,
-      "reason": "Hammersmith and City Line: Service will resume later this morning. There will be no service between Plaistow and Barking from 10.00 until 18.00 due to planned engineering work. ",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
       "color": "#F3A9BB",
-      "good_service": false
+      "good_service": true
     },
     {
       "id": "jubilee",
@@ -58,9 +58,9 @@
     {
       "id": "metropolitan",
       "name": "Metropolitan",
-      "status": "Service Closed",
-      "severity": 20,
-      "reason": "Metropolitan Line: Service will resume later this morning. ",
+      "status": "Minor Delays",
+      "severity": 9,
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Watford / Uxbridge due to train cancellations.  GOOD SERVICE on the rest of the line. ",
       "color": "#9B0056",
       "good_service": false
     },
@@ -69,7 +69,7 @@
       "name": "Northern",
       "status": "Part Closure",
       "severity": 5,
-      "reason": "NORTHERN LINE: From 0130 until 0530 Sunday 15 November, no Saturday Night Tube service between East Finchley / Golders Green and Morden. Please use Night Bus services.",
+      "reason": "NORTHERN LINE: From 0530 Sunday 15 November, no service between Euston (Bank Branch) / Charing Cross and Morden / Battersea Power Station. Replacement bus services operate.",
       "color": "#000000",
       "good_service": false
     },
@@ -94,74 +94,74 @@
     {
       "id": "waterloo-city",
       "name": "Waterloo & City",
-      "status": "Service Closed",
-      "severity": 20,
-      "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday. ",
+      "status": "Planned Closure",
+      "severity": 4,
+      "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
       "color": "#95CDBA",
       "good_service": false
     },
     {
       "id": "elizabeth",
       "name": "Elizabeth line",
-      "status": "Service Closed",
-      "severity": 20,
-      "reason": "Service will resume later this morning. There will be no service between West Drayton and Slough until 08.15 and between Paddington/Liverpool Street and Whitechapel to Abbey Wood until 10.15 due to planned engineering work. ",
+      "status": "Part Closure",
+      "severity": 5,
+      "reason": "ELIZABETH LINE: Sunday 15 November, until 10:15, no service between Paddington and Liverpool Street and between Whitechapel and Abbey Wood. Trains operate between Paddington National Rail station and Heathrow Terminal 4, Heathrow Terminal 5, West Drayton (until 0800) and Reading (after 0800), and between Liverpool Street National Rail station and Shenfield, not serving Whitechapel.",
       "color": "#6950A1",
       "good_service": false
     },
     {
       "id": "liberty",
       "name": "Liberty",
-      "status": "Service Closed",
-      "severity": 20,
-      "reason": "Liberty Line: Service will resume later this morning. ",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
       "color": "#868F98",
-      "good_service": false
+      "good_service": true
     },
     {
       "id": "lioness",
       "name": "Lioness",
-      "status": "Service Closed",
-      "severity": 20,
-      "reason": "Lioness Line: Service will resume later this morning. ",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
       "color": "#868F98",
-      "good_service": false
+      "good_service": true
     },
     {
       "id": "mildmay",
       "name": "Mildmay",
-      "status": "Service Closed",
-      "severity": 20,
-      "reason": "Mildmay Line: Service will resume later this morning. There will be no service between Willesden Junction and Clapham Junction due to planned engineering work. ",
+      "status": "Part Closure",
+      "severity": 5,
+      "reason": "MILDMAY LINE: Sunday 15 November, no service between Willesden Junction and Clapham Junction. There will also be no SOUTHERN services between Watford Junction and Clapham Junction at these times. Please use local London Buses connections.",
       "color": "#868F98",
       "good_service": false
     },
     {
       "id": "suffragette",
       "name": "Suffragette",
-      "status": "Service Closed",
-      "severity": 20,
-      "reason": "Suffragette Line: Service will resume later this morning. There will be no service until 13.15 due to planned engineering work. ",
+      "status": "Planned Closure",
+      "severity": 4,
+      "reason": "SUFFRAGETTE LINE: Sunday 15 November, until 1315, no service between Gospel Oak and Barking Riverside. Use VICTORIA LINE connections between Seven Sisters (for South Tottenham), Blackhorse Road and Walthamstow Central, and local London Buses services between Barking and Barking Riverside. Replacement buses operate.",
       "color": "#868F98",
       "good_service": false
     },
     {
       "id": "weaver",
       "name": "Weaver",
-      "status": "Service Closed",
-      "severity": 20,
-      "reason": "Weaver Line: Service will resume later this morning. ",
-      "color": "#868F98",
-      "good_service": false
-    },
-    {
-      "id": "windrush",
-      "name": "Windrush",
       "status": "Good Service",
       "severity": 10,
       "reason": "",
       "color": "#868F98",
       "good_service": true
+    },
+    {
+      "id": "windrush",
+      "name": "Windrush",
+      "status": "Part Closure",
+      "severity": 5,
+      "reason": "WINDRUSH LINE: Sunday 15 November, no service between New Cross Gate and West Croydon / Crystal Palace. Rail replacement buses will run as follows: New Cross Gate - Brockley - Honor Oak Park - Forest Hill - Sydenham - Crystal Palace. Tickets will be accepted on Southern Railway services between Crystal Palace and East Croydon via Norwood Junction. Alternatively, customers may use local buses or trams via any reasonable route.",
+      "color": "#868F98",
+      "good_service": false
     }
   ],
   "bikes": [
@@ -7331,16 +7331,16 @@
       "street": ""
     },
     {
-      "id": "TIMS-236323",
+      "id": "TIMS-236539",
       "category": "Works",
-      "description": "[A404] Harrow Road (All approaches) at the junction of [A4207] Great Western Road - Temporary signals are in place to facilitate UKPN works.",
+      "description": "[A118] Romford Road (All directions) at the junction of [B165] Little Ilford Lane - Temporary traffic signals are in place due to Borough works.",
       "severity": "Moderate",
       "street": ""
     },
     {
-      "id": "TIMS-236539",
-      "category": "Works",
-      "description": "[A118] Romford Road (All directions) at the junction of [B165] Little Ilford Lane - Temporary traffic signals are in place due to Borough works.",
+      "id": "TIMS-236798",
+      "category": "Planned events",
+      "description": "A Remembrance Event will take place at this location - [A3212] Whitehall (All directions) at the junction of [A3212] Parliament Street - A Remembrance Event will take place at this location",
       "severity": "Moderate",
       "street": ""
     },
@@ -7355,6 +7355,13 @@
       "id": "TIMS-224034",
       "category": "Works",
       "description": "[A3031] Albert Bridge Road (Both directions) at the junction of [A3212] Chelsea Embankment - The bridge is closed to facilitate local borough works.",
+      "severity": "Moderate",
+      "street": ""
+    },
+    {
+      "id": "TIMS-237297",
+      "category": "Planned events",
+      "description": "NAGAR KIRTAN EVENT - Park Avenue (Both directions) between Beaconsfield Road and Villiers Road - A mobile parade will take place. ",
       "severity": "Moderate",
       "street": ""
     },
@@ -7408,6 +7415,13 @@
       "street": ""
     },
     {
+      "id": "TIMS-238096",
+      "category": "Collisions",
+      "description": "[A203] Stockwell Park Walk (Southbound) at the junction of [A203] Stockwell Road - The road is partially obstructed due to a collision. Also the traffic signals are damaged.",
+      "severity": "No impact",
+      "street": ""
+    },
+    {
       "id": "TIMS-237298",
       "category": "Works",
       "description": "[A243] Hook Road (All directions) at the junction of Vale Road North - Temporary traffic lights in operation to facilitate utility work.",
@@ -7415,23 +7429,9 @@
       "street": ""
     },
     {
-      "id": "TIMS-236919",
-      "category": "Works",
-      "description": "[A243] Hook Road (Both directions) between Elm Road and Somerset Avenue - Lane two [of two] closed in each direction to facilitate Thames Water Works. ",
-      "severity": "Minimal",
-      "street": ""
-    },
-    {
       "id": "TIMS-235104",
       "category": "Works",
       "description": "[A243] Leatherhead Road (All directions) at the junction of [B280] Fairoak Lane - Temporary traffic lights in operation to facilitate utility work.",
-      "severity": "Minimal",
-      "street": ""
-    },
-    {
-      "id": "TIMS-238012",
-      "category": "Works",
-      "description": "[A243] Leatherhead Road (Both directions) between Chalky Lane and Fair Oak Lane - Two-way temporary signals due to urgent water leak repairs. ",
       "severity": "Minimal",
       "street": ""
     }
