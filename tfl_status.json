@@ -1,48 +1,48 @@
 {
-  "updated": "2026-11-14T22:45:00.532206",
+  "updated": "2026-11-15T02:11:05.557446",
   "lines": [
     {
       "id": "bakerloo",
       "name": "Bakerloo",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Bakerloo Line: Service will resume later this morning. ",
       "color": "#B36305",
-      "good_service": true
+      "good_service": false
     },
     {
       "id": "central",
       "name": "Central",
-      "status": "Minor Delays",
-      "severity": 9,
-      "reason": "Central Line: Minor delays due to train cancellations.  ",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
       "color": "#E32017",
-      "good_service": false
+      "good_service": true
     },
     {
       "id": "circle",
       "name": "Circle",
-      "status": "Severe Delays",
-      "severity": 6,
-      "reason": "Circle Line: Severe delays due to an earlier trespasser on the track at Paddington. Tickets are being accepted on London Buses. ",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Circle Line: Service will resume later this morning. ",
       "color": "#FFD300",
       "good_service": false
     },
     {
       "id": "district",
       "name": "District",
-      "status": "Minor Delays",
-      "severity": 9,
-      "reason": "District Line: Minor delays due to train cancellations.  ",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "District Line: Service will resume later this morning. ",
       "color": "#00782A",
       "good_service": false
     },
     {
       "id": "hammersmith-city",
       "name": "Hammersmith & City",
-      "status": "Minor Delays",
-      "severity": 9,
-      "reason": "Hammersmith and City Line: Minor delays due to an earlier trespasser on the track at Paddington.  ",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Hammersmith and City Line: Service will resume later this morning. There will be no service between Plaistow and Barking from 10.00 until 18.00 due to planned engineering work. ",
       "color": "#F3A9BB",
       "good_service": false
     },
@@ -58,9 +58,9 @@
     {
       "id": "metropolitan",
       "name": "Metropolitan",
-      "status": "Severe Delays",
-      "severity": 6,
-      "reason": "Metropolitan Line: Severe delays due to an earlier trespasser on the track at Paddington. Tickets are being accepted on London Buses. ",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Metropolitan Line: Service will resume later this morning. ",
       "color": "#9B0056",
       "good_service": false
     },
@@ -69,7 +69,7 @@
       "name": "Northern",
       "status": "Part Closure",
       "severity": 5,
-      "reason": "NORTHERN LINE: From 0130 Saturday 14 until 0130 Sunday 15 November, no service between Euston (Bank Branch) / Charing Cross and Morden / Battersea Power Station. There will be no Friday Night Tube service between Charing Cross and Morden. Replacement bus services operate during day hours only, for Night journeys please use Night Bus services",
+      "reason": "NORTHERN LINE: From 0130 until 0530 Sunday 15 November, no Saturday Night Tube service between East Finchley / Golders Green and Morden. Please use Night Bus services.",
       "color": "#000000",
       "good_service": false
     },
@@ -85,74 +85,74 @@
     {
       "id": "victoria",
       "name": "Victoria",
-      "status": "Severe Delays",
-      "severity": 6,
-      "reason": "Victoria Line: Severe delays due to an earlier animal on the track. Tickets are being accepted on London Buses, London Overground, Great Northern, Thameslink, Greater Anglia, South Western Railway, and Southeastern service. ",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
       "color": "#0098D4",
-      "good_service": false
+      "good_service": true
     },
     {
       "id": "waterloo-city",
       "name": "Waterloo & City",
-      "status": "Planned Closure",
-      "severity": 4,
-      "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday. ",
       "color": "#95CDBA",
       "good_service": false
     },
     {
       "id": "elizabeth",
       "name": "Elizabeth line",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Service will resume later this morning. There will be no service between West Drayton and Slough until 08.15 and between Paddington/Liverpool Street and Whitechapel to Abbey Wood until 10.15 due to planned engineering work. ",
       "color": "#6950A1",
-      "good_service": true
+      "good_service": false
     },
     {
       "id": "liberty",
       "name": "Liberty",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Liberty Line: Service will resume later this morning. ",
       "color": "#868F98",
-      "good_service": true
+      "good_service": false
     },
     {
       "id": "lioness",
       "name": "Lioness",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Lioness Line: Service will resume later this morning. ",
       "color": "#868F98",
-      "good_service": true
+      "good_service": false
     },
     {
       "id": "mildmay",
       "name": "Mildmay",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Mildmay Line: Service will resume later this morning. There will be no service between Willesden Junction and Clapham Junction due to planned engineering work. ",
       "color": "#868F98",
-      "good_service": true
+      "good_service": false
     },
     {
       "id": "suffragette",
       "name": "Suffragette",
-      "status": "Part Suspended",
-      "severity": 3,
-      "reason": "Suffragette Line: No service between Barking Riverside and Barking for the rest of the day due to a points failure at Barking. GOOD SEVICE on the rest of the line. ",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Suffragette Line: Service will resume later this morning. There will be no service until 13.15 due to planned engineering work. ",
       "color": "#868F98",
       "good_service": false
     },
     {
       "id": "weaver",
       "name": "Weaver",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Weaver Line: Service will resume later this morning. ",
       "color": "#868F98",
-      "good_service": true
+      "good_service": false
     },
     {
       "id": "windrush",
@@ -7352,13 +7352,6 @@
       "street": ""
     },
     {
-      "id": "TIMS-237764",
-      "category": "Works",
-      "description": "[A206] Trafalgar Road (Both directions) at the junction of Park Row - There are temporary signals in operation to facilitate Thames Water works.",
-      "severity": "Moderate",
-      "street": ""
-    },
-    {
       "id": "TIMS-224034",
       "category": "Works",
       "description": "[A3031] Albert Bridge Road (Both directions) at the junction of [A3212] Chelsea Embankment - The bridge is closed to facilitate local borough works.",
@@ -7366,16 +7359,16 @@
       "street": ""
     },
     {
-      "id": "TIMS-238011",
+      "id": "TIMS-237764",
       "category": "Works",
-      "description": "[A12] Eastern Avenue East (Both directions) between Pettits Lane and Gallows Corner. - Lane two closed due to urgent works by Essex & Suffolk Water to repair a burst water main.",
-      "severity": "Minimal",
+      "description": "[A206] Trafalgar Road (Both directions) at the junction of Park Row - There are temporary signals in operation to facilitate Thames Water works.",
+      "severity": "Moderate",
       "street": ""
     },
     {
-      "id": "TIMS-237790",
+      "id": "TIMS-238011",
       "category": "Works",
-      "description": "[A13] East India Dock Road (Westbound) at the junction of Bazely Street - The carriageway is restricted to facilitate emergency Cadent Gas works. Additionally, Bazely Street is fully closed.",
+      "description": "[A12] Eastern Avenue East (Both directions) between Pettits Lane and Gallows Corner. - Lane two closed due to urgent works by Essex & Suffolk Water to repair a burst water main.",
       "severity": "Minimal",
       "street": ""
     },
@@ -7422,6 +7415,13 @@
       "street": ""
     },
     {
+      "id": "TIMS-236919",
+      "category": "Works",
+      "description": "[A243] Hook Road (Both directions) between Elm Road and Somerset Avenue - Lane two [of two] closed in each direction to facilitate Thames Water Works. ",
+      "severity": "Minimal",
+      "street": ""
+    },
+    {
       "id": "TIMS-235104",
       "category": "Works",
       "description": "[A243] Leatherhead Road (All directions) at the junction of [B280] Fairoak Lane - Temporary traffic lights in operation to facilitate utility work.",
@@ -7429,9 +7429,9 @@
       "street": ""
     },
     {
-      "id": "TIMS-236919",
+      "id": "TIMS-238012",
       "category": "Works",
-      "description": "[A243] Hook Road (Both directions) between Elm Road and Somerset Avenue - Lane two [of two] closed in each direction to facilitate Thames Water Works. ",
+      "description": "[A243] Leatherhead Road (Both directions) between Chalky Lane and Fair Oak Lane - Two-way temporary signals due to urgent water leak repairs. ",
       "severity": "Minimal",
       "street": ""
     }
