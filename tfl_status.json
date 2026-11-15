@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T16:31:56.727744",
+  "updated": "2026-11-15T21:19:11.802790",
   "lines": [
     {
       "id": "bakerloo",
@@ -31,20 +31,20 @@
     {
       "id": "district",
       "name": "District",
-      "status": "Part Suspended",
-      "severity": 3,
-      "reason": "District Line: No service between Earl's Court and Kensington (Olympia) due to train cancellations. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line. ",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
       "color": "#00782A",
-      "good_service": false
+      "good_service": true
     },
     {
       "id": "hammersmith-city",
       "name": "Hammersmith & City",
-      "status": "Part Closure",
-      "severity": 5,
-      "reason": "HAMMERSMITH & CITY LINE: Sunday 15 November, between 1000 and 1800, no service between Plaistow and Barking. Please use DISTRICT LINE services.",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
       "color": "#F3A9BB",
-      "good_service": false
+      "good_service": true
     },
     {
       "id": "jubilee",
@@ -60,7 +60,7 @@
       "name": "Metropolitan",
       "status": "Minor Delays",
       "severity": 9,
-      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge / Watford / Chesham / Amersham due to train cancellations. GOOD SERVICE on the rest of the line. ",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line. ",
       "color": "#9B0056",
       "good_service": false
     },
@@ -85,11 +85,11 @@
     {
       "id": "victoria",
       "name": "Victoria",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Severe Delays",
+      "severity": 6,
+      "reason": "Victoria Line: No service between Victoria and Brixton while we fix a points failure at Brixton. SEVERE DELAYS on the rest of the line due to an earlier fire alert at Seven Sisters. Tickets are being accepted on London Buses, Suffragette line, Weaver line, Greater Anglia, Southeastern and South Western Railway services. ",
       "color": "#0098D4",
-      "good_service": true
+      "good_service": false
     },
     {
       "id": "waterloo-city",
@@ -139,11 +139,11 @@
     {
       "id": "suffragette",
       "name": "Suffragette",
-      "status": "Severe Delays",
-      "severity": 6,
-      "reason": "Suffragette Line: Severe delays due to an earlier late finish of engineering works.  ",
+      "status": "Good Service",
+      "severity": 10,
+      "reason": "",
       "color": "#868F98",
-      "good_service": false
+      "good_service": true
     },
     {
       "id": "weaver",
@@ -7296,20 +7296,6 @@
   ],
   "disruptions": [
     {
-      "id": "TIMS-236361",
-      "category": "Works",
-      "description": "[A102] Blackwall Tunnel (Southbound) at the junction of [A12] Blackwall Tunnel Northern Approach - The tunnel is closed southbound due to works, from 22:00 on Friday until 05:00 on the following Tuesd",
-      "severity": "Serious",
-      "street": ""
-    },
-    {
-      "id": "TIMS-237764",
-      "category": "Works",
-      "description": "[A206] Trafalgar Road (Both directions) at the junction of Park Row - There are temporary signals in operation to facilitate Thames Water works.",
-      "severity": "Serious",
-      "street": ""
-    },
-    {
       "id": "TIMS-230857",
       "category": "Works",
       "description": "[A40] Westway (Westbound) between [A5] Edgware Road and [A3220] Northern Roundabout  - [A40] Westway (Westbound) between [A5] Edgware Road and [A3220] Northern Roundabout is reduced to two lanes for i",
@@ -7320,6 +7306,27 @@
       "id": "TIMS-235602",
       "category": "Works",
       "description": "A41 Brent Cross flyover renewals - [A41] Hendon Way (Both directions) at the junction of [A41] Brent Cross Roundabout - Various lane restrictions are in place to facilitate ongoing works. \r\n\r\nUntil 05",
+      "severity": "Moderate",
+      "street": ""
+    },
+    {
+      "id": "TIMS-236361",
+      "category": "Works",
+      "description": "[A102] Blackwall Tunnel (Southbound) at the junction of [A12] Blackwall Tunnel Northern Approach - The tunnel is closed southbound due to works, from 22:00 on Friday until 05:00 on the following Tuesd",
+      "severity": "Moderate",
+      "street": ""
+    },
+    {
+      "id": "TIMS-236890",
+      "category": "Works",
+      "description": "[A104] Lea Bridge Road (All directions) at the junction of Argall Way - Temporary signals in operation to facilitate utility works.",
+      "severity": "Moderate",
+      "street": ""
+    },
+    {
+      "id": "TIMS-237764",
+      "category": "Works",
+      "description": "[A206] Trafalgar Road (Both directions) at the junction of Park Row - There are temporary signals in operation to facilitate Thames Water works.",
       "severity": "Moderate",
       "street": ""
     },
@@ -7352,30 +7359,16 @@
       "street": ""
     },
     {
-      "id": "TIMS-236890",
-      "category": "Works",
-      "description": "[A104] Lea Bridge Road (All directions) at the junction of Argall Way - Temporary signals in operation to facilitate utility works.",
-      "severity": "Moderate",
-      "street": ""
-    },
-    {
-      "id": "TIMS-237297",
-      "category": "Planned events",
-      "description": "NAGAR KIRTAN EVENT - Park Avenue (Both directions) between Beaconsfield Road and Villiers Road - A mobile parade will take place. ",
-      "severity": "Moderate",
+      "id": "TIMS-238117",
+      "category": "Asset issues",
+      "description": "[A12] Eastern Avenue (All approaches) at the junction of Aldborough Road North - The traffic signals at this location are damaged.",
+      "severity": "Minimal",
       "street": ""
     },
     {
       "id": "TIMS-238011",
       "category": "Works",
       "description": "[A12] Eastern Avenue East (Both directions) between Pettits Lane and Gallows Corner. - Lane two closed due to urgent works by Essex & Suffolk Water to repair a burst water main.",
-      "severity": "Minimal",
-      "street": ""
-    },
-    {
-      "id": "TIMS-238107",
-      "category": "Asset issues",
-      "description": "[A13] East India Dock Road (Eastbound) at the junction of [B125] Abbott Road - The traffic signals are out at this location.",
       "severity": "Minimal",
       "street": ""
     },
@@ -7387,6 +7380,13 @@
       "street": ""
     },
     {
+      "id": "TIMS-237785",
+      "category": "Works",
+      "description": "[A21] Bromley Common (Both directions) at the junction of Southlands Road - Temporary traffic signals in operation to facilitate emergency Thames Water works. ",
+      "severity": "Minimal",
+      "street": ""
+    },
+    {
       "id": "TIMS-238111",
       "category": "Asset issues",
       "description": "[A232] Croydon Road (All directions) at the junction of [A233] Westerham Road - The signals at this location are all out. ",
@@ -7394,9 +7394,9 @@
       "street": ""
     },
     {
-      "id": "TIMS-237785",
+      "id": "TIMS-238008",
       "category": "Works",
-      "description": "[A21] Bromley Common (Both directions) at the junction of Southlands Road - Temporary traffic signals in operation to facilitate emergency Thames Water works. ",
+      "description": "[A23] Streatham High Road (Both directions) at the junction of Sunnyhill Road - Temporary traffic signals are in place due to urgent SGN gas leak repairs. ",
       "severity": "Minimal",
       "street": ""
     },
@@ -7408,16 +7408,16 @@
       "street": ""
     },
     {
-      "id": "TIMS-213893",
+      "id": "TIMS-237913",
       "category": "Works",
-      "description": "[A23] Streatham Hill (Both directions) between [A205] Christchurch Road and Leigham Court Road - Various restrictions for TfL works. Lane restrictions, in place over the course of the works. ",
+      "description": "[A23] Streatham High Road (Northbound) at the junction of Station Approach - Bus lane closed to facilitate UKPN works.",
       "severity": "Minimal",
       "street": ""
     },
     {
-      "id": "TIMS-237913",
+      "id": "TIMS-213893",
       "category": "Works",
-      "description": "[A23] Streatham High Road (Northbound) at the junction of Station Approach - Bus lane closed to facilitate UKPN works.",
+      "description": "[A23] Streatham Hill (Both directions) between [A205] Christchurch Road and Leigham Court Road - Various restrictions for TfL works. Lane restrictions, in place over the course of the works. ",
       "severity": "Minimal",
       "street": ""
     },
@@ -7429,9 +7429,9 @@
       "street": ""
     },
     {
-      "id": "TIMS-236919",
+      "id": "TIMS-238012",
       "category": "Works",
-      "description": "[A243] Hook Road (Both directions) between Elm Road and Somerset Avenue - Lane two [of two] closed in each direction to facilitate Thames Water Works. ",
+      "description": "[A243] Leatherhead Road (Both directions) between Chalky Lane and Fair Oak Lane - Two-way temporary signals due to urgent water leak repairs. ",
       "severity": "Minimal",
       "street": ""
     }
