@@ -1,66 +1,66 @@
 {
-  "updated": "2026-11-15T21:19:11.802790",
+  "updated": "2026-11-16T01:17:56.024487",
   "lines": [
     {
       "id": "bakerloo",
       "name": "Bakerloo",
-      "status": "Part Suspended",
-      "severity": 3,
-      "reason": "Bakerloo Line: No service between Stonebridge Park and Harrow & Wealdstone while we fix a signal failure at Kenton. Please use the Lioness line to complete your journey. Tickets are also being accepted on London Buses. GOOD SERVICE on the rest of the line. ",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Bakerloo Line: Service will resume later this morning. ",
       "color": "#B36305",
       "good_service": false
     },
     {
       "id": "central",
       "name": "Central",
-      "status": "Minor Delays",
-      "severity": 9,
-      "reason": "Central Line: Minor delays due train cancellations. ",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Central Line: Service will resume later this morning. ",
       "color": "#E32017",
       "good_service": false
     },
     {
       "id": "circle",
       "name": "Circle",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Circle Line: Service will resume later this morning. ",
       "color": "#FFD300",
-      "good_service": true
+      "good_service": false
     },
     {
       "id": "district",
       "name": "District",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "District Line: Service will resume later this morning. ",
       "color": "#00782A",
-      "good_service": true
+      "good_service": false
     },
     {
       "id": "hammersmith-city",
       "name": "Hammersmith & City",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Hammersmith and City Line: Service will resume later this morning. ",
       "color": "#F3A9BB",
-      "good_service": true
+      "good_service": false
     },
     {
       "id": "jubilee",
       "name": "Jubilee",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Jubilee Line: Service will resume later this morning. ",
       "color": "#A0A5A9",
-      "good_service": true
+      "good_service": false
     },
     {
       "id": "metropolitan",
       "name": "Metropolitan",
-      "status": "Minor Delays",
-      "severity": 9,
-      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line. ",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Metropolitan Line: Service will resume later this morning. ",
       "color": "#9B0056",
       "good_service": false
     },
@@ -76,56 +76,56 @@
     {
       "id": "piccadilly",
       "name": "Piccadilly",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Piccadilly Line: Service will resume later this morning. ",
       "color": "#003688",
-      "good_service": true
+      "good_service": false
     },
     {
       "id": "victoria",
       "name": "Victoria",
-      "status": "Severe Delays",
-      "severity": 6,
-      "reason": "Victoria Line: No service between Victoria and Brixton while we fix a points failure at Brixton. SEVERE DELAYS on the rest of the line due to an earlier fire alert at Seven Sisters. Tickets are being accepted on London Buses, Suffragette line, Weaver line, Greater Anglia, Southeastern and South Western Railway services. ",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Victoria Line: Service will resume later this morning. ",
       "color": "#0098D4",
       "good_service": false
     },
     {
       "id": "waterloo-city",
       "name": "Waterloo & City",
-      "status": "Planned Closure",
-      "severity": 4,
-      "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Waterloo and City Line: Service will resume later this morning. ",
       "color": "#95CDBA",
       "good_service": false
     },
     {
       "id": "elizabeth",
       "name": "Elizabeth line",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Service will resume later this morning. ",
       "color": "#6950A1",
-      "good_service": true
+      "good_service": false
     },
     {
       "id": "liberty",
       "name": "Liberty",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Liberty Line: Service will resume later this morning. ",
       "color": "#868F98",
-      "good_service": true
+      "good_service": false
     },
     {
       "id": "lioness",
       "name": "Lioness",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Lioness Line: Service will resume later this morning. ",
       "color": "#868F98",
-      "good_service": true
+      "good_service": false
     },
     {
       "id": "mildmay",
@@ -139,20 +139,20 @@
     {
       "id": "suffragette",
       "name": "Suffragette",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Suffragette Line: Service will resume later this morning. ",
       "color": "#868F98",
-      "good_service": true
+      "good_service": false
     },
     {
       "id": "weaver",
       "name": "Weaver",
-      "status": "Good Service",
-      "severity": 10,
-      "reason": "",
+      "status": "Service Closed",
+      "severity": 20,
+      "reason": "Weaver Line: Service will resume later this morning. ",
       "color": "#868F98",
-      "good_service": true
+      "good_service": false
     },
     {
       "id": "windrush",
@@ -7317,16 +7317,9 @@
       "street": ""
     },
     {
-      "id": "TIMS-236890",
+      "id": "TIMS-236539",
       "category": "Works",
-      "description": "[A104] Lea Bridge Road (All directions) at the junction of Argall Way - Temporary signals in operation to facilitate utility works.",
-      "severity": "Moderate",
-      "street": ""
-    },
-    {
-      "id": "TIMS-237764",
-      "category": "Works",
-      "description": "[A206] Trafalgar Road (Both directions) at the junction of Park Row - There are temporary signals in operation to facilitate Thames Water works.",
+      "description": "[A118] Romford Road (All directions) at the junction of [B165] Little Ilford Lane - Temporary traffic signals are in place due to Borough works.",
       "severity": "Moderate",
       "street": ""
     },
@@ -7338,9 +7331,16 @@
       "street": ""
     },
     {
-      "id": "TIMS-235951",
+      "id": "TIMS-237764",
       "category": "Works",
-      "description": "[A4089] Ealing Road (Both directions) between Mount Pleasant and Braemar Avenue - Temporary two-way traffic lights are in place to facilitate Cadent Gas works. ",
+      "description": "[A206] Trafalgar Road (Both directions) at the junction of Park Row - There are temporary signals in operation to facilitate Thames Water works.",
+      "severity": "Moderate",
+      "street": ""
+    },
+    {
+      "id": "TIMS-236890",
+      "category": "Works",
+      "description": "[A104] Lea Bridge Road (All directions) at the junction of Argall Way - Temporary signals in operation to facilitate utility works.",
       "severity": "Moderate",
       "street": ""
     },
@@ -7352,24 +7352,10 @@
       "street": ""
     },
     {
-      "id": "TIMS-236539",
-      "category": "Works",
-      "description": "[A118] Romford Road (All directions) at the junction of [B165] Little Ilford Lane - Temporary traffic signals are in place due to Borough works.",
+      "id": "TIMS-238133",
+      "category": "Emergency service incidents",
+      "description": "[A406] North Circular Road (Eastbound) at the junction of [A12] Eastern Avenue - Lanes one and two [of three] blocked due to an emergency services incident. ",
       "severity": "Moderate",
-      "street": ""
-    },
-    {
-      "id": "TIMS-238117",
-      "category": "Asset issues",
-      "description": "[A12] Eastern Avenue (All approaches) at the junction of Aldborough Road North - The traffic signals at this location are damaged.",
-      "severity": "Minimal",
-      "street": ""
-    },
-    {
-      "id": "TIMS-238011",
-      "category": "Works",
-      "description": "[A12] Eastern Avenue East (Both directions) between Pettits Lane and Gallows Corner. - Lane two closed due to urgent works by Essex & Suffolk Water to repair a burst water main.",
-      "severity": "Minimal",
       "street": ""
     },
     {
@@ -7380,37 +7366,9 @@
       "street": ""
     },
     {
-      "id": "TIMS-237785",
-      "category": "Works",
-      "description": "[A21] Bromley Common (Both directions) at the junction of Southlands Road - Temporary traffic signals in operation to facilitate emergency Thames Water works. ",
-      "severity": "Minimal",
-      "street": ""
-    },
-    {
       "id": "TIMS-238111",
       "category": "Asset issues",
       "description": "[A232] Croydon Road (All directions) at the junction of [A233] Westerham Road - The signals at this location are all out. ",
-      "severity": "Minimal",
-      "street": ""
-    },
-    {
-      "id": "TIMS-238008",
-      "category": "Works",
-      "description": "[A23] Streatham High Road (Both directions) at the junction of Sunnyhill Road - Temporary traffic signals are in place due to urgent SGN gas leak repairs. ",
-      "severity": "Minimal",
-      "street": ""
-    },
-    {
-      "id": "TIMS-235617",
-      "category": "Works",
-      "description": "[A23] Brixton Hill (All directions) at the junction of [A205] Christchurch Road - There are temporary signals in operation and lane restrictions in place for junction improvement works.",
-      "severity": "Minimal",
-      "street": ""
-    },
-    {
-      "id": "TIMS-237913",
-      "category": "Works",
-      "description": "[A23] Streatham High Road (Northbound) at the junction of Station Approach - Bus lane closed to facilitate UKPN works.",
       "severity": "Minimal",
       "street": ""
     },
@@ -7429,9 +7387,51 @@
       "street": ""
     },
     {
+      "id": "TIMS-238008",
+      "category": "Works",
+      "description": "[A23] Streatham High Road (Both directions) at the junction of Sunnyhill Road - Temporary traffic signals are in place due to urgent SGN gas leak repairs. ",
+      "severity": "Minimal",
+      "street": ""
+    },
+    {
+      "id": "TIMS-237913",
+      "category": "Works",
+      "description": "[A23] Streatham High Road (Northbound) at the junction of Station Approach - Bus lane closed to facilitate UKPN works.",
+      "severity": "Minimal",
+      "street": ""
+    },
+    {
+      "id": "TIMS-235617",
+      "category": "Works",
+      "description": "[A23] Brixton Hill (All directions) at the junction of [A205] Christchurch Road - There are temporary signals in operation and lane restrictions in place for junction improvement works.",
+      "severity": "Minimal",
+      "street": ""
+    },
+    {
       "id": "TIMS-238012",
       "category": "Works",
       "description": "[A243] Leatherhead Road (Both directions) between Chalky Lane and Fair Oak Lane - Two-way temporary signals due to urgent water leak repairs. ",
+      "severity": "Minimal",
+      "street": ""
+    },
+    {
+      "id": "TIMS-237298",
+      "category": "Works",
+      "description": "[A243] Hook Road (All directions) at the junction of Vale Road North - Temporary traffic lights in operation to facilitate utility work.",
+      "severity": "Minimal",
+      "street": ""
+    },
+    {
+      "id": "TIMS-236919",
+      "category": "Works",
+      "description": "[A243] Hook Road (Both directions) between Elm Road and Somerset Avenue - Lane two [of two] closed in each direction to facilitate Thames Water Works. ",
+      "severity": "Minimal",
+      "street": ""
+    },
+    {
+      "id": "TIMS-235104",
+      "category": "Works",
+      "description": "[A243] Leatherhead Road (All directions) at the junction of [B280] Fairoak Lane - Temporary traffic lights in operation to facilitate utility work.",
       "severity": "Minimal",
       "street": ""
     }
